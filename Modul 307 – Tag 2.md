@@ -235,3 +235,6 @@ Einen Array aus PHP im JSON-Format ausgeben:
 https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk1NTM4ODUzMF19
+-->
