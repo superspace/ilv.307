@@ -36,8 +36,8 @@ Die Daten können auch als URL-Parameter übergeben werden:</p>
 &lt;/form&gt;
 </code></pre>
 <h4 id="input-felder">Input-Felder</h4>
-<p><code>&lt;input type="text" name="field1" value="" /&gt;</code><br>
-<em>type:</em> Feld-Typ, z.B. text, email, number, datetime<br>
+<p><code>&lt;input type="text" name="field1" value="" /&gt;</code></p>
+<p><em>type:</em> Feld-Typ, z.B. text, email, number, datetime<br>
 <em>name:</em> Feld-Name, eindeutiger Wert für die Übermittlung des Wertes<br>
 <em>value:</em> Der Eingabe-Wert, kann auch vorausgefüllt werden</p>
 <h5 id="text">Text</h5>
@@ -133,8 +133,8 @@ Die Daten können auch als URL-Parameter übergeben werden:</p>
 		"name": "User A",
 		"email": "user-a@email.com",
 		"alter": 32
-	},{
-
+	},
+	{
 		"name": "User B",
 		"email": "user-b@email.com",
 		"alter": 27
