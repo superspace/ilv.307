@@ -46,7 +46,7 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
 
 #### Klasse
-Eine Klasse entspricht einer
+Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden. Eine Klasse kann eine andere Klasse erweitern und erbt dabei die Attribute und Methoden der ersten Klasse. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjQ2Nzc0NCwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbLTY5NzM4MzgyLC0yNDczMTc1NTRdfQ==
 -->
