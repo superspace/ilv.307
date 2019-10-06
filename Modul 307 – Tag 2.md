@@ -50,7 +50,7 @@ ist dasselbe wie:
 *value:* Der Eingabe-Wert, kann auch vorausgefüllt werden
 ```html
 <!-- Text -->
-`<input type="text" name="field1" value="" />
+<input type="text" name="field1" value="" />
 
 <!-- Zahl -->
 <input type="number" name="field1" value="" min="" max="" />
@@ -64,14 +64,18 @@ ist dasselbe wie:
 <!-- Unsichtbar -->
 <input type="hidden" name="field1" value="" />
 
-##### Mehrzeiliger Text
-`<textarea name="field1"></textarea>`
-##### Checkbox
-`<input type="checkbox" name="field1" value="1" />`
-##### Radio-Button
-`<input type="radio" name="field1" value="1" />`
-##### Dropdown
-```
+<!-- Mehrzeiliger Text -->
+<textarea name="field1"></textarea>
+
+##### 
+
+<!-- Checkbox -->
+<input type="checkbox" name="field1" value="1" />
+
+<!-- Radio-Button -->
+<input type="radio" name="field1" value="1" />
+
+<!-- Dropdown -->
 <select name="field1">
     <option value="value1">Wert 1</option>
 </select>
@@ -251,5 +255,5 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI2Nzc2NDIsLTk1NTM4ODUzMF19
+eyJoaXN0b3J5IjpbLTE5OTI3NTkzOTksLTk1NTM4ODUzMF19
 -->
