@@ -102,7 +102,7 @@ required
 
 ### Client-Server-Kommunikation mit PHP
 
-####   POST/GET/REQUEST
+#### REQUEST
 
 ##### POST
 Die globale Variable `$_POST` beinhaltet alle Schlüssel-Wert-Paare, die über ein Formular mit `method="post"` übermittelt worden sind.
@@ -267,6 +267,6 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODg0NTc4OSwtMTQ5MTg2NDE3OSwtOT
-U1Mzg4NTMwXX0=
+eyJoaXN0b3J5IjpbMTg0NTYzNjYxLC0xNDkxODY0MTc5LC05NT
+UzODg1MzBdfQ==
 -->
