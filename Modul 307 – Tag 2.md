@@ -271,9 +271,18 @@ https://www.php.net/manual/de/function.json-encode.php
 *Zugriff auf bestimmte Einträge über eine eindeutige Id*
 
 ```javascript
-
+{
+	"89570283457283485": {
+		"name": "Urs Beyeler",
+		"email" : "dev@superspace.ch"
+	},
+	"98708778778978787": {
+		"name": "Hans Dampf",
+		"email": "hans@d
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTI3MzkzNCwtNjEzNTk5MzQwLC0xND
-kxODY0MTc5LC05NTUzODg1MzBdfQ==
+eyJoaXN0b3J5IjpbLTIxMTk5NzQ3MjksLTYxMzU5OTM0MCwtMT
+Q5MTg2NDE3OSwtOTU1Mzg4NTMwXX0=
 -->
