@@ -23,19 +23,23 @@
     <button type="submit">Senden</button>
 </form>
 ```
-*action:* Ziel-URL der Datenübertragung
-*method:* POST | GET
+action
+: Ziel-URL der Datenübertragung
 
-POST
-: Datenübermittlung an Server
+method
+: POST | GET
 
-GET
+#### POST
+Datenübermittlung an Server
+
+#### GET
 Datenanfrage an Server. 
+
 Die Daten können auch als URL-Parameter übergeben werden: 
 
-: `https://www.google.com/search?q=Suchbegriff`
+ `https://www.google.com/search?q=Suchbegriff`
 
-: ist dasselbe wie:
+ ist dasselbe wie:
 ```html
 <form action="https://www.google.com/search" method="get">
     <input type="text" name="q" value="Suchbegriff" />
@@ -48,9 +52,15 @@ Die Daten können auch als URL-Parameter übergeben werden:
 <input type="text" name="field1" value="" />
 ```
 
-*type:* Feld-Typ, z.B. text, email, number, datetime
-*name:* Feld-Name, eindeutiger Wert für die Übermittlung des Wertes
-*value:* Der Eingabe-Wert, kann auch vorausgefüllt werden
+type
+: Feld-Typ, z.B. text, email, number, datetime
+
+name 
+: Feld-Name, eindeutiger Wert für die Übermittlung des Wertes
+
+value 
+: Der Eingabe-Wert, kann auch vorausgefüllt werden
+
 ```html
 <!-- Text -->
 <input type="text" name="field1" value="" />
@@ -256,6 +266,6 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTQ3MjU1NywtMTQ5MTg2NDE3OSwtOT
+eyJoaXN0b3J5IjpbMTcxNjExODkzOSwtMTQ5MTg2NDE3OSwtOT
 U1Mzg4NTMwXX0=
 -->
