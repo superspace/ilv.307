@@ -2,6 +2,10 @@
 
 # PHP Einführung
 
+## Setup PHP
+
+### php.
+
 ## Editor/IDE
 
 ### Visual Studio Code
@@ -22,5 +26,5 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5Nzc4NzQxLC0yNDczMTc1NTRdfQ==
+eyJoaXN0b3J5IjpbLTIzODU0MjA0MywtMjQ3MzE3NTU0XX0=
 -->
