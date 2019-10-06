@@ -77,17 +77,18 @@ $me->setEmail('info@superspace.ch');
 ```php
 class Apprentice extends Person {
 
-	private var $company = '';
-	private var $startyear = 0;
+	private $company = '';
+	private $startyear = 0;
 
 	function __construct ($name, $email, $company, $startyear) {
 		$this->company = $company;
 		$this->startyear = $startyear;
+
 		parent::__construct($name, $email);
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE0MTU4NTMsNTYzNTg1NzUyLDExMz
-A4ODEyMTcsMTA2NDE5NTIwNywtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbMTAxNjkxOTc1OSw1NjM1ODU3NTIsMTEzMD
+g4MTIxNywxMDY0MTk1MjA3LC0yNDczMTc1NTRdfQ==
 -->
