@@ -6,7 +6,13 @@
 
 ### Visual Studio Code
 
-####  
+#### PHP Extensions
+
+##### PHP Intellisense
+
+
+
+##### PHP Debug 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk1NTE0ODFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDgyMTA1NzNdfQ==
 -->
