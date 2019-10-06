@@ -2,9 +2,11 @@
 
 # PHP Einführung
 
+## Editor/IDE
 
+### Visual Studio Code
 
-> Written with [StackEdit](https://stackedit.io/).
+####  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTYyMDMwN119
+eyJoaXN0b3J5IjpbLTE4Mzk1NTE0ODFdfQ==
 -->
