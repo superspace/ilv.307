@@ -278,11 +278,11 @@ https://www.php.net/manual/de/function.json-encode.php
 	},
 	"98708778778978787": {
 		"name": "Hans Dampf",
-		"email": "hans@d
+		"email": "hans@dampf.ch"
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk5NzQ3MjksLTYxMzU5OTM0MCwtMT
+eyJoaXN0b3J5IjpbLTE3NDM1MDY2ODAsLTYxMzU5OTM0MCwtMT
 Q5MTg2NDE3OSwtOTU1Mzg4NTMwXX0=
 -->
