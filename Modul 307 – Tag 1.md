@@ -54,13 +54,11 @@ class Person {
 	// Attribute
 	private $name = '';
 	private $email = '';
-	private $age = 0;
 	
 	// Konstruktor
 	function __construct ($name, $email, $age) {
 		$this->name = $name;
 		$this->email = $email;
-		$this->age = $age;
 	}
 
 	// Methoden
@@ -80,10 +78,12 @@ $me->setEmail('info@superspace.ch');
 class Apprentice extends Person {
 
 	private var company = '';
-	private var 
+	private var startyear = 0;
+
+
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNTg1NzUyLDExMzA4ODEyMTcsMTA2ND
-E5NTIwNywtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbLTE0NTY1ODkxNzgsNTYzNTg1NzUyLDExMz
+A4ODEyMTcsMTA2NDE5NTIwNywtMjQ3MzE3NTU0XX0=
 -->
