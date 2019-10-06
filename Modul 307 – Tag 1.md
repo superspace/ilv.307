@@ -11,7 +11,11 @@ memory_limit   = 128MB
 display_errors = off
 error_logs     = /Applications/MAMP/logs/php_error.log
 ```
+Die Einstellungen können aber auch direkt im PHP-Script angepasst werden:
 
+```php
+ini_set('display_errors', true);
+```
 
 ## Editor/IDE
 
@@ -33,5 +37,5 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzAzMjI0MSwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbLTk2MzkwMTEyMCwtMjQ3MzE3NTU0XX0=
 -->
