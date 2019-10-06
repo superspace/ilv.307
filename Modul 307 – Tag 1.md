@@ -6,11 +6,13 @@
 
 ### Visual Studio Code
 
-#### PHP Extensions
+#### Extensions
 - PHP Intellisense
 - PHP Debug
 
 #### Debugging
+##### XDebug aktivieren
+*MAC*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2MDc2NjddfQ==
+eyJoaXN0b3J5IjpbLTIxMjg1Nzk2Ml19
 -->
