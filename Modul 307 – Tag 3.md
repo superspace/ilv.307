@@ -6,8 +6,6 @@ Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
 
 *Wir arbeiten bewusst ohne Framework und verzichten auf einen Router.*
 
-*[HTML]: HyperText Markup Language
-
 MVC steht für Model – View – Controller und hilft uns dabei, eine Anwendung sinnvoll zu strukturieren. Wir verfolgend dabei unter anderem folgende Zielsetzungen:
 
 - Trennung von Daten, Darstellung und Logik
@@ -59,33 +57,34 @@ view/
 controller.php              // Steuerung
 ```
 
-*data/items.json*
+`data/items.json`
 
 Das JSON-File zur Speicherung der Daten.
 
-*model/item.class.php*
+`model/item.class.php`
 
 Das File `item.class.php` enthält die Klasse `Item` mit den benötigten Attributen und der Eingabe-Verabeitung und Validierung. Die Klasse `Item` erweitern die Klasse `Storage`.
 
-*model/storage.class.php*
+`model/storage.class.php`
 
 Die Klasse `Storage` enthält alle Methoden und Attribute die für das Lesen, Schreiben und Aktualsieren der Daten im JSON-File benötigt werden. Diese Klasse bleibt abstrakt und soll wiederverwendet werden können.
 
-*public/index.php*
+`public/index.php`
 
 index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `mode` lässt sich die Ansicht steuern.
 
-*view/create.php*
+`view/create.php`
 
 HTML-Formular zur Erfassung neuer Einträge mit Ausgabe möglicher Fehler aus der Validierung.
 
-*view/list.php*
+`view/list.php`
 
 Die Auflistung der erfassten Einträge in HTML.
 
-*controller.php*
+`controller.php`
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTEzODk1NywtMTcyNDE5NTk0M119
+eyJoaXN0b3J5IjpbLTE4MjEwODU5OTEsLTE3MjQxOTU5NDNdfQ
+==
 -->
