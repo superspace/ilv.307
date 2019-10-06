@@ -67,14 +67,22 @@ class Person {
 	function setEmail ($email) {
 		$this->email = $email
 	}
+	function getEmail () {
+		return $this->email;
+	}
 }
 
 $me = new Person('Urs Beyeler', 'dev@superspace.ch', 42);
 $me->setEmail('info@superspace.ch');
 ``` 
 
-??
+```php
+class Apprentice extends Person {
+
+	private var 
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDQ5Njg3MywxMDY0MTk1MjA3LC0yND
+eyJoaXN0b3J5IjpbMTEzMDg4MTIxNywxMDY0MTk1MjA3LC0yND
 czMTc1NTRdfQ==
 -->
