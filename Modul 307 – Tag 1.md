@@ -16,9 +16,10 @@ Die aktuellen Einstellungen können über die Funktion `phpinfo()` ausgegeben we
 Die Einstellungen können aber auch direkt im PHP-Script angepasst werden:
 
 ```php
-ini_set('error_level', 'E_ALL ~E_NOTICE');
+ini_set('error_reporting', 'E_ALL ~E_NOTICE');
 ini_set('display_errors', true);
 ```
+https://www.php.net/manual/de/function.error-reporting.php
 
 ==Demo Fehlermeldung==
 
@@ -89,6 +90,7 @@ class Apprentice extends Person {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjkxOTc1OSw1NjM1ODU3NTIsMTEzMD
-g4MTIxNywxMDY0MTk1MjA3LC0yNDczMTc1NTRdfQ==
+eyJoaXN0b3J5IjpbLTU0MTg1MTU3NywxMDE2OTE5NzU5LDU2Mz
+U4NTc1MiwxMTMwODgxMjE3LDEwNjQxOTUyMDcsLTI0NzMxNzU1
+NF19
 -->
