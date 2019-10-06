@@ -67,8 +67,6 @@ ist dasselbe wie:
 <!-- Mehrzeiliger Text -->
 <textarea name="field1"></textarea>
 
-##### 
-
 <!-- Checkbox -->
 <input type="checkbox" name="field1" value="1" />
 
@@ -82,7 +80,7 @@ ist dasselbe wie:
 ```
 #### Validierung mit HTML5
 HTML5 erlaubt die Feld-Validierung im Browser. Die Implementierung der verschiedenen Hersteller variiert jedoch stark, weshalb man sich nicht voll und ganz darauf verlassen darf.
-```
+```html
 <input type="email" name="field1" value="" required />
 ```
 *type:* Bestimmt das zu akzeptierende Format 
@@ -255,5 +253,5 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI3NTkzOTksLTk1NTM4ODUzMF19
+eyJoaXN0b3J5IjpbLTE0OTE4NjQxNzksLTk1NTM4ODUzMF19
 -->
