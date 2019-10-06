@@ -26,13 +26,16 @@
 *action:* Ziel-URL der Datenübertragung
 *method:* POST | GET
 
-***POST*** Datenübermittlung an Server
-***GET:*** Datenanfrage an Server. 
+POST
+: Datenübermittlung an Server
+
+GET
+Datenanfrage an Server. 
 Die Daten können auch als URL-Parameter übergeben werden: 
 
-`https://www.google.com/search?q=Suchbegriff`
+: `https://www.google.com/search?q=Suchbegriff`
 
-ist dasselbe wie:
+: ist dasselbe wie:
 ```html
 <form action="https://www.google.com/search" method="get">
     <input type="text" name="q" value="Suchbegriff" />
@@ -253,5 +256,6 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE4NjQxNzksLTk1NTM4ODUzMF19
+eyJoaXN0b3J5IjpbMTc3NTQ3MjU1NywtMTQ5MTg2NDE3OSwtOT
+U1Mzg4NTMwXX0=
 -->
