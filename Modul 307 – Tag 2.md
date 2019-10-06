@@ -5,7 +5,7 @@
 ## Repetition HTML
 
 ### Grundgerüst
-```
+```html
 <html>
     <head>
         <title>Hello World</title>
@@ -17,7 +17,7 @@
 </html>
 ```
 ### Formulare
-```
+```html
 <form action="index.php" method="post">
     <input type="text" name="field1" value="" />
     <button type="submit">Senden</button>
@@ -33,7 +33,7 @@ Die Daten können auch als URL-Parameter übergeben werden:
 `https://www.google.com/search?q=Suchbegriff`
 
 ist dasselbe wie:
-```
+```html
 <form action="https://www.google.com/search" method="get">
     <input type="text" name="q" value="Suchbegriff" />
     <button type="submit">Senden</button>
@@ -171,7 +171,7 @@ JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung u
 
 *Mehrere Einträge:*
 
-```
+```javascript
 [
 	"Eintrag A",
 	"Eintrag B",
@@ -179,7 +179,7 @@ JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung u
 ]
 ```
 *Mehrere Einträge mit Schlüssel-Wert-Paaren:*
-```
+```javascript
 [
 	{
 		"name": "User A",
@@ -200,7 +200,7 @@ https://wiki.selfhtml.org/wiki/JSON
 
 Historisch immer noch relevant ist das XML-Format (Extensible Markup Langauge), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <users>
 	<user name="User A" email="user-a@email.com">
@@ -236,5 +236,5 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTM4ODUzMF19
+eyJoaXN0b3J5IjpbMTM0NDE3Mzc3NiwtOTU1Mzg4NTMwXX0=
 -->
