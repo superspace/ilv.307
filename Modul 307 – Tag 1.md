@@ -79,10 +79,11 @@ $me->setEmail('info@superspace.ch');
 ```php
 class Apprentice extends Person {
 
+	private var company = '';
 	private var 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDg4MTIxNywxMDY0MTk1MjA3LC0yND
-czMTc1NTRdfQ==
+eyJoaXN0b3J5IjpbNTYzNTg1NzUyLDExMzA4ODEyMTcsMTA2ND
+E5NTIwNywtMjQ3MzE3NTU0XX0=
 -->
