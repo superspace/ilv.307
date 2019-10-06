@@ -41,21 +41,29 @@ ist dasselbe wie:
 ```
 
 #### Input-Felder
-`<input type="text" name="field1" value="" />`
+```html
+<input type="text" name="field1" value="" />
+```
 
 *type:* Feld-Typ, z.B. text, email, number, datetime
 *name:* Feld-Name, eindeutiger Wert für die Übermittlung des Wertes
 *value:* Der Eingabe-Wert, kann auch vorausgefüllt werden
-##### Text
-`<input type="text" name="field1" value="" />`
-##### Zahl
-`<input type="number" name="field1" value="" min="" max="" />`
-##### E-Mail
-`<input type="email" name="field1" value="" />`
-##### Datum
-`<input type="datetime" name="field1" value="" />`
-##### Unsichtbar
-`<input type="hidden" name="field1" value="" />`
+```html
+<!-- Text -->
+`<input type="text" name="field1" value="" />
+
+<!-- Zahl -->
+<input type="number" name="field1" value="" min="" max="" />
+
+<!-- E-Mail -->
+<input type="email" name="field1" value="" />
+
+<!-- Datum -->
+<input type="datetime" name="field1" value="" />
+
+<!-- Unsichtbar -->
+<input type="hidden" name="field1" value="" />
+
 ##### Mehrzeiliger Text
 `<textarea name="field1"></textarea>`
 ##### Checkbox
@@ -243,5 +251,5 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NTk1NDMwLC05NTUzODg1MzBdfQ==
+eyJoaXN0b3J5IjpbLTEwNTI2Nzc2NDIsLTk1NTM4ODUzMF19
 -->
