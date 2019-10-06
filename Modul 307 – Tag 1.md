@@ -51,10 +51,10 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden kÃ
 
 ```php
 class Person {
-	//Attribute
-	$name = '';
-	$email = '';
-	$age = 0;
+	// Attribute
+	private $name = '';
+	private $email = '';
+	private $age = 0;
 	
 	// Konstruktor
 	function __construct ($name, $email, $age) {
@@ -71,10 +71,10 @@ class Person {
 
 $me = new Person('Urs Beyeler', 'dev@superspace.ch', 42);
 $me->setEmail('info@superspace.ch');
-
-print_r($me);
 ``` 
+
+??
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjU1NDU5MiwxMDY0MTk1MjA3LC0yND
+eyJoaXN0b3J5IjpbMTA2MDQ5Njg3MywxMDY0MTk1MjA3LC0yND
 czMTc1NTRdfQ==
 -->
