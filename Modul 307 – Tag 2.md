@@ -266,7 +266,8 @@ $meinJsonString = json_encode($meinArray);`
 https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
+==Aufgabe zu JSON/PHP==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTYzNjYxLC0xNDkxODY0MTc5LC05NT
-UzODg1MzBdfQ==
+eyJoaXN0b3J5IjpbLTYxMzU5OTM0MCwtMTQ5MTg2NDE3OSwtOT
+U1Mzg4NTMwXX0=
 -->
