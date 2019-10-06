@@ -12,7 +12,8 @@
 
 #### Debugging
 ##### XDebug aktivieren
-*MAC*
+*MAMP*
+https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg1Nzk2Ml19
+eyJoaXN0b3J5IjpbMTc2NTY1NzQzN119
 -->
