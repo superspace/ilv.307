@@ -5,12 +5,14 @@
 ## Setup PHP
 
 ### php.ini
-Über die php.ini-Datei können gewisse Einstellungen an der PHP-Instanz global angepasst werden. 
+Über die php.ini-Datei lässt sich die PHP-Instanz global konfigurieren. Der Speicherort der Datei hängt von der Installation ab.  
 ```ini
 memory_limit   = 128MB
 display_errors = off
 error_logs     = /Applications/MAMP/logs/php_error.log
 ```
+Die aktuellen Einstellungen können über `phpinfo()` ausgegeben werden.
+
 Die Einstellungen können aber auch direkt im PHP-Script angepasst werden:
 
 ```php
@@ -37,5 +39,5 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzkwMTEyMCwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbODYzMDgyNzkyLC0yNDczMTc1NTRdfQ==
 -->
