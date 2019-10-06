@@ -4,7 +4,12 @@
 
 ## Setup PHP
 
-### php.
+### php.ini
+Über die php.ini-Datei lässt sich PHP konfigurieren. z.B.
+```
+memory_limit = 128MB
+
+```
 
 ## Editor/IDE
 
@@ -26,5 +31,5 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODU0MjA0MywtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbLTExNzYzMzI3OTcsLTI0NzMxNzU1NF19
 -->
