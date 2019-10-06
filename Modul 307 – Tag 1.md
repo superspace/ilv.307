@@ -39,7 +39,14 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
 ==Demo Debugging==
 
-###
+## PHP Grundlagen
+
+### Klassen und Objekte
+
+PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
+
+#### Klasse
+Eine Klasse entspricht einer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDI2MDY4MCwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbMTMwMjQ2Nzc0NCwtMjQ3MzE3NTU0XX0=
 -->
