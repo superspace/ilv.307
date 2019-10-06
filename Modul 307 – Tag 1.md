@@ -55,11 +55,19 @@ class Person {
 	$email = '';
 	$age = 0;
 	
+	// Konstruktor
+	function __construct () {
+		$this->name = $name;
+		$this->email = $email;
+		$this->age = 
+	}	
+
 	// Methoden
-	function setEmail ($meail) {
+	function setEmail ($email) {
+		$this->email = $email
 	}
 }
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjMzMjMyNCwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbLTgxODE1MDgyNSwtMjQ3MzE3NTU0XX0=
 -->
