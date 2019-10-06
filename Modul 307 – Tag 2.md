@@ -117,7 +117,10 @@ https://www.php.net/manual/de/function.empty.php
 
 Spezielle Formate wie z.B. eine E-Mail-Adresse kann über PHP Filter validiert werden:
 
-`filter_var($email, FILTER_VALIDATE_EMAIL)`
+```php
+filter_var($email, FILTER_VALIDATE_EMAIL);
+```
+
 
 https://www.php.net/manual/de/function.filter-var.php
     
@@ -167,8 +170,9 @@ JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung u
 
 *Ein einzelner Eintrag:*
 
-`"Eintrag A"`
-
+```javascript
+"Eintrag A"
+```
 *Mehrere Einträge:*
 
 ```javascript
@@ -226,15 +230,18 @@ Mit den Funktionen `json_decode()` und `json_encode()` können Daten aus PHP dir
 
 Daten aus einem JSON-File auslesen und als assoziativer Array zurückgeben:
 
-`$meinArray = json_decode('relativer/pfad/zum/file.json', true);`
+```php
+$meinArray = json_decode('relativer/pfad/zum/file.json', true);
+```
 
 Einen Array aus PHP im JSON-Format ausgeben:
 
-`$meinJsonString = json_encode($meinArray);`
-
+```php
+$meinJsonString = json_encode($meinArray);`
+```
 https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDE3Mzc3NiwtOTU1Mzg4NTMwXX0=
+eyJoaXN0b3J5IjpbOTc5NTk1NDMwLC05NTUzODg1MzBdfQ==
 -->
