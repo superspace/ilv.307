@@ -6,6 +6,8 @@ Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
 
 *Wir arbeiten bewusst ohne Framework und verzichten auf einen Router.*
 
+*[HTML]: HyperText Markup Language
+
 MVC steht für Model – View – Controller und hilft uns dabei, eine Anwendung sinnvoll zu strukturieren. Wir verfolgend dabei unter anderem folgende Zielsetzungen:
 
 - Trennung von Daten, Darstellung und Logik
@@ -85,5 +87,5 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQxOTU5NDNdfQ==
+eyJoaXN0b3J5IjpbLTMzMTEzODk1NywtMTcyNDE5NTk0M119
 -->
