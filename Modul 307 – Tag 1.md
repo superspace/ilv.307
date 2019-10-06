@@ -16,6 +16,7 @@ Die aktuellen Einstellungen können über die Funktion `phpinfo()` ausgegeben we
 Die Einstellungen können aber auch direkt im PHP-Script angepasst werden:
 
 ```php
+ini_set('error_level', 'E_ALL ~E_NOTICE');
 ini_set('display_errors', true);
 ```
 
@@ -74,5 +75,6 @@ $me->setEmail('info@superspace.ch');
 print_r($me);
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDE5NTIwNywtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbMTMwMjU1NDU5MiwxMDY0MTk1MjA3LC0yND
+czMTc1NTRdfQ==
 -->
