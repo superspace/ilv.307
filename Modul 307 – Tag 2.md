@@ -267,7 +267,13 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 ==Aufgabe zu JSON/PHP==
+
+*Zugriff auf bestimmte Einträge über eine eindeutige Id*
+
+```javascript
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzU5OTM0MCwtMTQ5MTg2NDE3OSwtOT
-U1Mzg4NTMwXX0=
+eyJoaXN0b3J5IjpbLTUzNTI3MzkzNCwtNjEzNTk5MzQwLC0xND
+kxODY0MTc5LC05NTUzODg1MzBdfQ==
 -->
