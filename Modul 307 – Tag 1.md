@@ -56,18 +56,23 @@ class Person {
 	$age = 0;
 	
 	// Konstruktor
-	function __construct () {
+	function __construct ($name, $email, $age) {
 		$this->name = $name;
 		$this->email = $email;
-		$this->age = 
-	}	
+		$this->age = $age;
+	}
 
 	// Methoden
 	function setEmail ($email) {
 		$this->email = $email
 	}
 }
+
+$me = new Person('Urs Beyeler', 'dev@superspace.ch', 42);
+$me->setEmail('info@superspace.ch');
+
+print_r($me);
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODE1MDgyNSwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbMTA2NDE5NTIwNywtMjQ3MzE3NTU0XX0=
 -->
