@@ -29,11 +29,9 @@ action
 method
 : POST | GET
 
-#### POST
-Datenübermittlung an Server
+*POST:* Datenübermittlung an Server
 
-#### GET
-Datenanfrage an Server. 
+*GET:* Datenanfrage an Server. 
 
 Die Daten können auch als URL-Parameter übergeben werden: 
 
@@ -96,8 +94,11 @@ HTML5 erlaubt die Feld-Validierung im Browser. Die Implementierung der verschied
 ```html
 <input type="email" name="field1" value="" required />
 ```
-*type:* Bestimmt das zu akzeptierende Format 
-*required:* Zwingende Eingabe
+type
+: Bestimmt das zu akzeptierende Format 
+
+required
+: Zwingende Eingabe
 
 ### Client-Server-Kommunikation mit PHP
 
@@ -266,6 +267,6 @@ https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjExODkzOSwtMTQ5MTg2NDE3OSwtOT
+eyJoaXN0b3J5IjpbMTM1ODg0NTc4OSwtMTQ5MTg2NDE3OSwtOT
 U1Mzg4NTMwXX0=
 -->
