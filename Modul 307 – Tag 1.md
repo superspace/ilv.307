@@ -6,9 +6,10 @@
 
 ### php.ini
 Über die php.ini-Datei lässt sich PHP konfigurieren, so z.B. der maximale 
-```
-memory_limit = 128MB
-
+```bash
+memory_limit   = 128MB
+display_errors = off
+error_logs     = /Applications/MAMP/logs/php_error.log
 ```
 
 ## Editor/IDE
@@ -31,5 +32,5 @@ http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTA3OTAyMCwtMjQ3MzE3NTU0XX0=
+eyJoaXN0b3J5IjpbLTE2NTU3MDE1MzMsLTI0NzMxNzU1NF19
 -->
