@@ -106,7 +106,6 @@ data/
 	tasks.json          // Datenhaltung in JSON-File
 model/
 	task.class.php      // Klassenmodell mit Attributen und Methoden
-	storage.class.php   // Schnittstelle zur Datenhaltung (erst im 2. Schritt)
 public/
 	index.php           // Ansicht im Web-Root 
 view/
@@ -121,15 +120,11 @@ Das JSON-File zur Speicherung der Daten.
 
 `model/task.class.php`
 
-Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attributen und der Eingabe-Verabeitung und Validierung. 
-
-`model/storage.class.php`
-
-Die Klasse `Storage` enthält alle Methoden und Attribute die für das Lesen, Schreiben und Aktualisieren der Daten im JSON-File benötigt werden. Diese Klasse soll ausgesc wiederverwendet werden können.
+Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attributen und Methoden zur Eingabe-Verarbeitung Validierung und Speicherung. 
 
 `public/index.php`
 
-index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `mode` lässt sich die Ansicht steuern.
+index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `view` lässt sich die Ansicht steuern.
 
 `view/create.php`
 
@@ -143,7 +138,7 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE2MDA4MDIsMTMzNjM2NDE1NCwtMT
-AzODg5MDg4MCwtMTAyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcy
-NDE5NTk0M119
+eyJoaXN0b3J5IjpbMTI2MDc3OTM4NiwxMzM2MzY0MTU0LC0xMD
+M4ODkwODgwLC0xMDI2MzY0NjcwLC0xODIxMDg1OTkxLC0xNzI0
+MTk1OTQzXX0=
 -->
