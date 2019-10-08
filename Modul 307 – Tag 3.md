@@ -18,16 +18,19 @@ class Task {
 	private $priority = 0;
 	
 	// Konstruktor
-	function __construct ($title, $desc, $age) {
-		$this->name = $name;
-		$this->email = $email;
+	function __construct ($title, $description, $priority) {
+		$this->title = $title;
+		$this->description = $description;
+		$this->priority = $priority
 	}
 
 	// Methoden
-	function setEmail ($email) {
-		$this->email = $email
+	function setPriority ($priority) {
+		if ($priority <= self::PRIORITY_MAX) {
+			$this->priority = $priority;
+		}
 	}
-	function getEmail () {
+	function getPriority () {
 		return $this->email;
 	}
 }
@@ -121,6 +124,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODI0MjI0NCwtMTgyMTA4NTk5MSwtMT
-cyNDE5NTk0M119
+eyJoaXN0b3J5IjpbODcyNzcyNDg3LC0xODIxMDg1OTkxLC0xNz
+I0MTk1OTQzXX0=
 -->
