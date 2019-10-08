@@ -40,6 +40,13 @@ $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 $priority = $task->getPrority();
 ``` 
 
+const
+: Definition einer Konstanten, Aufruf über `self::PRIORITY_MAX`
+
+private/public
+: 
+
+
 # MVC Design-Pattern
 
 Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
@@ -125,6 +132,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg4OTA4ODAsLTEwMjYzNjQ2NzAsLT
-E4MjEwODU5OTEsLTE3MjQxOTU5NDNdfQ==
+eyJoaXN0b3J5IjpbNjA3MjU5NDkyLC0xMDM4ODkwODgwLC0xMD
+I2MzY0NjcwLC0xODIxMDg1OTkxLC0xNzI0MTk1OTQzXX0=
 -->
