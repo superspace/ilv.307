@@ -1,5 +1,52 @@
 ### Tag 3
 
+## PHP Klassen und Objekte
+
+PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
+
+### Klasse
+Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden. Eine Klasse kann eine andere Klasse erweitern und erbt dabei die Attribute und Methoden der ersten Klasse.
+
+```php
+class Person {
+	// Attribute
+	private $name = '';
+	private $email = '';
+	
+	// Konstruktor
+	function __construct ($name, $email, $age) {
+		$this->name = $name;
+		$this->email = $email;
+	}
+
+	// Methoden
+	function setEmail ($email) {
+		$this->email = $email
+	}
+	function getEmail () {
+		return $this->email;
+	}
+}
+
+$me = new Person('Urs Beyeler', 'dev@superspace.ch', 42);
+$me->setEmail('info@superspace.ch');
+``` 
+
+```php
+class Apprentice extends Person {
+
+	private $company = '';
+	private $startyear = 0;
+
+	function __construct ($name, $email, $company, $startyear) {
+		$this->company = $company;
+		$this->startyear = $startyear;
+
+		parent::__construct($name, $email);
+	}
+}
+```
+
 # MVC Design-Pattern
 
 Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
@@ -85,6 +132,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEwODU5OTEsLTE3MjQxOTU5NDNdfQ
-==
+eyJoaXN0b3J5IjpbLTg0NjgzOTg3NywtMTgyMTA4NTk5MSwtMT
+cyNDE5NTk0M119
 -->
