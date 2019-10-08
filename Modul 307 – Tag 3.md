@@ -13,8 +13,8 @@ class Task {
 	// Attribute
 	const PRIORITY_MAX = 5;
 
-	private $title = '';
-	private $description = '';
+	public $title = '';
+	po $description = '';
 	private $priority = 0;
 	
 	// Konstruktor
@@ -31,12 +31,13 @@ class Task {
 		}
 	}
 	function getPriority () {
-		return $this->email;
+		return $this->priority;
 	}
 }
 
-$me = new Person('Urs Beyeler', 'dev@superspace.ch', 42);
-$me->setEmail('info@superspace.ch');
+$task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
+
+$task->getPrority();
 ``` 
 
 # MVC Design-Pattern
@@ -124,6 +125,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNzcyNDg3LC0xODIxMDg1OTkxLC0xNz
+eyJoaXN0b3J5IjpbLTgwMzQ5MjMyLC0xODIxMDg1OTkxLC0xNz
 I0MTk1OTQzXX0=
 -->
