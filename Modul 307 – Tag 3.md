@@ -27,7 +27,7 @@ class Task {
 
 	// Methoden
 	public function setPriority ($priority) {
-		if ($priority <= self::PRIORITY_MAX) {
+		if ($priority > 0 && $priority <= self::PRIORITY_MAX) {
 			$this->priority = $priority;
 		}
 	}
@@ -58,11 +58,6 @@ $this
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
 
-*Weiterführende Themen:*
-- Vererbung
-- Rückgabewerte
-- Methoden überschreiben
-
 # MVC Design-Pattern
 
 Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
@@ -84,7 +79,7 @@ Ziel des Musters ist ein flexibler Programmentwurf, der eine spätere Änderung 
 #### Daten (Model)
 Im Model sind unsere Datenfelder sowie die Schnittstelle zur Datenhaltung definiert. 
 
-*In unserem Fall ist dies konkret eine Klasse mit den Attributen E-Mail, Rating und Datum. Die Schnittstelle zur Datenhaltung entspricht dem Lesen- und Schreiben der Daten in das JSON-File.* 
+*In unserem Fall ist dies konkret eine Klasse mit den Attributen Titel, Beschreibung und Rating. Die Schnittstelle zur Datenhaltung entspricht dem Lesen- und Schreiben der Daten in das JSON-File.* 
 
 #### Darstellung (View)
 Alles was in HTML ausgegeben wird, gehört zur View. 
@@ -148,6 +143,7 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjM2NDE1NCwtMTAzODg5MDg4MCwtMT
-AyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcyNDE5NTk0M119
+eyJoaXN0b3J5IjpbMzU4NTY4OSwxMzM2MzY0MTU0LC0xMDM4OD
+kwODgwLC0xMDI2MzY0NjcwLC0xODIxMDg1OTkxLC0xNzI0MTk1
+OTQzXX0=
 -->
