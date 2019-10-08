@@ -21,7 +21,7 @@ class Task {
 	function __construct ($title, $description, $priority) {
 		$this->title = $title;
 		$this->description = $description;
-		$this->priority = $priority
+		$this->setPriority($priority);
 	}
 
 	// Methoden
@@ -37,7 +37,7 @@ class Task {
 
 $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 
-$task->getPrority();
+$priority = $task->getPrority();
 ``` 
 
 # MVC Design-Pattern
@@ -125,6 +125,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYzNjQ2NzAsLTE4MjEwODU5OTEsLT
-E3MjQxOTU5NDNdfQ==
+eyJoaXN0b3J5IjpbLTEwMzg4OTA4ODAsLTEwMjYzNjQ2NzAsLT
+E4MjEwODU5OTEsLTE3MjQxOTU5NDNdfQ==
 -->
