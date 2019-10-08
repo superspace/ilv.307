@@ -14,7 +14,7 @@ class Task {
 	const PRIORITY_MAX = 5;
 
 	public $title = '';
-	po $description = '';
+	public $description = '';
 	private $priority = 0;
 	
 	// Konstruktor
@@ -25,12 +25,12 @@ class Task {
 	}
 
 	// Methoden
-	function setPriority ($priority) {
+	public function setPriority ($priority) {
 		if ($priority <= self::PRIORITY_MAX) {
 			$this->priority = $priority;
 		}
 	}
-	function getPriority () {
+	public function getPriority () {
 		return $this->priority;
 	}
 }
@@ -125,6 +125,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzQ5MjMyLC0xODIxMDg1OTkxLC0xNz
-I0MTk1OTQzXX0=
+eyJoaXN0b3J5IjpbLTEwMjYzNjQ2NzAsLTE4MjEwODU5OTEsLT
+E3MjQxOTU5NDNdfQ==
 -->
