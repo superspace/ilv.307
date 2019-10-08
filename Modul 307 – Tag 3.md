@@ -49,6 +49,9 @@ private/public
 __construct()
 : Die Methode `__construct()` wird bei der Erstellung der Klasse aufgerufen. Die aufgeführten Argumente müssen auch beim Erstellen der Klasse berücksichtigt werden.
 
+$this
+: Attribute und Methoden werden innerhalb der Klasse über `$this->` aufgerufen.
+
 
 
 # MVC Design-Pattern
@@ -136,6 +139,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0NjQ1MDczLC0xMDM4ODkwODgwLC0xMD
-I2MzY0NjcwLC0xODIxMDg1OTkxLC0xNzI0MTk1OTQzXX0=
+eyJoaXN0b3J5IjpbMTEwNjczNzQ3NiwtMTAzODg5MDg4MCwtMT
+AyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcyNDE5NTk0M119
 -->
