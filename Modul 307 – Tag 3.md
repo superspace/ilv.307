@@ -8,16 +8,17 @@ PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden. Eine Klasse kann eine andere Klasse erweitern und erbt dabei die Attribute und Methoden der ersten Klasse.
 
 ```php
-class ToDo {
+class Task {
 
 	// Attribute
-	const 
+	const PRIORITY_MAX = 5;
 
-	private $name = '';
-	private $email = '';
+	private $title = '';
+	private $description = '';
+	private $priority = 0;
 	
 	// Konstruktor
-	function __construct ($name, $email, $age) {
+	function __construct ($title, $desc, $age) {
 		$this->name = $name;
 		$this->email = $email;
 	}
@@ -120,6 +121,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTUwNjMxMywtMTgyMTA4NTk5MSwtMT
+eyJoaXN0b3J5IjpbMTYxODI0MjI0NCwtMTgyMTA4NTk5MSwtMT
 cyNDE5NTk0M119
 -->
