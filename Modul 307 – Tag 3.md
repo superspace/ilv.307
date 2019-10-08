@@ -44,7 +44,9 @@ const
 : Definition einer Konstanten, Aufruf über `self::PRIORITY_MAX`
 
 private/public
-: 
+: Zugriff auf Attribute und Methoden nur innerhalb der Klasse (private) oder auch von aussen (public) erlauben
+
+
 
 
 # MVC Design-Pattern
@@ -132,6 +134,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MjU5NDkyLC0xMDM4ODkwODgwLC0xMD
-I2MzY0NjcwLC0xODIxMDg1OTkxLC0xNzI0MTk1OTQzXX0=
+eyJoaXN0b3J5IjpbLTI1OTM4ODIwMywtMTAzODg5MDg4MCwtMT
+AyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcyNDE5NTk0M119
 -->
