@@ -59,9 +59,9 @@ $this
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
 
 *Weiterführende Themen:*
-Vererbung
-Rückgabewerte
-Methoden überschreiben
+- Vererbung
+- Rückgabewerte
+- Methoden überschreiben
 
 # MVC Design-Pattern
 
@@ -148,6 +148,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzE3MDA0MSwtMTAzODg5MDg4MCwtMT
+eyJoaXN0b3J5IjpbMTMzNjM2NDE1NCwtMTAzODg5MDg4MCwtMT
 AyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcyNDE5NTk0M119
 -->
