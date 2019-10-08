@@ -97,16 +97,16 @@ Da die Struktur der Anwendung klar definiert ist, lassen sich zusätzliche Funkt
 
 ## Umsetzung
 
-Das Arbeitsbeispiel «Ratings» soll nun in ein MVC Design-Pattern überführt werden.
+Das Arbeitsbeispiel «Tasks» soll nun in ein MVC Design-Pattern überführt werden.
 
 Als Grundlage dient uns folgende Dateistruktur:
 
 ```
 data/
-	items.json          // Datenhaltung in JSON-File
+	tasks.json          // Datenhaltung in JSON-File
 model/
-	item.class.php      // Klassenmodell mit Attributen
-	storage.class.php   // Schnittstelle zur Datenhaltung 
+	task.class.php      // Klassenmodell mit Attributen und Methoden
+	storage.class.php   // Schnittstelle zur Datenhaltung (erst im 2. Schritt)
 public/
 	index.php           // Ansicht im Web-Root 
 view/
@@ -115,17 +115,17 @@ view/
 controller.php              // Steuerung
 ```
 
-`data/items.json`
+`data/tasks.json`
 
 Das JSON-File zur Speicherung der Daten.
 
-`model/item.class.php`
+`model/task.class.php`
 
-Das File `item.class.php` enthält die Klasse `Item` mit den benötigten Attributen und der Eingabe-Verabeitung und Validierung. Die Klasse `Item` erweitern die Klasse `Storage`.
+Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attributen und der Eingabe-Verabeitung und Validierung. 
 
 `model/storage.class.php`
 
-Die Klasse `Storage` enthält alle Methoden und Attribute die für das Lesen, Schreiben und Aktualsieren der Daten im JSON-File benötigt werden. Diese Klasse bleibt abstrakt und soll wiederverwendet werden können.
+Die Klasse `Storage` enthält alle Methoden und Attribute die für das Lesen, Schreiben und Aktualisieren der Daten im JSON-File benötigt werden. Diese Klasse soll ausgesc wiederverwendet werden können.
 
 `public/index.php`
 
@@ -143,7 +143,7 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4NTY4OSwxMzM2MzY0MTU0LC0xMDM4OD
-kwODgwLC0xMDI2MzY0NjcwLC0xODIxMDg1OTkxLC0xNzI0MTk1
-OTQzXX0=
+eyJoaXN0b3J5IjpbLTExNzE2MDA4MDIsMTMzNjM2NDE1NCwtMT
+AzODg5MDg4MCwtMTAyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcy
+NDE5NTk0M119
 -->
