@@ -44,7 +44,7 @@ const
 : Definition einer Konstanten, Aufruf über `self::PRIORITY_MAX`
 
 private/public
-: Zugriff auf Attribute und Methoden nur innerhalb der Klasse (private) oder auch von aussen (public) erlauben
+: Zugriff auf Attribute und Methoden nur innerhalb des Objekts (*private*) oder auch von aussen (*public*) erlauben
 
 __construct()
 : Die Methode `__construct()` wird bei der Erstellung der Klasse aufgerufen. Die aufgeführten Argumente müssen auch beim Erstellen der Klasse berücksichtigt werden.
@@ -52,6 +52,8 @@ __construct()
 $this
 : Attribute und Methoden werden innerhalb der Klasse über `$this->` aufgerufen.
 
+->
+: Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
 
 
 # MVC Design-Pattern
@@ -139,6 +141,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjczNzQ3NiwtMTAzODg5MDg4MCwtMT
+eyJoaXN0b3J5IjpbMTAzMjg3NTM2NywtMTAzODg5MDg4MCwtMT
 AyNjM2NDY3MCwtMTgyMTA4NTk5MSwtMTcyNDE5NTk0M119
 -->
