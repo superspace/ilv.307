@@ -146,7 +146,8 @@ to do...
 		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','Typ' => 'Archer')
 		 );
  ```
- Um die 
+ Wenn der multidimensionale (verschachtelte) Array in einem Loop ausgelesen werden soll, muss auch der Loop entsürechend verschachtelt sein:
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjU3OTIyLC00ODMxNDczMTddfQ==
+eyJoaXN0b3J5IjpbMzQ0OTQ0ODEzLC00ODMxNDczMTddfQ==
 -->
