@@ -130,7 +130,7 @@ ini_set('display_errors', 'On');
 to do...
 
 # Multidimenionale Arrays
-to do...
+- Multidimensionale Arrays sind Arrays, die 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzE0NzMxN119
+eyJoaXN0b3J5IjpbLTE5MTY3NDg4ODksLTQ4MzE0NzMxN119
 -->
