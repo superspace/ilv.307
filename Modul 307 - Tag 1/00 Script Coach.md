@@ -141,15 +141,21 @@ to do...
  Wir können in einem Array mehrere Flugzeuge speichern, in dem wir die einzelnen Flugzeug-Arrays in einen übergeordneten Array verpacken:
    ```php
  $flugzeuge = Array(
-		 Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'A380'),
-		 Array('registrierung' => 'HB-CDE','hersteller' => 'Boeing','Typ' => 'B777'),
-		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','Typ' => 'Archer')
+		 Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','typ' => 'A380'),
+		 Array('registrierung' => 'HB-CDE','hersteller' => 'Boeing','typ' => 'B777'),
+		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','typ' => 'Archer')
 		 );
  ```
 Für die Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
 
- 
+    ```php
+ $flugzeuge = Array(
+		 Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','typ' => 'A380'),
+		 Array('registrierung' => 'HB-CDE','hersteller' => 'Boeing','typ' => 'B777'),
+		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','typ' => 'Archer')
+		 );
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3ODA1MjYyLDM0NDk0NDgxMywtNDgzMT
+eyJoaXN0b3J5IjpbNjAxNzM0MTIwLDM0NDk0NDgxMywtNDgzMT
 Q3MzE3XX0=
 -->
