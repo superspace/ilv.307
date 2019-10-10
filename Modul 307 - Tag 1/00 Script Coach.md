@@ -155,11 +155,33 @@ foreach ($flugzeuge  as  $flugzeug)
 	print("Typ: $flugzeug[typ]\n");
 	print("<hr>\n");
 }
-
 ```
+
+ > Registrierung: HB-ABC  
+    Hersteller: Airbus  
+    Typ: A380
+    ----------
+    Registrierung: HB-CDE  
+    Hersteller: Boeing  
+    Typ: B777
+    ----------
+    Registrierung: HB-ZCD  
+    Hersteller: Piper  
+    Typ: Archer
+    ----------
+
+
 Alternativ können durch einen weiteren Loop alle Attribute dynamisch ausgelesen werden:
-  
+```php
+foreach ($flugzeuge  as  $flugzeug)
+{
+	print("Registrierung: $flugzeug[registrierung]<br>\n");
+	print("Hersteller: $flugzeug[hersteller]<br>\n");
+	print("Typ: $flugzeug[typ]\n");
+	print("<hr>\n");
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg1MDQ3MDAsMzQ0OTQ0ODEzLC00OD
+eyJoaXN0b3J5IjpbLTE0NzUwNzU0NDAsMzQ0OTQ0ODEzLC00OD
 MxNDczMTddfQ==
 -->
