@@ -130,7 +130,11 @@ ini_set('display_errors', 'On');
 to do...
 
 # Multidimenionale Arrays
-- Von `multidimensionale Arrays` spricht man, wenn Arrays als Elemente in eines Arrays gespeichert sind.  Die Arrays s
+- Von `multidimensionale Arrays` spricht man, wenn Arrays als Elemente in eines Arrays gespeichert sind.  Die Arrays sind somit ineinander verschachtelt.
+- Damit lassen sich einfach hierarchische Strukturen abbilden.
+ 
+ ### Beispiel
+ Ein Auto besteht aus verschiedenen Attributen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTU0NDExNywtNDgzMTQ3MzE3XX0=
+eyJoaXN0b3J5IjpbLTEyOTAzNjgyMTYsLTQ4MzE0NzMxN119
 -->
