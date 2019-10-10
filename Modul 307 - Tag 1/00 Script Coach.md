@@ -147,15 +147,17 @@ to do...
 		 );
  ```
 Für die Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
-
-    ```php
- $flugzeuge = Array(
-		 Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','typ' => 'A380'),
-		 Array('registrierung' => 'HB-CDE','hersteller' => 'Boeing','typ' => 'B777'),
-		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','typ' => 'Archer')
-		 );
- ```
+```php
+foreach ($flugzeuge  as  $flugzeug)
+{
+	print("Registrierung: $flugzeug[registrierung]<br>\n");
+	print("Hersteller: $flugzeug[hersteller]<br>\n");
+	print("Typ: $flugzeug[typ]\n");
+	print("<hr>\n");
+}
+```
+Alternativ können durch einen weiteren Loop alle Attribute dynamisch   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxNzM0MTIwLDM0NDk0NDgxMywtNDgzMT
-Q3MzE3XX0=
+eyJoaXN0b3J5IjpbLTExMDA2NDUwODksMzQ0OTQ0ODEzLC00OD
+MxNDczMTddfQ==
 -->
