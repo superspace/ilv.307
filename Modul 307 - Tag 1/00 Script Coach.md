@@ -155,9 +155,11 @@ foreach ($flugzeuge  as  $flugzeug)
 	print("Typ: $flugzeug[typ]\n");
 	print("<hr>\n");
 }
+
 ```
-Alternativ können durch einen weiteren Loop alle Attribute dynamisch   
+Alternativ können durch einen weiteren Loop alle Attribute dynamisch ausgelesen werden:
+  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA2NDUwODksMzQ0OTQ0ODEzLC00OD
+eyJoaXN0b3J5IjpbLTE2ODg1MDQ3MDAsMzQ0OTQ0ODEzLC00OD
 MxNDczMTddfQ==
 -->
