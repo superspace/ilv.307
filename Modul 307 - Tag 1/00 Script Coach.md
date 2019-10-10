@@ -134,7 +134,10 @@ to do...
 - Damit lassen sich einfach hierarchische Strukturen abbilden.
  
  ### Beispiel
- Ein Auto besteht aus verschiedenen Attributen
+ Ein Flugzeug besteht aus verschiedenen Attributen:
+ ```php
+ $airplane = Array();
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTAzNjgyMTYsLTQ4MzE0NzMxN119
+eyJoaXN0b3J5IjpbMTA1NzI2ODk2NCwtNDgzMTQ3MzE3XX0=
 -->
