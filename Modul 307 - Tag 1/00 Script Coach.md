@@ -59,7 +59,7 @@
 - Kurze Einführung in `Visual Studio Code` und `PHP IntelliSense`
 
 # Übungen
-- Die Übungen 01 "Erste Schritte mit PHP" und 02 "Kontrollstrukturen, Schleifen, Funktionen" werden nacheinander selbsständig gelöst. (Hilfe untereinander ist erlaubt.)
+- Die Übungen 1 "Erste Schritte mit PHP" und Übung 2 "Kontrollstrukturen & Funktionen" werden nacheinander selbsständig gelöst. (Hilfe untereinander ist erlaubt.)
 - Auf Nachschlagewerke verweisen:
 	- [https://www.w3schools.com/php/](https://www.w3schools.com/php/)
 	- [https://developer.hyvor.com/tutorials/php](https://developer.hyvor.com/tutorials/php)
@@ -203,6 +203,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NjE1MDAsLTIxMjIyODk4OTIsMzQ0OT
-Q0ODEzLC00ODMxNDczMTddfQ==
+eyJoaXN0b3J5IjpbMTEzNzU1MjU4MywtMjEyMjI4OTg5MiwzND
+Q5NDQ4MTMsLTQ4MzE0NzMxN119
 -->
