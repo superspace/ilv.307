@@ -153,7 +153,7 @@ foreach ($flugzeuge  as  $flugzeug)
 	print("Registrierung: $flugzeug[registrierung]<br>\n");
 	print("Hersteller: $flugzeug[hersteller]<br>\n");
 	print("Typ: $flugzeug[typ]\n");
-	print("<hr>\n");
+	print("----------<br>\n");
 }
 ```
 
@@ -181,7 +181,20 @@ foreach ($flugzeuge  as  $flugzeug)
 	print("<hr>\n");
 }
 ```
+
+> registrierung: HB-ABC  
+   hersteller: Airbus  
+   typ: A380  
+   ----------
+   registrierung: HB-CDE  
+   hersteller: Boeing  
+   typ: B777  
+   ----------
+   registrierung: HB-ZCD   
+   hersteller: Piper  
+   typ: Archer  
+   ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUwNzU0NDAsMzQ0OTQ0ODEzLC00OD
-MxNDczMTddfQ==
+eyJoaXN0b3J5IjpbLTg1NTI5ODAwNSwzNDQ5NDQ4MTMsLTQ4Mz
+E0NzMxN119
 -->
