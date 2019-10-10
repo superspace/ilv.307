@@ -33,9 +33,9 @@ Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 
 
 ## Aufabe 3
-
+to do: Aufgabe zu Funktionen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTg4NDY0NiwxMzczODU4NDA3LC0xOD
-A5MTYyNzYsMTE2MDkyNjM3NiwtNjk3NTM0OTAxLDI3NDYyNTM3
-MV19
+eyJoaXN0b3J5IjpbMTY3NzA1MTM5LDEzNzM4NTg0MDcsLTE4MD
+kxNjI3NiwxMTYwOTI2Mzc2LC02OTc1MzQ5MDEsMjc0NjI1Mzcx
+XX0=
 -->
