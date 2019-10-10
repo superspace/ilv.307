@@ -146,7 +146,9 @@ to do...
 		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','typ' => 'Archer')
 		 );
  ```
-Für die Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
+
+
+Für die komplette Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
 ```php
 foreach ($flugzeuge  as  $flugzeug)
 {
@@ -195,6 +197,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc5NzQ4MTUsLTIxMjIyODk4OTIsMz
-Q0OTQ0ODEzLC00ODMxNDczMTddfQ==
+eyJoaXN0b3J5IjpbLTU4NDA5MDExMCwtMjEyMjI4OTg5MiwzND
+Q5NDQ4MTMsLTQ4MzE0NzMxN119
 -->
