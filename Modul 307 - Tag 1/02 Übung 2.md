@@ -1,5 +1,5 @@
 
-# Übung: Kontrollstrukturen
+# Übung: Kontrollstrukturen & Funktionen
 ## Aufgabe 1
 #### Schritt 1
 Generieren Sie in einer Variable `$runs` eine Zufallszahl zwischen 1 und 10 und zeigen Sie diese an.
@@ -35,6 +35,7 @@ Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 ## Aufabe 3
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mzg1ODQwNywtMTgwOTE2Mjc2LDExNj
-A5MjYzNzYsLTY5NzUzNDkwMSwyNzQ2MjUzNzFdfQ==
+eyJoaXN0b3J5IjpbLTYzOTg4NDY0NiwxMzczODU4NDA3LC0xOD
+A5MTYyNzYsMTE2MDkyNjM3NiwtNjk3NTM0OTAxLDI3NDYyNTM3
+MV19
 -->
