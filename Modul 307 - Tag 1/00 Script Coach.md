@@ -140,8 +140,13 @@ to do...
  ```
  Wir können in einem Array mehrere Flugzeuge speichern, in dem wir die einzelnen Flugzeug-Arrays in einen übergeordneten Array verpacken:
    ```php
- $flugzeuge = Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'A380');
+ $flugzeuge = Array(
+		 Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'A380'),
+		 Array('registrierung' => 'HB-CDE','hersteller' => 'Boeing','Typ' => 'B777'),
+		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','Typ' => 'Archer')
+		 );
  ```
+ Um die 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzE5MjY0NywtNDgzMTQ3MzE3XX0=
+eyJoaXN0b3J5IjpbLTYwMjU3OTIyLC00ODMxNDczMTddfQ==
 -->
