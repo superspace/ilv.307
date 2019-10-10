@@ -147,15 +147,9 @@ to do...
 		 );
  ```
 
-Der Zugriff auf ein bestimmtes Element in der mehrdimensionalen Struktur erfolgt wie folgt:
+Der Zugriff auf ein bestimmtes Element in der mehrdimensionalen Struktur erfolgt durch aneinanderreihen von Indices/Keys:
  ```php
-foreach ($flugzeuge  as  $flugzeug)
-{
-	print("Registrierung: $flugzeug[registrierung]<br>\n");
-	print("Hersteller: $flugzeug[hersteller]<br>\n");
-	print("Typ: $flugzeug[typ]\n");
-	print("----------<br>\n");
-}
+print($flugzeuge[0][]); //
 ```
 Für die komplette Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
 ```php
@@ -206,6 +200,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY5NzY5OTYsLTIxMjIyODk4OTIsMz
-Q0OTQ0ODEzLC00ODMxNDczMTddfQ==
+eyJoaXN0b3J5IjpbMTg2NzAxNjY2OCwtMjEyMjI4OTg5MiwzND
+Q5NDQ4MTMsLTQ4MzE0NzMxN119
 -->
