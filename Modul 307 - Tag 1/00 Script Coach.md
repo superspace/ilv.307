@@ -136,8 +136,8 @@ to do...
  ### Beispiel
  Ein Flugzeug besteht aus verschiedenen Attributen:
  ```php
- $airplane = Array();
+ $flugzeug = Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'HB-ABC');
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzI2ODk2NCwtNDgzMTQ3MzE3XX0=
+eyJoaXN0b3J5IjpbMTM3NDc5MzEzLC00ODMxNDczMTddfQ==
 -->
