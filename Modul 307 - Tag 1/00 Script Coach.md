@@ -147,7 +147,7 @@ to do...
 		 );
  ```
 
-
+Auf die verschiedenen Dimensionen kann durch hintereinanderstellen von   
 Für die komplette Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
 ```php
 foreach ($flugzeuge  as  $flugzeug)
@@ -197,6 +197,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDA5MDExMCwtMjEyMjI4OTg5MiwzND
+eyJoaXN0b3J5IjpbLTk3NDYzOTg4MCwtMjEyMjI4OTg5MiwzND
 Q5NDQ4MTMsLTQ4MzE0NzMxN119
 -->
