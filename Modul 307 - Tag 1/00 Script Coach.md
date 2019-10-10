@@ -130,7 +130,7 @@ ini_set('display_errors', 'On');
 to do...
 
 # Multidimenionale Arrays
-- Multidimensionale Arrays sind Arrays, die 
+- Von `multidimensionale Arrays` spricht man, wenn Arrays als Elemente in eines Arrays gespeichert sind.  Die Arrays s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY3NDg4ODksLTQ4MzE0NzMxN119
+eyJoaXN0b3J5IjpbLTIyMTU0NDExNywtNDgzMTQ3MzE3XX0=
 -->
