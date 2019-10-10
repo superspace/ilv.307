@@ -182,8 +182,19 @@ foreach ($flugzeuge as $flugzeug)
         print("----------<br>\n");
 }
 ```
-
+ > registrierung: HB-ABC  
+    hersteller: Airbus  
+    typ: A380
+    ----------
+    registrierung: HB-CDE  
+    hersteller: Boeing  
+    typ: B777
+    ----------
+    registrierung: HB-ZCD  
+    hersteller: Piper  
+    typ: Archer
+    ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIyODk4OTIsMzQ0OTQ0ODEzLC00OD
-MxNDczMTddfQ==
+eyJoaXN0b3J5IjpbLTEyNDc5NzQ4MTUsLTIxMjIyODk4OTIsMz
+Q0OTQ0ODEzLC00ODMxNDczMTddfQ==
 -->
