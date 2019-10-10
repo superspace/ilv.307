@@ -136,8 +136,12 @@ to do...
  ### Beispiel
  Ein Flugzeug besteht aus verschiedenen Attributen:
  ```php
- $flugzeug = Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'HB-ABC');
+ $flugzeug = Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'A380');
+ ```
+ Wir können in einem Array mehrere Flugzeuge speichern, in dem wir die einzelnen Flugzeug-Arrays in einen übergeordneten Array verpacken:
+   ```php
+ $flugzeuge = Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'A380');
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDc5MzEzLC00ODMxNDczMTddfQ==
+eyJoaXN0b3J5IjpbMTY1MzE5MjY0NywtNDgzMTQ3MzE3XX0=
 -->
