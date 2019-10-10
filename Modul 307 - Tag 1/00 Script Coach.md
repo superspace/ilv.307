@@ -147,7 +147,16 @@ to do...
 		 );
  ```
 
-Auf die verschiedenen Dimensionen kann durch hintereinanderstellen von   
+Der Zugriff auf ein bestimmtes Element in der mehrdimensionalen Struktur erfolgt wie folgt:
+ ```php
+foreach ($flugzeuge  as  $flugzeug)
+{
+	print("Registrierung: $flugzeug[registrierung]<br>\n");
+	print("Hersteller: $flugzeug[hersteller]<br>\n");
+	print("Typ: $flugzeug[typ]\n");
+	print("----------<br>\n");
+}
+```
 Für die komplette Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopt. Innerhalb des Loops stehen nun die einzelnen Flugzeug-Arrays zur Verfügung, aus welchen die Attribute ausgelesen werden können:
 ```php
 foreach ($flugzeuge  as  $flugzeug)
@@ -197,6 +206,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDYzOTg4MCwtMjEyMjI4OTg5MiwzND
-Q5NDQ4MTMsLTQ4MzE0NzMxN119
+eyJoaXN0b3J5IjpbLTE5MzY5NzY5OTYsLTIxMjIyODk4OTIsMz
+Q0OTQ0ODEzLC00ODMxNDczMTddfQ==
 -->
