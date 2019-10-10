@@ -146,8 +146,9 @@ to do...
 		 Array('registrierung' => 'HB-ZCD','hersteller' => 'Piper','Typ' => 'Archer')
 		 );
  ```
- Wenn der multidimensionale (verschachtelte) Array in einem Loop ausgelesen werden soll, muss auch der Loop entsürechend verschachtelt sein:
+Für die Ausgabe wird der übergerodnete Array `$flugzeuge` mittels `foreach()` geloopen
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0OTQ0ODEzLC00ODMxNDczMTddfQ==
+eyJoaXN0b3J5IjpbLTIxMzM3NzU3MzgsMzQ0OTQ0ODEzLC00OD
+MxNDczMTddfQ==
 -->
