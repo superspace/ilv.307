@@ -30,7 +30,11 @@ Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
 > Note: 4 (genügend)
 
 Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
+
+
+## Aufabe 3
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkxNjI3NiwxMTYwOTI2Mzc2LC02OT
-c1MzQ5MDEsMjc0NjI1MzcxXX0=
+eyJoaXN0b3J5IjpbMTM3Mzg1ODQwNywtMTgwOTE2Mjc2LDExNj
+A5MjYzNzYsLTY5NzUzNDkwMSwyNzQ2MjUzNzFdfQ==
 -->
