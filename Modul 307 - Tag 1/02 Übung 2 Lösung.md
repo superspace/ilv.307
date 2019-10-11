@@ -39,22 +39,6 @@ Färben Sie die Zahlen gemäss folgender Anweisungen ein:
 Unterstreichen Sie alle `geraden Zahlen` die grösser `kleiner als 20` oder `grösser als 80` sind.
 
 ```php
-if(($number < 20 || $number > 80) && $number%2 == 0)
-{
-    $underline = "underline";
-}
-else
-{
-    $underline = "normal";
-}
-/////
-
-```
-
-#### Schritt 5
-Kopieren Sie Ihren Code und bauen Sie Ihre `while`-Schlife zu einer `for`-Schleife um, resp. umgekehrt.
-
-```php
 $runs = rand(1, 10);
 print("Anzahl Durchl&auml;ufe: $runs<br><br>\n");
 
@@ -70,17 +54,24 @@ while($run_counter < $runs)
 
     if(($number < 20 || $number > 80) && $number%2 == 0)
     {
-        $fontweight = "underline";
+        $underline= "underline";
     }
     else
     {
-        $fontweight = "normal";
+        $underline= "normal";
     }
 
-    print("<div style=\"color:$color; text-decoration:$fontweight\">$number</div>\n");
+    print("<div style=\"color:$color; text-decoration:$underline\">$number</div>\n");
     
     $run_counter++;
 }
+```
+
+#### Schritt 5
+Kopieren Sie Ihren Code und bauen Sie Ihre `while`-Schlife zu einer `for`-Schleife um, resp. umgekehrt.
+
+```php
+
 ```
 
 
@@ -94,6 +85,32 @@ Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
 
 Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 
+```php
+$grade = rand(1,6);
+print("Note: $grade (");
+
+switch($grade) {
+    case 1:
+        print("schlecht");
+        break;
+    case 2:
+        print("schwach");
+        break;
+    case 3:
+        print("ungen&uuml;gend");
+        break;
+    case 4:
+        print("gen&uuml;gend");
+        break;
+    case 5:
+        print("gut");
+        break;
+    case 6:
+        print("sehr gut");     
+}
+print(")");
+```
+
 
 ## Aufabe 3
 Bauen Sie das Script aus Aufgabe 1 wie folgt um:
@@ -102,5 +119,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjY0MTE5MywtMTI1Nzc3MTMxXX0=
+eyJoaXN0b3J5IjpbMTA1MzY3NTQ4MywtMTI1Nzc3MTMxXX0=
 -->
