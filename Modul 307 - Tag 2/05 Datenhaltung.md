@@ -1,11 +1,11 @@
 
 # Datenhaltung
 
-In diesem Modul Wir behandeln ausschliesslich Datei-basierte Datenhaltung. Die Anbindung an eine Datenbank wird in einem späteren Modul behandelt.
+In diesem Modul behandeln wir ausschliesslich **Datei-basierte Datenhaltung**. *Die Anbindung an eine Datenbank wird in einem späteren Modul behandelt.*
 
-#### Formate
+## Formate
 
-##### JSON
+### JSON
 JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
 
 *Ein einzelner Eintrag:*
@@ -40,7 +40,7 @@ JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung u
 
 https://wiki.selfhtml.org/wiki/JSON
 
-##### XML
+### XML
 
 Historisch immer noch relevant ist das XML-Format (Extensible Markup Langauge), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
 
@@ -56,15 +56,15 @@ Historisch immer noch relevant ist das XML-Format (Extensible Markup Langauge), 
 </users>
 ```
 
-##### CSV
+### CSV
 Mit CSV (Comma separated Values) können tabellarische Informationen erfasst werden. 
 
-##### YAML
+### YAML
 YAML (Yet another Markup Language) eignet sich für die Definition von Schlüssel-Wert-Paaren und wird gerne für Konfigurations-Daten verwendet.
 
-#### Parsen
+## Parsen
 
-##### JSON
+### JSON
 
 Mit den Funktionen `json_decode()` und `json_encode()` können Daten aus PHP direkt in das JSON-Format und andersrum umgewandelt werden. Dabei werden die Datentypen String, Boolean, Number, Array etc. berücksichtigt.
 
@@ -99,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTUzNjM2MF19
+eyJoaXN0b3J5IjpbNzQ4MzYwNTY0XX0=
 -->
