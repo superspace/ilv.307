@@ -81,6 +81,23 @@ $meinJsonString = json_encode($meinArray);`
 ```
 https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
+
+==Aufgabe zu JSON/PHP==
+
+*Zugriff auf bestimmte Einträge über eine eindeutige Id*
+
+```javascript
+{
+	"89570283457283485": {
+		"name": "Urs Beyeler",
+		"email" : "dev@superspace.ch"
+	},
+	"98708778778978787": {
+		"name": "Hans Dampf",
+		"email": "hans@dampf.ch"
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NTg2NzU3XX0=
+eyJoaXN0b3J5IjpbLTE5MTU5MTIyMTBdfQ==
 -->
