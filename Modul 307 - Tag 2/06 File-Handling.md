@@ -1,10 +1,10 @@
 
-### File-Handling
+# File-Handling
 
-#### Lesen und Schreiben von Dateien
+## Lesen und Schreiben von Dateien
 Mit PHP können Dateien auf dem Filesystem erstellt, gelesen und modifiziert werden. *VORSICHT* Diese Funktionen sind irreversibel und können auch grossen Schaden auf dem System anrichten!
 
-##### Datei lesen
+### Datei lesen
 
 Mit `readfile()` wird eine Datei gelesen und direkt ausgegeben. Wir haben aber keine Möglichkeit, den Inhalt zu verarbeiten.
 
@@ -16,7 +16,7 @@ Mit  `file_get_contents()` lassen sich Dateien lokal wie auch im Netzwerk öffne
 
 https://www.php.net/manual/de/function.file-get-contents.php
 
-##### Datei schreiben
+## Datei schreiben
 
 Ach hier können `fopen()`, `fwrite()` und `fclose()` verwendet werden.
 
@@ -30,5 +30,6 @@ Neue Dateien können mit der Funktion `fopen()` erzeugt werden.
 
 `file_put_contents()` erstellt automatisch fehlende Dateien.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzc3MjA0MywyMDE3MDAwNzU2XX0=
+eyJoaXN0b3J5IjpbMjAxNzAwMDc1NiwtOTQzNzcyMDQzLDIwMT
+cwMDA3NTZdfQ==
 -->
