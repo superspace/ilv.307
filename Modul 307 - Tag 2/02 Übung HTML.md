@@ -2,10 +2,11 @@
 
 Erstellen Sie ein HTML-Formular das folgenden Anforderungen entspricht:
 
-###Superhelden
+### Superheld
 - Ein obligatorisches Feld mit dem Rufnamen
 - Ein Feld mit dem zivilen Namen (falls vorhanden)
-- Eine Auswahl 
+- Eine obligatorische Auswahl des Universums (DC, Marvel, Andere)
+- Eine Beliebtheits-Bewertung von 1 bis 5
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjgwMTIxNF19
+eyJoaXN0b3J5IjpbLTE4OTE1ODg2OTZdfQ==
 -->
