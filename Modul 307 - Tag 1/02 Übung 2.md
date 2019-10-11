@@ -34,9 +34,12 @@ Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 
 ## Aufabe 3
 Bauen Sie das Script aus Aufgabe 1 wie folgt um:
-- Erstellen Sie eine Funktionso um, dass , welche die Aufgabe der Formatierung nach Bedingungen (Farbe und unterstrichen)
+- Erstellen Sie eine Funktionso, welche die Aufgabe der Formatierung nach Bedingungen (Farbe / unterstrichen) übernimmt.
+	- Eingebeparameter: Zahl
+	- Ausgabe: Formatiertes HTML-Code Segment
+-Rufen Si
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDQyNDQ3NywxNzIyOTg3ODk0LDE2Nz
-cwNTEzOSwxMzczODU4NDA3LC0xODA5MTYyNzYsMTE2MDkyNjM3
-NiwtNjk3NTM0OTAxLDI3NDYyNTM3MV19
+eyJoaXN0b3J5IjpbNTY0NDMzNTQzLDE3MjI5ODc4OTQsMTY3Nz
+A1MTM5LDEzNzM4NTg0MDcsLTE4MDkxNjI3NiwxMTYwOTI2Mzc2
+LC02OTc1MzQ5MDEsMjc0NjI1MzcxXX0=
 -->
