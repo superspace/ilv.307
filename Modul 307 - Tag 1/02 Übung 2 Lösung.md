@@ -31,13 +31,24 @@ Färben Sie die Zahlen gemäss folgender Anweisungen ein:
  else if($number >= 70) $color = '#FF0000';
  else if($number == 50) $color = '#0000FF';
  else $color = '#000000';
+ /////
+ print("<div style=\"color:$color;\">$number</div>\n");
 ```
 
 #### Schritt 4
 Unterstreichen Sie alle `geraden Zahlen` die grösser `kleiner als 20` oder `grösser als 80` sind.
 
 ```php
-ssss
+if(($number < 20 || $number > 80) && $number%2 == 0)
+{
+    $underline = "underline";
+}
+else
+{
+    $underline = "normal";
+}
+/////
+
 ```
 
 #### Schritt 5
@@ -91,5 +102,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjE2OTAyNCwtMTI1Nzc3MTMxXX0=
+eyJoaXN0b3J5IjpbLTI4MjY0MTE5MywtMTI1Nzc3MTMxXX0=
 -->
