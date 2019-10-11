@@ -6,7 +6,7 @@ In diesem Modul behandeln wir ausschliesslich **Datei-basierte Datenhaltung**. *
 ## Formate
 
 ### JSON
-JSON (*JavaScript Object Notation*) hat sich in der Webenwticklung als uasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
+JSON (*JavaScript Object Notation*) hat sich in der Webenwticklung als quasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
 
 *Ein einzelner Eintrag:*
 
@@ -42,7 +42,7 @@ https://wiki.selfhtml.org/wiki/JSON
 
 ### XML
 
-Historisch immer noch relevant ist das XML-Format (*Extensible Markup Language*), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
+Historisch immer noch relevant ist das XML-Format (*Extensible Markup Languauge*), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -99,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NTY3MDM5XX0=
+eyJoaXN0b3J5IjpbMzYwNzA0NDMsODU0NTY3MDM5XX0=
 -->
