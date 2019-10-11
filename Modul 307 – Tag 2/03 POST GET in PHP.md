@@ -1,0 +1,19 @@
+### Client-Server-Kommunikation mit PHP
+
+#### REQUEST
+
+##### POST
+Die globale Variable `$_POST` beinhaltet alle Schlüssel-Wert-Paare, die über ein Formular mit `method="post"` übermittelt worden sind.
+
+##### GET
+Die globale Variable `$_GET` beinhaltet alle Schlüssel-Wert-Paare, die entweder über ein Formular mit `method="get"` oder direkt über die URL übermittelt worden sind.
+
+##### REQUEST
+Die globale Variable `$_REQUEST` beinhaltet alle Schlüssel-Wert-Paare die per POST oder per GET übermittelt worden sind.
+
+*POST und GET können auch kombiniert werden.* 
+
+> Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTM5MTgyNjAxXX0=
+-->
