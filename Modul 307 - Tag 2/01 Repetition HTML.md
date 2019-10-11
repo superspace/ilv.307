@@ -42,7 +42,7 @@ Die Daten können auch als URL-Parameter übergeben werden:
     <button type="submit">Senden</button>
 </form>
 ```
-==DEMO mit Developer-Tools im Browser==
+==DEMO: REQUEST-Daten in den Browser-Developer-Tools==
 
 ### Input-Felder
 ```html
@@ -103,5 +103,5 @@ type
 required
 : Zwingende Eingabe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NjYyOTU2XX0=
+eyJoaXN0b3J5IjpbOTMwMDQ3ODQxXX0=
 -->
