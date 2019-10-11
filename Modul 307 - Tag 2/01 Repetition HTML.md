@@ -42,6 +42,8 @@ Die Daten können auch als URL-Parameter übergeben werden:
     <button type="submit">Senden</button>
 </form>
 ```
+*POST und GET können auch kombiniert werden.* 
+
 ==DEMO: REQUEST-Daten in den Browser-Developer-Tools==
 
 ### Input-Felder
@@ -103,5 +105,5 @@ type
 required
 : Zwingende Eingabe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMDQ3ODQxXX0=
+eyJoaXN0b3J5IjpbMTI1OTQ1MTI1NF19
 -->
