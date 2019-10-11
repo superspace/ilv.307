@@ -12,7 +12,13 @@ print("Anzahl Durchl&auml;ufe: $runs<br><br>\n");
 #### Schritt 2
 Durchlaufen Sie eine Schleife `$runs` Mal und geben Sie bei jedem Durchlauf eine Zufallszahl zwischen 1 und 100 aus.
 ```php
-ssss
+$run_counter = 0;
+while($run_counter < $runs)
+{
+    $number = rand(1,100);
+    print("$number<br>\n");
+    $run_counter++;
+}
 ```
 
 #### Schritt 3
@@ -21,7 +27,10 @@ Färben Sie die Zahlen gemäss folgender Anweisungen ein:
 - Zahlen die `70 oder grösser` sind: rot
 - Die Zahl `50`: blau
 ```php
-ssss
+ if($number <= 30) $color = '#00FF00';
+ else if($number >= 70) $color = '#FF0000';
+ else if($number == 50) $color = '#0000FF';
+ else $color = '#000000';
 ```
 
 #### Schritt 4
@@ -82,5 +91,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA2NTQwMDcsLTEyNTc3NzEzMV19
+eyJoaXN0b3J5IjpbMjA1NjE2OTAyNCwtMTI1Nzc3MTMxXX0=
 -->
