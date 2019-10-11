@@ -2,13 +2,9 @@
 
 Damit keine falschen oder schädlichen Daten auf dem Server verarbeitet werden, müssen diese erst einer Prüfung unterzogen werden. 
 
-- Unnötige Leerschläge, Tabs etc. entfernen
+- Mit der Funktion `trim()` werden unnötige Leerschläge entfernt. Dies erleichtert die Validierung von  Pflichtfeldern.
 
-Mit der Funktion `trim()` werden unnötige Leerschläge entfernt.
-
-- Cross-Site-Scripting (XSS) verhindern
-
-Mit der Funktion `htmlspecialchars()` werden Sonderzeichen  in die entsprechenden HTML-Codes umgewandelt.
+- Mit der Funktion `htmlspecialchars()` werden Sonderzeichen  in die entsprechenden HTML-Codes umgewandelt und verhindert damit *Cross-Site-Scripting*.
 
 https://www.php.net/manual/de/function.htmlspecialchars.php
 
@@ -34,5 +30,5 @@ filter_var($email, FILTER_VALIDATE_EMAIL);
 https://www.php.net/manual/de/function.filter-var.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDk4MjQ2MF19
+eyJoaXN0b3J5IjpbLTIxMzMwNzE4NzFdfQ==
 -->
