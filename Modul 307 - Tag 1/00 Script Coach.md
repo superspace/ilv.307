@@ -126,8 +126,6 @@ ini_set('display_errors', 'On');
 	- xDebug & MAMP: https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/
 	- xDebug & XAMPP: http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 
-# Datumsfunktionen
-to do...
 
 # Multidimenionale Arrays
 - Von `multidimensionale Arrays` spricht man, wenn Arrays als Elemente in eines Arrays gespeichert sind.  Die Arrays sind somit ineinander verschachtelt.
@@ -203,6 +201,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzU1MjU4MywtMjEyMjI4OTg5MiwzND
-Q5NDQ4MTMsLTQ4MzE0NzMxN119
+eyJoaXN0b3J5IjpbLTM4NDgzNjYxLC0yMTIyMjg5ODkyLDM0ND
+k0NDgxMywtNDgzMTQ3MzE3XX0=
 -->
