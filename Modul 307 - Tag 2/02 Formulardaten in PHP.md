@@ -1,6 +1,6 @@
 # Client-Server-Kommunikation mit PHP
 
-Die Daten im Request des Seitn
+Die Request-Daten eines Serveraufrufes werden in den PHP Superglobals `$_REQUEST`, ?$_GET und `$_POST` 
 
 ##### POST
 Die globale Variable `$_POST` beinhaltet alle Schlüssel-Wert-Paare, die über ein Formular mit `method="post"` übermittelt worden sind.
@@ -14,5 +14,5 @@ Die globale Variable `$_REQUEST` beinhaltet alle Schlüssel-Wert-Paare die per P
 *POST und GET können auch kombiniert werden.* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mzk1NjgyNl19
+eyJoaXN0b3J5IjpbLTY3OTk5MTIwNF19
 -->
