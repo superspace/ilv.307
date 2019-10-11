@@ -71,7 +71,29 @@ while($run_counter < $runs)
 Kopieren Sie Ihren Code und bauen Sie Ihre `while`-Schlife zu einer `for`-Schleife um, resp. umgekehrt.
 
 ```php
+$runs = rand(1, 10);
+print("Anzahl Durchl&auml;ufe: $runs<br><br>\n");
 
+for($run_counter = 0; $run_counter < $runs; $run_counter++)
+{
+    $number = rand(1,100);
+
+    if($number <= 30) $color = '#00FF00';
+    else if($number >= 70) $color = '#FF0000';
+    else if($number == 50) $color = '#0000FF';
+    else $color = '#000000';
+
+    if(($number < 20 || $number > 80) && $number%2 == 0)
+    {
+        $underline = "underline";
+    }
+    else
+    {
+        $underline = "normal";
+    }
+
+    print("<div style=\"color:$color; text-decoration:$underline\">$number</div>\n");
+}
 ```
 
 
@@ -119,5 +141,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzY3NTQ4MywtMTI1Nzc3MTMxXX0=
+eyJoaXN0b3J5IjpbLTQzODU2MTQzMCwtMTI1Nzc3MTMxXX0=
 -->
