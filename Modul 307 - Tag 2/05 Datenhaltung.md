@@ -71,7 +71,7 @@ Mit den Funktionen `json_decode()` und `json_encode()` können Daten aus PHP dir
 Daten aus einem JSON-File auslesen und als assoziativer Array zurückgeben:
 
 ```php
-$meinArray = json_decode('relativer/pfad/zum/file.json', true);
+$meinArray = json_decode($meinJ, true);
 ```
 
 Einen Array aus PHP im JSON-Format ausgeben:
@@ -99,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzgwMTMwNSwzNjA3MDQ0M119
+eyJoaXN0b3J5IjpbLTE2MDg1ODM3NDQsMzYwNzA0NDNdfQ==
 -->
