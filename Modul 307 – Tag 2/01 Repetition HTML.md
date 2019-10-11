@@ -2,6 +2,7 @@
 
 ## Grundgerüst
 ```html
+<!DOCTYPE html>
 <html>
     <head>
         <title>Hello World</title>
@@ -95,7 +96,6 @@ type
 
 required
 : Zwingende Eingabe
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTQ1MjQ3Nl19
+eyJoaXN0b3J5IjpbMTY5ODEyNTI4Ml19
 -->
