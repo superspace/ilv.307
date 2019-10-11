@@ -14,16 +14,22 @@ Die globale Variable `$_REQUEST` beinhaltet alle Schlüssel-Wert-Paare die per P
 ### Werte auslesen
 Die Werte werden über den Schlüssel ausgelesen. Vorerst sollte immer überprüft werden, ob der Schlüssel existiert. 
 
-Mit dem *Ternary Operator* können wir überprüfen, ob der Schlüssel existiert und den Wert
+Mit dem *Ternary Operator* können wir überprüfen, ob der Schlüssel existiert und den enthaltenen oder den Default-Wert direkt einer variablen zuweisen: 
 
 ```php
 $realname = isset($_POST['realname']) ? $_POST['realname'] : ''; 
 ```
+Dies entspricht :
 
-*POST und GET können auch kombiniert werden.* 
+```php
+$realname = '';
+if (isset($_POST['realname']))
+	$realname = $_POST['realname'];
+```
 
 ==DEMO: Ausgabe von $_POST und $_GET==
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTQ1NDY3MSwtMTIyNzQ3NTUwMF19
+eyJoaXN0b3J5IjpbLTEyNjQyNzcyNTUsLTEyMjc0NzU1MDBdfQ
+==
 -->
