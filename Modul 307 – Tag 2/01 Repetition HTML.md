@@ -16,7 +16,8 @@
 ## Formulare
 ```html
 <form action="index.php" method="post">
-    <input type="text" name="field1" value="" />
+    <label for="">Feld 1
+	    <input type="text" name="field1" value="" />
     <button type="submit">Senden</button>
 </form>
 ```
@@ -97,5 +98,5 @@ type
 required
 : Zwingende Eingabe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODEyNTI4Ml19
+eyJoaXN0b3J5IjpbLTc1MTY1MzI4Nl19
 -->
