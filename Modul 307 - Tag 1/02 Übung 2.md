@@ -34,9 +34,9 @@ Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 
 ## Aufabe 3
 Bauen Sie das Script aus Aufgabe 1 wie folgt um:
-- Erstellen Sie eine Funktionso um, dass 
+- Erstellen Sie eine Funktionso um, dass , welche die Aufgabe der Formatierung nach Bedingungen (Farbe und unterstrichen)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjk4Nzg5NCwtMTkyMzM0NjE1NCwxNj
-c3MDUxMzksMTM3Mzg1ODQwNywtMTgwOTE2Mjc2LDExNjA5MjYz
-NzYsLTY5NzUzNDkwMSwyNzQ2MjUzNzFdfQ==
+eyJoaXN0b3J5IjpbLTk1MDQyNDQ3NywxNzIyOTg3ODk0LDE2Nz
+cwNTEzOSwxMzczODU4NDA3LC0xODA5MTYyNzYsMTE2MDkyNjM3
+NiwtNjk3NTM0OTAxLDI3NDYyNTM3MV19
 -->
