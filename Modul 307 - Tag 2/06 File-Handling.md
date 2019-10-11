@@ -14,9 +14,13 @@ https://www.php.net/manual/de/function.fopen.php
 
 Mit  `file_get_contents()` lassen sich Dateien lokal wie auch im Netzwerk öffnen. Die Funktion übergibt den Inhalt der Datei in einen String. Diese Funktion ist ein sogenannte Wrapper, im Hintergrund wird `fopen()` und `fread()` ausgeführt.
 
+```php
+$data = file_get_contents('path/to/file.json');
+```
+
 https://www.php.net/manual/de/function.file-get-contents.php
 
-## Datei schreiben
+### Datei schreiben
 
 Ach hier können `fopen()`, `fwrite()` und `fclose()` verwendet werden.
 
@@ -24,12 +28,12 @@ Die Funktion `file_put_contents()` ist ein Wrapper für die oben genannten Funkt
 
 https://www.php.net/manual/de/function.file-put-contents.php
 
-##### Datei erstellen
+### Datei erstellen
 
 Neue Dateien können mit der Funktion `fopen()` erzeugt werden.
 
 `file_put_contents()` erstellt automatisch fehlende Dateien.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzAwMDc1NiwtOTQzNzcyMDQzLDIwMT
-cwMDA3NTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDk5NjI5MjAsMjAxNzAwMDc1NiwtOT
+QzNzcyMDQzXX0=
 -->
