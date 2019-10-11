@@ -43,8 +43,10 @@ Die Daten können auch als URL-Parameter übergeben werden:
 </form>
 ```
 
+
 ### Input-Felder
 ```html
+<label for="field1">Feld 1</label>
 <input type="text" id="field1" name="field1" value="" />
 ```
 
@@ -101,5 +103,5 @@ type
 required
 : Zwingende Eingabe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg1NTU3MDNdfQ==
+eyJoaXN0b3J5IjpbLTIxNDcxNjIxNjNdfQ==
 -->
