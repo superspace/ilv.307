@@ -140,6 +140,8 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Eingebeparameter: Zahl
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
+```php
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODU2MTQzMCwtMTI1Nzc3MTMxXX0=
+eyJoaXN0b3J5IjpbLTkwMDYxNDczOCwtMTI1Nzc3MTMxXX0=
 -->
