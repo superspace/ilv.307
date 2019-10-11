@@ -18,6 +18,7 @@ https://www.php.net/manual/de/function.htmlspecialchars.php
 
 #  Validierung in PHP
 
+Die clientseitige Validierung durch HTML5 oder JavaScript kann in vielen Fällen umgangen werden. Deshalb ist eine zusätzliche serverseitige Validierung in PHP Pflicht.
 
 Bevor die Daten auf dem Server weiterverarbeitet werden, müssen diese einer inhaltlichen Validierung unterzogen werden.
 
@@ -33,5 +34,5 @@ filter_var($email, FILTER_VALIDATE_EMAIL);
 https://www.php.net/manual/de/function.filter-var.php
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjA4MDY3NV19
+eyJoaXN0b3J5IjpbMTAzNDk4MjQ2MF19
 -->
