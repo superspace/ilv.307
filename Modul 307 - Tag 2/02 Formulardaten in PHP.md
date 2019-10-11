@@ -11,10 +11,12 @@ Die globale Variable `$_GET` beinhaltet alle Schlüssel-Wert-Paare, die entweder
 ##### REQUEST
 Die globale Variable `$_REQUEST` beinhaltet alle Schlüssel-Wert-Paare die per POST oder per GET übermittelt worden sind.
 
+$name 
+
 *POST und GET können auch kombiniert werden.* 
 
 ==DEMO: Ausgabe von $_POST und $_GET==
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzODM3NDYzXX0=
+eyJoaXN0b3J5IjpbMTA3NDA0NTI1MF19
 -->
