@@ -6,7 +6,7 @@ In diesem Modul behandeln wir ausschliesslich **Datei-basierte Datenhaltung**. *
 ## Formate
 
 ### JSON
-JSON (*JavaScript Object Notation*) hat sich in der Webenwticklung als quasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
+JSON (*JavaScript Object Notation*) hat sich in der Webenwticklung als qQuasiStandard für Speicherung und Austausch von strukturierten Daten etabliert. Die Syntax entspricht *JavaScript* und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
 
 *Ein einzelner Eintrag:*
 
@@ -99,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNzA0NDMsODU0NTY3MDM5XX0=
+eyJoaXN0b3J5IjpbLTM5NzgwMTMwNSwzNjA3MDQ0M119
 -->
