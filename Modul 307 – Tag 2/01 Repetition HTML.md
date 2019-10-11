@@ -16,8 +16,8 @@
 ## Formulare
 ```html
 <form action="index.php" method="post">
-    <label for="">Feld 1
-	    <input type="text" name="field1" value="" />
+    <label for="field1">Feld 1</label>
+    <input type="text" id="field1" name="field1" value="" />
     <button type="submit">Senden</button>
 </form>
 ```
@@ -45,11 +45,14 @@ Die Daten können auch als URL-Parameter übergeben werden:
 
 ### Input-Felder
 ```html
-<input type="text" name="field1" value="" />
+<input type="text" id="field1" name="field1" value="" />
 ```
 
 type
 : Feld-Typ, z.B. text, email, number, datetime
+
+id
+: Eindeutiger Indentifikator
 
 name 
 : Feld-Name, eindeutiger Wert für die Übermittlung des Wertes
@@ -98,5 +101,5 @@ type
 required
 : Zwingende Eingabe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTY1MzI4Nl19
+eyJoaXN0b3J5IjpbLTE0Mzg1NTU3MDNdfQ==
 -->
