@@ -14,10 +14,12 @@ https://www.php.net/manual/de/function.fopen.php
 
 Mit  `file_get_contents()` lassen sich Dateien lokal wie auch im Netzwerk öffnen. Die Funktion übergibt den Inhalt der Datei in einen String. Diese Funktion ist ein sogenannte Wrapper, im Hintergrund wird `fopen()` und `fread()` ausgeführt.
 
-Bevor eine D
+Bevor eine Datei gelesen wird, sollte überprüft werden, ob sie existiert:
 
 ```php
-$data = file_get_contents('path/to/file.json');
+if (file_exists('path/to/file.json')) {
+    $data = file_get_contents('path/to/file.json');
+}
 ```
 
 https://www.php.net/manual/de/function.file-get-contents.php
@@ -44,6 +46,6 @@ fopen('path/to/file.json', 'w');
 
 `file_put_contents()` erstellt automatisch fehlende Dateien.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzkyNzY1NywyMDE3MDAwNzU2LC05ND
+eyJoaXN0b3J5IjpbLTQyNTcyMTI1MywyMDE3MDAwNzU2LC05ND
 M3NzIwNDNdfQ==
 -->
