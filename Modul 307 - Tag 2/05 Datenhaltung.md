@@ -6,7 +6,7 @@ In diesem Modul behandeln wir ausschliesslich **Datei-basierte Datenhaltung**. *
 ## Formate
 
 ### JSON
-JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
+JSON (*JavaScript Object Notation*) hat sich in der Webenwticklung als uasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
 
 *Ein einzelner Eintrag:*
 
@@ -42,7 +42,7 @@ https://wiki.selfhtml.org/wiki/JSON
 
 ### XML
 
-Historisch immer noch relevant ist das XML-Format (Extensible Markup Langauge), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
+Historisch immer noch relevant ist das XML-Format (*Extensible Markup Language*), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -57,12 +57,12 @@ Historisch immer noch relevant ist das XML-Format (Extensible Markup Langauge), 
 ```
 
 ### CSV
-Mit CSV (Comma separated Values) können tabellarische Informationen erfasst werden. 
+Mit CSV (*Comma separated Values*) können tabellarische Informationen erfasst werden. 
 
 ### YAML
-YAML (Yet another Markup Language) eignet sich für die Definition von Schlüssel-Wert-Paaren und wird gerne für Konfigurations-Daten verwendet.
+YAML (*Yet another Markup Language*) eignet sich für die Definition von Schlüssel-Wert-Paaren und wird gerne für Konfigurations-Dateien verwendet.
 
-## Parsen
+## Parsen in PHP
 
 ### JSON
 
@@ -99,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4MzYwNTY0XX0=
+eyJoaXN0b3J5IjpbODU0NTY3MDM5XX0=
 -->
