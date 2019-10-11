@@ -13,8 +13,8 @@ Die globale Variable `$_REQUEST` beinhaltet alle Schlüssel-Wert-Paare die per P
 
 *POST und GET können auch kombiniert werden.* 
 
-==DEMO Ausgabe von $_POST und $_GET
+==DEMO: Ausgabe von $_POST und $_GET==
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDg1NTgxXX0=
+eyJoaXN0b3J5IjpbMzgzODM3NDYzXX0=
 -->
