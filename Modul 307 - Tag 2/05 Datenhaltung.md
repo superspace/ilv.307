@@ -1,7 +1,7 @@
 
-### Datenhaltung
+# Datenhaltung
 
-Wir behandeln ausschliesslich datei-basierte Datenhaltung in. Die Anbindung an eine Datenbank wird in einem späteren Modul behandelt.
+In diesem Modul Wir behandeln ausschliesslich Datei-basierte Datenhaltung. Die Anbindung an eine Datenbank wird in einem späteren Modul behandelt.
 
 #### Formate
 
@@ -99,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU5MTIyMTBdfQ==
+eyJoaXN0b3J5IjpbLTg3NTUzNjM2MF19
 -->
