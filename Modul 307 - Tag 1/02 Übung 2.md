@@ -33,9 +33,10 @@ Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 
 
 ## Aufabe 3
-Bauen Sie das Script aus Aufgabe 1 so um, dass 
+Bauen Sie das Script aus Aufgabe 1 wie folgt um:
+- Erstellen Sie eine Funktion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjAyODUzNjMsMTY3NzA1MTM5LDEzNz
+eyJoaXN0b3J5IjpbLTE5MjMzNDYxNTQsMTY3NzA1MTM5LDEzNz
 M4NTg0MDcsLTE4MDkxNjI3NiwxMTYwOTI2Mzc2LC02OTc1MzQ5
 MDEsMjc0NjI1MzcxXX0=
 -->
