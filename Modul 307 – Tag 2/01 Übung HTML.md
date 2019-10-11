@@ -113,119 +113,11 @@ required
     
    *TODO*
 
-### File-Handling
 
-#### Lesen und Schreiben von Dateien
-Mit PHP können Dateien auf dem Filesystem erstellt, gelesen und modifiziert werden. *VORSICHT* Diese Funktionen sind irreversibel und können auch grossen Schaden auf dem System anrichten!
 
-##### Datei lesen
-
-Mit `readfile()` wird eine Datei gelesen und direkt ausgegeben. Wir haben aber keine Möglichkeit, den Inhalt zu verarbeiten.
-
-Die Funktionen `fopen()` ,  `fread()` und `fclose()` geben uns mehr Kontrolle bei der Verarbeitung der Datei. So können beispielsweise sehr grosse Dateien als Stream gelesen werden und es ist auch möglich, Dateien über ein Netzwerk (z.B. http://) zu öffnen.
-
-https://www.php.net/manual/de/function.fopen.php
-
-Mit  `file_get_contents()` lassen sich Dateien lokal wie auch im Netzwerk öffnen. Die Funktion übergibt den Inhalt der Datei in einen String. Diese Funktion ist ein sogenannte Wrapper, im Hintergrund wird `fopen()` und `fread()` ausgeführt.
-
-https://www.php.net/manual/de/function.file-get-contents.php
-
-##### Datei schreiben
-
-Ach hier können `fopen()`, `fwrite()` und `fclose()` verwendet werden.
-
-Die Funktion `file_put_contents()` ist ein Wrapper für die oben genannten Funktionen und erledigt die Aufgabe mit einem Funktionsaufruf. 
-
-https://www.php.net/manual/de/function.file-put-contents.php
-
-##### Datei erstellen
-
-Neue Dateien können mit der Funktion `fopen()` erzeugt werden.
-
-`file_put_contents()` erstellt automatisch fehlende Dateien.
     
-### Datenhaltung
 
-Wir behandeln ausschliesslich datei-basierte Datenhaltung in. Die Anbindung an eine Datenbank wird in einem späteren Modul behandelt.
 
-#### Formate
-
-##### JSON
-JSON (JavaScript Object Notation) hat sich als quasi Standard für die Haltung und Übergabe von strukturierten Daten etabliert. Die Syntax entspricht JavaScript und erlaubt die Abbildung von diversen Datentypen wie String, Number, Boolean, Array Object etc. Mehrere Einträge werden immer in einem Gefäss (Array oder Object) gefasst.
-
-*Ein einzelner Eintrag:*
-
-```javascript
-"Eintrag A"
-```
-*Mehrere Einträge:*
-
-```javascript
-[
-	"Eintrag A",
-	"Eintrag B",
-	"Eintrag C"
-]
-```
-*Mehrere Einträge mit Schlüssel-Wert-Paaren:*
-```javascript
-[
-	{
-		"name": "User A",
-		"email": "user-a@email.com",
-		"alter": 32
-	},
-	{
-		"name": "User B",
-		"email": "user-b@email.com",
-		"alter": 27
-	}
-]
-```
-
-https://wiki.selfhtml.org/wiki/JSON
-
-##### XML
-
-Historisch immer noch relevant ist das XML-Format (Extensible Markup Langauge), mit welchem ebenfalls strukturierte Daten abgebildet werden können.
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<users>
-	<user name="User A" email="user-a@email.com">
-		<age>32</age>
-	</user>
-	<user name="User B" email="user-b@email.com">
-		<age>27</age>
-	</user>
-</users>
-```
-
-##### CSV
-Mit CSV (Comma separated Values) können tabellarische Informationen erfasst werden. 
-
-##### YAML
-YAML (Yet another Markup Language) eignet sich für die Definition von Schlüssel-Wert-Paaren und wird gerne für Konfigurations-Daten verwendet.
-
-#### Parsen
-
-##### JSON
-
-Mit den Funktionen `json_decode()` und `json_encode()` können Daten aus PHP direkt in das JSON-Format und andersrum umgewandelt werden. Dabei werden die Datentypen String, Boolean, Number, Array etc. berücksichtigt.
-
-Daten aus einem JSON-File auslesen und als assoziativer Array zurückgeben:
-
-```php
-$meinArray = json_decode('relativer/pfad/zum/file.json', true);
-```
-
-Einen Array aus PHP im JSON-Format ausgeben:
-
-```php
-$meinJsonString = json_encode($meinArray);`
-```
-https://www.php.net/manual/de/function.json-decode.php
-https://www.php.net/manual/de/function.json-encode.php
 
 ==Aufgabe zu JSON/PHP==
 
@@ -244,5 +136,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMwNTM5NDhdfQ==
+eyJoaXN0b3J5IjpbMTA3MTQwMDA0MF19
 -->
