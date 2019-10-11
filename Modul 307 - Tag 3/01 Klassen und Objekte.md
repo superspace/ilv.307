@@ -1,10 +1,8 @@
-### Tag 3
-
-## PHP Klassen und Objekte
+# PHP Klassen und Objekte
 
 PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
 
-### Klasse
+## Klasse
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden. Eine Klasse kann eine andere Klasse erweitern und erbt dabei die Attribute und Methoden der ersten Klasse.
 
 ```php
@@ -61,5 +59,5 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjM3NDk0M119
+eyJoaXN0b3J5IjpbMzg2NjIzODA5XX0=
 -->
