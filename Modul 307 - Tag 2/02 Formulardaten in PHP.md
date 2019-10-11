@@ -12,7 +12,7 @@ Die globale Variable `$_GET` beinhaltet alle Schlüssel-Wert-Paare, die entweder
 Die globale Variable `$_REQUEST` beinhaltet alle Schlüssel-Wert-Paare die per POST oder per GET übermittelt worden sind.
 
 ### Werte auslesen
-Die Werte werden über den 
+Die Werte werden über den Schlüssel ausgelesen. Vorerst sollte immer überprüft werden, ob der Schlüssel existiert. Mit dem *ternary operator* kan
 
 ```php
 $realname = isset($_POST['realname']) ? $_POST['realname'] : ''; 
@@ -23,5 +23,6 @@ $realname = isset($_POST['realname']) ? $_POST['realname'] : '';
 ==DEMO: Ausgabe von $_POST und $_GET==
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzg4NjAxMSwtMTIyNzQ3NTUwMF19
+eyJoaXN0b3J5IjpbLTIxMzkyMDE0MTEsLTEyMjc0NzU1MDBdfQ
+==
 -->
