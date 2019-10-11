@@ -141,7 +141,33 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 ```php
-``
+function formatNumber($number)
+{
+    if($number <= 30) $color = '#00FF00';
+    else if($number >= 70) $color = '#FF0000';
+    else if($number == 50) $color = '#0000FF';
+    else $color = '#000000';
+
+    if(($number < 20 || $number > 80) && $number%2 == 0)
+    {
+        $underline = "underline";
+    }
+    else
+    {
+        $underline = "normal";
+    }
+    return "<div style=\"color:$color; text-decoration:$underline\">$number</div>\n";
+}
+
+$runs = rand(1, 10);
+print("Anzahl Durchl&auml;ufe: $runs<br><br>\n");
+
+for($run_counter = 0; $run_counter < $runs; $run_counter++)
+{
+    $number = rand(1,100);
+    print(formatNumber($number));    
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDYxNDczOCwtMTI1Nzc3MTMxXX0=
+eyJoaXN0b3J5IjpbMTI4MDY1NTI1NiwtMTI1Nzc3MTMxXX0=
 -->
