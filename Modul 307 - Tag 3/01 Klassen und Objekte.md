@@ -47,7 +47,7 @@ include 'model/task.class.php';
 $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 
 // Methode aufrufen
-$priority = $task->getPrority();
+$priority = $task->getPriority();
 
 // Statisch Methode aufrufen
 $isValid = Task::validatePriority($priority);
@@ -77,5 +77,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ0MTcwNzJdfQ==
+eyJoaXN0b3J5IjpbLTEzNjU5MzIzNjMsLTE0MTQ0MTcwNzJdfQ
+==
 -->
