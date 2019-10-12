@@ -1,6 +1,6 @@
 # PHP Klassen und Objekte
 
-PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. Dies ist keine Einführung in Objekt-
+PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. *Dies ist nicht eine Einführung in die Objekt-orientierte Programmierung*. Der Fokus liegt auf 
 
 ## Klasse
 
@@ -77,6 +77,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTcxMTUyMywtODg4NjY5Mjg1LC0xMz
+eyJoaXN0b3J5IjpbMTU3OTU5NDk1NSwtODg4NjY5Mjg1LC0xMz
 EyNjQ2NDAsLTcxNDg1Mzg3OSwtMTQxNDQxNzA3Ml19
 -->
