@@ -5,8 +5,6 @@ PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
 ## Klasse
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
 
-
-
 ```php
 class Task {
 
@@ -34,8 +32,13 @@ class Task {
 	public function getPriority () {
 		return $this->priority;
 	}
-}
 
+
+}
+```
+Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden.
+
+```php
 // Objekt erstellen
 $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 
@@ -61,5 +64,5 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNjMzODcyXX0=
+eyJoaXN0b3J5IjpbLTkxODM0NjE1OF19
 -->
