@@ -90,7 +90,7 @@ Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine
 
 ```json
 {
-	"89570283457283485": {
+	"ee716009417de64432d6f7195425ed18": {
 		"name": "Urs Beyeler",
 		"email" : "dev@superspace.ch"
 	},
@@ -100,12 +100,17 @@ Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine
 	}
 }
 ```
+```php
+$values = json_decode($meinJSONString, true);
+$value = $values['98708778778978787'],
+```
+
 Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem aktuellen Zeitpunkt erstellt werden:
 
 ```php
 $id = hash('md5', time() .  rand(1000,9999));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4MTM5MDgzLDIwMzk4OTEyNTYsMzYwNz
-A0NDNdfQ==
+eyJoaXN0b3J5IjpbLTMzNzgxNjE1MywyMDM5ODkxMjU2LDM2MD
+cwNDQzXX0=
 -->
