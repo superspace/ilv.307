@@ -27,6 +27,7 @@ filter_var($email, FILTER_VALIDATE_EMAIL);
 ```
 https://www.php.net/manual/de/function.filter-var.php
 
+==DEMO: Umgehung der client-seitigen Validierung, Cross-Site-Scripting==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2ODgwNTU2XX0=
+eyJoaXN0b3J5IjpbLTYyNDMzNTQ2NCw0ODY4ODA1NTZdfQ==
 -->
