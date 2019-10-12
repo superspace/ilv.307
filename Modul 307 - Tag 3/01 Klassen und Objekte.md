@@ -24,17 +24,18 @@ class Hero {
 	}
 
 	// Methoden
-	public function setPopularity ($priority) {
-		if (self::validatePriority($priority) {
-			$this->priority = $priority;
+	public function setPopularity ($popularity) {
+		if (self::validatePopularity($popularity) {
+			$this->popularity = $popularity;
 		}
 	}
-	public function getPriority () {
-		return $this->priority;
+
+	public function getPopularity () {
+		return $this->popularity;
 	}
 
-        static function validatePriority ($priority) {
-		return ($priority > 0 && $priority <= self::PRIORITY_MAX);
+        static function validatePopularity ($popularity) {
+		return ($popularity > 0 && $popularity <= self::POPULARITY_MAX);
 	}
 }
 ```
@@ -42,7 +43,7 @@ Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine 
 
 ```php
 // Objekt erstellen
-$task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
+$task = new Hero('Spiderman', '', 5);
 
 // Methode aufrufen
 $priority = $task->getPriority();
@@ -75,6 +76,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDA2NjQ1NiwtMTMxMjY0NjQwLC03MT
-Q4NTM4NzksLTE0MTQ0MTcwNzJdfQ==
+eyJoaXN0b3J5IjpbLTEwMzY2NzQ0NzIsLTEzMTI2NDY0MCwtNz
+E0ODUzODc5LC0xNDE0NDE3MDcyXX0=
 -->
