@@ -82,7 +82,11 @@ https://www.php.net/manual/de/function.json-encode.php
 
 ==DEMO: JSON-String zu PHP==
 
-Identifikation einzelner Einträge
+### Datenstruktur
+
+#### Identifikation einzelner Einträge
+
+Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag
 
 *Zugriff auf bestimmte Einträge über eine eindeutige Id*
 
@@ -99,5 +103,5 @@ Identifikation einzelner Einträge
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzNDA1Njk3LDM2MDcwNDQzXX0=
+eyJoaXN0b3J5IjpbNzY3MjE5OTUsMzYwNzA0NDNdfQ==
 -->
