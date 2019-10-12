@@ -41,6 +41,9 @@ class Task {
 Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden. Eine Ausnahme sind statische Methoden oder Konstanten, diese lassen sich auch direkt aufrufen.
 
 ```php
+
+include 'model/task.class.php';
+
 // Objekt erstellen
 $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 
@@ -70,10 +73,10 @@ $this
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
 
 ::
-: Der Zugriff auf statische Attribute oder Klassen erf
+: Der Zugriff auf statische Methoden erfolgt über `::`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjkyMDgyNl19
+eyJoaXN0b3J5IjpbLTUwMDAxMzc5MF19
 -->
