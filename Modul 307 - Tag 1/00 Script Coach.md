@@ -8,7 +8,7 @@
 	 - Hinweis: Es darf auch ein eigenes Device verwendet werden!
  - Vorstellung des Moduls
    - Nach statischen Webseiten im Modul 101 folgen nun dynamische Webseiten
-   - Dafür die "Dynamik" verwenden wir PHP
+   - Für die "Dynamik" verwenden wir PHP
  - Kursprogramm vorstellen:
    - Tag 1: Setup der Umgebung, Grundlagen Webserver mit PHP, erste Schritte mit PHP
    - Tag 2: Repetition HTML Forms, PHP POST/GET, File-Handling und Datenhaltung
@@ -201,6 +201,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDgzNjYxLC0yMTIyMjg5ODkyLDM0ND
-k0NDgxMywtNDgzMTQ3MzE3XX0=
+eyJoaXN0b3J5IjpbMTYwNjExMjY1NiwtMzg0ODM2NjEsLTIxMj
+IyODk4OTIsMzQ0OTQ0ODEzLC00ODMxNDczMTddfQ==
 -->
