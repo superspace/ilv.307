@@ -94,15 +94,17 @@ Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine
 		"name": "Urs Beyeler",
 		"email" : "dev@superspace.ch"
 	},
-	"98708778778978787": {
+	"02621484d917cd47eaa125b12249d4b3": {
 		"name": "Hans Dampf",
 		"email": "hans@dampf.ch"
 	}
 }
 ```
+Zugriff auf einen spezifischen Eintrag:
+
 ```php
 $values = json_decode($meinJSONString, true);
-$value = $values['98708778778978787'],
+$value = $values['ee716009417de64432d6f7195425ed18'];
 ```
 
 Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem aktuellen Zeitpunkt erstellt werden:
@@ -111,6 +113,6 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 $id = hash('md5', time() .  rand(1000,9999));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzgxNjE1MywyMDM5ODkxMjU2LDM2MD
+eyJoaXN0b3J5IjpbMTk5NzY5ODI2NywyMDM5ODkxMjU2LDM2MD
 cwNDQzXX0=
 -->
