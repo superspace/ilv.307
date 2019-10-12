@@ -88,8 +88,6 @@ https://www.php.net/manual/de/function.json-encode.php
 
 Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine eindeutige ID aufweisen. In JSON können wir diese ID als Schlüssel für den direkten Zugriff verwenden. Dies vereinfacht es uns, einzelne Einträge zu bearbeiten oder zu löschen. 
 
-Die ID kann über einen Hash mit zufälligen Werten erstellt werden.
-
 ```json
 {
 	"89570283457283485": {
@@ -102,6 +100,12 @@ Die ID kann über einen Hash mit zufälligen Werten erstellt werden.
 	}
 }
 ```
+Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem aktuellen Zeitpunkt erstellt werden:
+
+```php
+$id = hash('md5', time() .  rand(1000,9999));
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTg5MTI1NiwzNjA3MDQ0M119
+eyJoaXN0b3J5IjpbNzk4MTM5MDgzLDIwMzk4OTEyNTYsMzYwNz
+A0NDNdfQ==
 -->
