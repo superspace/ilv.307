@@ -47,12 +47,15 @@ $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 // Methode aufrufen
 $priority = $task->getPrority();
 
-// Statisch Methode aufrufe
+// Statisch Methode aufrufen
 $isValid = Task::validatePriority($priority);
 ``` 
 
 private/public
 : Zugriff auf Attribute und Methoden nur innerhalb des Objekts (*private*) oder auch von aussen (*public*) erlauben
+
+static
+: Definition einer statischen Methode. In statischen Methoden ist es nicht möglich, auf `$this` zuzugreifen.
 
 const
 : Definition einer Konstanten, Aufruf über `self::PRIORITY_MAX`
@@ -66,8 +69,11 @@ $this
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
 
+::
+: Der Zugriff auf statische Attribute oder Klassen erf
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDc2NTEyMV19
+eyJoaXN0b3J5IjpbMTk1MjkyMDgyNl19
 -->
