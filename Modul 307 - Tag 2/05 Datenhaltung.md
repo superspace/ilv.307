@@ -86,7 +86,7 @@ https://www.php.net/manual/de/function.json-encode.php
 
 #### Identifikation einzelner Einträge
 
-Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag
+Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine eindeutige ID aufweisen. In JSON können wir diese ID als Schlüssel für den direkten Zugriff verwenden. Dies vereinfacht es uns, einzelne Einträge zu bearbeiten oder zu löschen. 
 
 *Zugriff auf bestimmte Einträge über eine eindeutige Id*
 
@@ -103,5 +103,5 @@ Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3MjE5OTUsMzYwNzA0NDNdfQ==
+eyJoaXN0b3J5IjpbLTE2MzY4MzUyNDgsMzYwNzA0NDNdfQ==
 -->
