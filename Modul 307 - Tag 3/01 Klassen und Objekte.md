@@ -6,11 +6,11 @@ PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
 
 ```php
-class Task {
+class Contact {
 
 	// Attribute
-	public $title = '';
-	public $description = '';
+	public $name = '';
+	public $email = '';
 	private $priority = 0;
 
 	// Konstante
@@ -77,6 +77,5 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU5MzIzNjMsLTE0MTQ0MTcwNzJdfQ
-==
+eyJoaXN0b3J5IjpbLTcxNDg1Mzg3OSwtMTQxNDQxNzA3Ml19
 -->
