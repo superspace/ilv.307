@@ -14,9 +14,12 @@ Berechnen Sie die durchschnittliche Priorität der Aufgaben und geben Sie diese 
 
 Die Einträge werden im JSON-Format in einer lokalen Datei abgelegt.
 
-**Zusatzaufgaben**
+**Zusatzaufgabe**
 
 
+
+Die einzelnen Einträge können als "Erledigt" markiert werden. Erledigte Aufgaben
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM4MDEwNDJdfQ==
+eyJoaXN0b3J5IjpbLTExNzY5OTUzODQsLTE3MjM4MDEwNDJdfQ
+==
 -->
