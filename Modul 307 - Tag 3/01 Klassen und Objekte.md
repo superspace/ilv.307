@@ -25,7 +25,7 @@ class Hero {
 
 	// Methoden
 	public function setPopularity ($popularity) {
-		if (self::validatePopularity($popularity) {
+		if (self::validatePopularity($popularity)) {
 			$this->popularity = $popularity;
 		}
 	}
@@ -76,6 +76,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE0NzkwMzYsLTEzMTI2NDY0MCwtNz
-E0ODUzODc5LC0xNDE0NDE3MDcyXX0=
+eyJoaXN0b3J5IjpbLTg4ODY2OTI4NSwtMTMxMjY0NjQwLC03MT
+Q4NTM4NzksLTE0MTQ0MTcwNzJdfQ==
 -->
