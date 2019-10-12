@@ -66,9 +66,11 @@ YAML (*Yet another Markup Language*) eignet sich für die Definition von Schlüs
 
 Mit den Funktionen `json_decode()` und `json_encode()` lassich Daten aus PHP direkt nach und aus dem JSON-Format umwandeln . Dabei werden die Datentypen String, Boolean, Number, Array etc. berücksichtigt.
 
-Daten aus einem JSON-File auslesen und als assoziativen Array zurückgeben. Der 2. Parameter  
+Daten aus einem JSON-File auslesen und als assoziativen Array (Parameter *assoziative* auf *true*) zurückgeben. 
 
 ```php
+$meinJSONString = '["","",""]';
+
 $meinArray = json_decode($meinJsonString, true);
 ```
 
@@ -80,7 +82,7 @@ $meinJsonString = json_encode($meinArray);`
 https://www.php.net/manual/de/function.json-decode.php
 https://www.php.net/manual/de/function.json-encode.php
 
-==Aufgabe zu JSON/PHP==
+
 
 *Zugriff auf bestimmte Einträge über eine eindeutige Id*
 
@@ -97,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODAyMjA0MiwzNjA3MDQ0M119
+eyJoaXN0b3J5IjpbLTE3MTE3NzkwMDcsMzYwNzA0NDNdfQ==
 -->
