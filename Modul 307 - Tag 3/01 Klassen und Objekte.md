@@ -1,8 +1,9 @@
 # PHP Klassen und Objekte
 
-PHP ermöglicht sowohl prozeduales wie auch objektorientierte Design-Muster.
+PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. Dies ist keine Einführung in Objekt-
 
 ## Klasse
+
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
 
 ```php
@@ -76,6 +77,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODY2OTI4NSwtMTMxMjY0NjQwLC03MT
-Q4NTM4NzksLTE0MTQ0MTcwNzJdfQ==
+eyJoaXN0b3J5IjpbMTQ3NTcxMTUyMywtODg4NjY5Mjg1LC0xMz
+EyNjQ2NDAsLTcxNDg1Mzg3OSwtMTQxNDQxNzA3Ml19
 -->
