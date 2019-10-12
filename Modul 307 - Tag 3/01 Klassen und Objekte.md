@@ -10,21 +10,21 @@ class Hero {
 
 	// Attribute
 	public $name = '';
-	public $email = '';
-	private $priority = 0;
+	public $realname = '';
+	private $popularity = 0;
 
 	// Konstante
-	const PRIORITY_MAX = 5;	
+	const POPULARITY_MAX = 5;	
 
 	// Konstruktor
-	function __construct ($title, $description, $priority) {
-		$this->title = $title;
-		$this->description = $description;
-		$this->setPriority($priority);
+	function __construct ($name, $realname, $popularity) {
+		$this->name = $name;
+		$this->realname = $realname;
+		$this->setPopularity($popularity);
 	}
 
 	// Methoden
-	public function setPriority ($priority) {
+	public function setPopularity ($priority) {
 		if (self::validatePriority($priority) {
 			$this->priority = $priority;
 		}
@@ -75,6 +75,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4ODk1MTU3LC0xMzEyNjQ2NDAsLTcxND
-g1Mzg3OSwtMTQxNDQxNzA3Ml19
+eyJoaXN0b3J5IjpbMTQxMDA2NjQ1NiwtMTMxMjY0NjQwLC03MT
+Q4NTM4NzksLTE0MTQ0MTcwNzJdfQ==
 -->
