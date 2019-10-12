@@ -16,10 +16,9 @@ Die Einträge werden im JSON-Format in einer lokalen Datei abgelegt.
 
 **Zusatzaufgabe**
 
-
+Im Feld "Erledigen bis" kann ein Zeitpunkt hinterlegt werden. Der Zeitpunkt muss in der Zukunft liegen. Die Einträge werden nach dem "Erledigen bis"-Zeitpunkt sortiert.
 
 Die einzelnen Einträge können als "Erledigt" markiert werden. Erledigte Aufgaben
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY5OTUzODQsLTE3MjM4MDEwNDJdfQ
-==
+eyJoaXN0b3J5IjpbLTU3MTQ0NDg5NiwtMTcyMzgwMTA0Ml19
 -->
