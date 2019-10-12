@@ -82,6 +82,8 @@ https://www.php.net/manual/de/function.json-encode.php
 
 ==DEMO: JSON-String zu PHP==
 
+Identifikation einzelner Einträge
+
 *Zugriff auf bestimmte Einträge über eine eindeutige Id*
 
 ```javascript
@@ -97,5 +99,5 @@ https://www.php.net/manual/de/function.json-encode.php
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUzOTUwNTcsMzYwNzA0NDNdfQ==
+eyJoaXN0b3J5IjpbNjIzNDA1Njk3LDM2MDcwNDQzXX0=
 -->
