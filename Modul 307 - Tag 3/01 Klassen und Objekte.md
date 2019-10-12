@@ -25,7 +25,7 @@ class Task {
 
 	// Methoden
 	public function setPriority ($priority) {
-		if ($priority > 0 && $priority <= self::PRIORITY_MAX) {
+		if (self::validatePriority($priority) {
 			$this->priority = $priority;
 		}
 	}
@@ -33,7 +33,9 @@ class Task {
 		return $this->priority;
 	}
 
-
+        static function validatePriority ($priority) {
+		return ($priority > 0 && $priority <= self::PRIORITY_MAX);
+	}
 }
 ```
 Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden.
@@ -64,5 +66,5 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODM0NjE1OF19
+eyJoaXN0b3J5IjpbMTMwMzE2MjI2M119
 -->
