@@ -43,13 +43,13 @@ Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine 
 
 ```php
 // Objekt erstellen
-$task = new Hero('Spiderman', '', 5);
+$task = new Hero('Spiderman', 'Peter Parker', 5);
 
 // Methode aufrufen
-$priority = $task->getPriority();
+$popularity = $task->getPopularity();
 
 // Statisch Methode aufrufen
-$isValid = Task::validatePriority($priority);
+$isValid = Hero::validatePopularity($popularity);
 ``` 
 
 private/public
@@ -76,6 +76,6 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY2NzQ0NzIsLTEzMTI2NDY0MCwtNz
+eyJoaXN0b3J5IjpbLTEyMzE0NzkwMzYsLTEzMTI2NDY0MCwtNz
 E0ODUzODc5LC0xNDE0NDE3MDcyXX0=
 -->
