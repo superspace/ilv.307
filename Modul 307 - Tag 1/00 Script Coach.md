@@ -158,7 +158,7 @@ foreach ($flugzeuge  as  $flugzeug)
 {
 	print("Registrierung: {$flugzeug['registrierung']}<br>\n");
 	print("Hersteller: {$flugzeug['hersteller']}<br>\n");
-	print("Typ: {$flugzeug[typ]\n");
+	print("Typ: {$flugzeug['typ']}\n");
 	print("----------<br>\n");
 }
 ```
@@ -201,6 +201,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY1MzIyNDQsLTM4NDgzNjYxLC0yMT
-IyMjg5ODkyLDM0NDk0NDgxMywtNDgzMTQ3MzE3XX0=
+eyJoaXN0b3J5IjpbLTM4OTk4MDY3OSwtMzg0ODM2NjEsLTIxMj
+IyODk4OTIsMzQ0OTQ0ODEzLC00ODMxNDczMTddfQ==
 -->
