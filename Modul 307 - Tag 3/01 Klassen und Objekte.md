@@ -38,7 +38,7 @@ class Task {
 	}
 }
 ```
-Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden.
+Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden. Eine Ausnahme sind statische Methoden oder Konstanten, diese lassen sich auch direkt aufrufen.
 
 ```php
 // Objekt erstellen
@@ -46,6 +46,9 @@ $task = new Task('PHP lernen', 'Grundlagen und Anwendung von PHP verstehen', 5);
 
 // Methode aufrufen
 $priority = $task->getPrority();
+
+// Statisch Methode aufrufe
+$isValid = Task::validatePriority($priority);
 ``` 
 
 private/public
@@ -66,5 +69,5 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzE2MjI2M119
+eyJoaXN0b3J5IjpbMTUzNDc2NTEyMV19
 -->
