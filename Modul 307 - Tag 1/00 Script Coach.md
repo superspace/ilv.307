@@ -72,7 +72,7 @@
 # PHP Konfiguration & Error Reporting
 ### php.ini
 - Über die php.ini-Datei lässt sich die PHP-Instanz global konfigurieren. Der Speicherort der Datei hängt von der Installation ab.  
-- Die aktuellen Einstellungen können die Funktion `phpinfo()` ausgegeben werden.
+- Die aktuellen Einstellungen können mit der Funktion `phpinfo()` ausgegeben werden.
 	- `phpinfo()`erklären/erläutern
 - Demo an Hand von `date.timezone`:
 ```php
@@ -98,7 +98,7 @@ php_value "date.timezone" "Africa/Tripoli"
 ``` 
 
 ### Einstellungen zu Error Reporting
-Die Error Reporting Einstellungen erläutern / deminstrieren.
+Die Error Reporting Einstellungen erläutern / demonstrieren.
 in der php.ini:
 ```ini
 error_reporting   = E_ALL & ~E_NOTICE
@@ -201,6 +201,6 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjExMjY1NiwtMzg0ODM2NjEsLTIxMj
+eyJoaXN0b3J5IjpbLTk1NzM2NjE4OSwtMzg0ODM2NjEsLTIxMj
 IyODk4OTIsMzQ0OTQ0ODEzLC00ODMxNDczMTddfQ==
 -->
