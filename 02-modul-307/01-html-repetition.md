@@ -27,7 +27,7 @@ action
 : Ziel-URL der Datenübertragung
 
 method
-: POST | GET
+: POST / GET
 
 *POST:* Datenübermittlung an Server
 
@@ -46,7 +46,7 @@ Die Daten können auch als URL-Parameter übergeben werden:
 ```
 *POST und GET können auch kombiniert werden.* 
 
-> *DEMO:* REQUEST-Daten in den Browser-Developer-Tools
+> *DEMO:* REQUEST-Daten in den Browser-Developer-Tools anzeigen
 
 ### Input-Felder
 ```html
@@ -108,5 +108,5 @@ required
 : Zwingende Eingabe
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MjQ0NzIzXX0=
+eyJoaXN0b3J5IjpbLTEyMzMxNzU2MDFdfQ==
 -->
