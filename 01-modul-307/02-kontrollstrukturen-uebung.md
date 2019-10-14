@@ -1,6 +1,9 @@
-
+ [Modul 307 / Tag 1](/ilv.307/01-modul-307)
+ 
 # Übung: Kontrollstrukturen  
+
 ## Aufgabe 1
+
 #### Schritt 1
 Generieren Sie in einer Variable `$runs` eine Zufallszahl zwischen 1 und 10 und zeigen Sie diese an.
 *Tipp: Verwenden Sie hierzu `rand()`*
@@ -38,8 +41,6 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Eingebeparameter: Zahl
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
-
- [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MTM3MTc2XX0=
+eyJoaXN0b3J5IjpbLTE0OTM4NDYxOTJdfQ==
 -->
