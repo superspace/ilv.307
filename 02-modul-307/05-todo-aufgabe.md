@@ -19,6 +19,8 @@ Die Einträge werden im JSON-Format in einer lokalen Datei abgelegt.
 Im Feld "Erledigen bis" kann ein Zeitpunkt hinterlegt werden. Der Zeitpunkt muss in der Zukunft liegen. Die Einträge werden nach dem "Erledigen bis"-Zeitpunkt sortiert.
 
 Die einzelnen Einträge können als "Erledigt" markiert werden. Erledigte Aufgaben werden inaktiv dargestellt.
+
+ [Modul 307 / Tag 2](/ilv.307/02-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NjcwNjA5XX0=
+eyJoaXN0b3J5IjpbMTgzNjcyODYwMiw2NTc2NzA2MDldfQ==
 -->
