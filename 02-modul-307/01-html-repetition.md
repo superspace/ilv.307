@@ -46,7 +46,7 @@ Die Daten können auch als URL-Parameter übergeben werden:
 ```
 *POST und GET können auch kombiniert werden.* 
 
-==DEMO: REQUEST-Daten in den Browser-Developer-Tools==
+> *DEMO:* REQUEST-Daten in den Browser-Developer-Tools
 
 ### Input-Felder
 ```html
@@ -108,5 +108,5 @@ required
 : Zwingende Eingabe
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE3NjQzM119
+eyJoaXN0b3J5IjpbMjk0MjQ0NzIzXX0=
 -->
