@@ -78,9 +78,9 @@ Einen Array aus PHP im JSON-Format ausgeben:
 ```php
 $meinJsonString = json_encode($meinArray);`
 ```
-[](https://www.php.net/manual/de/function.json-decode.php)
+[function.json-decode](https://www.php.net/manual/de/function.json-decode.php)
 
-[](https://www.php.net/manual/de/function.json-encode.php)
+[function.json-encode](https://www.php.net/manual/de/function.json-encode.php)
 
 > *DEMO*: JSON-String zu PHP
 
@@ -115,5 +115,5 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 $id = hash('md5', time() .  rand(1000,9999));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MDYyMjQ4LDE5OTc2OTgyNjddfQ==
+eyJoaXN0b3J5IjpbLTExMzE1ODk4NzgsMTk5NzY5ODI2N119
 -->
