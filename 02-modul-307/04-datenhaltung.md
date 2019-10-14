@@ -1,4 +1,5 @@
-
+ [Modul 307 / Tag 2](/ilv.307/02-modul-307)
+ 
 # Datenhaltung
 
 In diesem Modul behandeln wir ausschliesslich **Datei-basierte Datenhaltung**. *Die Anbindung an eine Datenbank wird in einem späteren Modul behandelt.*
@@ -112,8 +113,6 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 ```php
 $id = hash('md5', time() .  rand(1000,9999));
 ```
-
- [Modul 307 / Tag 2](/ilv.307/02-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODY0MDE3NiwxOTk3Njk4MjY3XX0=
+eyJoaXN0b3J5IjpbLTE2NTAwNTM1MCwxOTk3Njk4MjY3XX0=
 -->
