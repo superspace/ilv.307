@@ -6,7 +6,7 @@
 
 #### Schritt 1
 Generieren Sie in einer Variable `$runs` eine Zufallszahl zwischen 1 und 10 und zeigen Sie diese an.
-*Tipp: Verwenden Sie hierzu `rand()`*
+*Tipp: Verwenden Sie hierzu* `rand()`
 
 #### Schritt 2
 Durchlaufen Sie eine Schleife `$runs` Mal und geben Sie bei jedem Durchlauf eine Zufallszahl zwischen 1 und 100 aus.
@@ -42,5 +42,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM4NDYxOTJdfQ==
+eyJoaXN0b3J5IjpbMTY2OTA3NzIzMiwtMTQ5Mzg0NjE5Ml19
 -->
