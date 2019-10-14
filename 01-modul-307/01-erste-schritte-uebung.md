@@ -69,7 +69,9 @@ Erstellen Sie einen Array mit 7 Elementen, wobei jedes Element als Wert einer de
 #### Array II: loopen
 Finden Sie heraus, wie sie am einfachsten einen Loop durch alle Elemente des Arrays machen können. Innerhalb des Loops geben Sie die Werte gefolgt von einem Zeilenumbruch aus:
 > Montag 
+> 
 > Dienstag
+> 
 > Mittwoch
 > Donnerstag
 > Freitag
@@ -87,5 +89,6 @@ Fügen Sie zwischen der Erstellung des Arrays und der Ausgabe eine Codezeile ein
 > Samstag
 > Sonntag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTE1MjU5MywtMTgzOTcyMTU0MF19
+eyJoaXN0b3J5IjpbMTkwMjk0NjE1MywxNjA5MTUyNTkzLC0xOD
+M5NzIxNTQwXX0=
 -->
