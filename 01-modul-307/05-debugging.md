@@ -1,6 +1,6 @@
  [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 
-# Debugging
+# Debugging mit xDebug
 ## Visual Studio Code & xDebug installieren
  
 - Ein gutes Tutorial mit Videoanleitung finden Sie hier:
@@ -10,5 +10,5 @@
 	- xDebug & MAMP: https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/
 	- xDebug & XAMPP: http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTgwNTgwOV19
+eyJoaXN0b3J5IjpbNDMzNzUxNzM0XX0=
 -->
