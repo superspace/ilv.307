@@ -1,6 +1,6 @@
  [Modul 307 / Tag 1](/ilv.307/01-modul-307)
  
-# Übung: Kontrollstrukturen  
+# Übung: Kontrollstrukturen anwenden
 
 ## Aufgabe 1
 
@@ -42,5 +42,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTA3NzIzMl19
+eyJoaXN0b3J5IjpbLTY3MzMzMjA2XX0=
 -->
