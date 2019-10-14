@@ -11,9 +11,9 @@
 
 ### Übungen
 
-- [Übung 1: Erste Schritte mit PHP](/ilv.307/01-modul-307/01-erste-schritte-uebung)
-- [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
+- [Übung 1: Erste Schritte mit PHP](/ilv.307/101-modul-307/01-erste-schritte-uebung)
+- [Übung 2: Kontrollstrukturen](/ilv.307/103-modul-307/02-kontrollstrukturen-uebung)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMDYyNjk2LC0xNjQ0Nzg5MTQyLC0xMT
-Q1ODA5MDM1XX0=
+eyJoaXN0b3J5IjpbLTcwNDIyMTk1NCwtMTY0NDc4OTE0MiwtMT
+E0NTgwOTAzNV19
 -->
