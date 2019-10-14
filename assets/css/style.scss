@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    padding: 2rem 4rem;
+
+    a {
+        display: none;
+    }
+}
+
+.site-footer {
+    display: none;
+}
