@@ -29,7 +29,7 @@ filter_var($email, FILTER_VALIDATE_EMAIL);
 ```
 https://www.php.net/manual/de/function.filter-var.php
 
-
+[Übung Sicherheit und Validierung](/ilv.307/02-modul-307/03.1-sicherheit-validierung-uebung)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjA2MjY5Nl19
+eyJoaXN0b3J5IjpbLTUzMjMxMjQ4NCwtNjgyMDYyNjk2XX0=
 -->
