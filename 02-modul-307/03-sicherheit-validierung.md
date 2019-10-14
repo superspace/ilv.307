@@ -1,3 +1,5 @@
+ [Modul 307 / Tag 2](/ilv.307/02-modul-307)
+
 #  Sicherheit (Filter/Sanitize)
 
 Damit keine falschen oder schädlichen Daten auf dem Server verarbeitet werden, müssen diese erst einer Prüfung unterzogen werden. 
@@ -28,8 +30,6 @@ Spezielle Formate wie z.B. eine E-Mail-Adresse können über PHP Filter validier
 filter_var($email, FILTER_VALIDATE_EMAIL);
 ```
 https://www.php.net/manual/de/function.filter-var.php
-
- [Modul 307 / Tag 2](/ilv.307/02-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ5NzkxMjEsLTY4MjA2MjY5Nl19
+eyJoaXN0b3J5IjpbLTE3NTU5MDQwMTUsLTY4MjA2MjY5Nl19
 -->
