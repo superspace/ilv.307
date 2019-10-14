@@ -78,10 +78,11 @@ Einen Array aus PHP im JSON-Format ausgeben:
 ```php
 $meinJsonString = json_encode($meinArray);`
 ```
-https://www.php.net/manual/de/function.json-decode.php
-https://www.php.net/manual/de/function.json-encode.php
+[](https://www.php.net/manual/de/function.json-decode.php)
 
-==DEMO: JSON-String zu PHP==
+[](https://www.php.net/manual/de/function.json-encode.php)
+
+> *DEMO*: JSON-String zu PHP
 
 ### Datenstruktur
 
@@ -114,5 +115,5 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 $id = hash('md5', time() .  rand(1000,9999));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMzQzNzQ4LDE5OTc2OTgyNjddfQ==
+eyJoaXN0b3J5IjpbNjA3MDYyMjQ4LDE5OTc2OTgyNjddfQ==
 -->
