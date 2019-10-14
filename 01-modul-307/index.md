@@ -8,11 +8,12 @@
 - [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
 
 ### Theorie
-- [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
-- [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
-- [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
-- [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
+- [Dynamischer Webserver](/ilv.307/01-modul-307/01-webserver)
+- [Die Arbeitsumgebung](/ilv.307/01-modul-307/02-arbeitsumgebung)
+- [Debugging mit xDebug](/ilv.307/01-modul-307/05-debugging)
+- [PHP Konfiguration & Error Reporting](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
 - [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODk3NjU2OSwtMTE0NTgwOTAzNV19
+eyJoaXN0b3J5IjpbLTEwNjgwNzY2MTIsLTExNDU4MDkwMzVdfQ
+==
 -->
