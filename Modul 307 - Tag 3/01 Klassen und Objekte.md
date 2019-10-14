@@ -42,17 +42,6 @@ class Hero {
 ```
 Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden. Eine Ausnahme sind statische Methoden oder Konstanten, diese lassen sich auch direkt aufrufen.
 
-```php
-// Objekt erstellen
-$task = new Hero('Spiderman', 'Peter Parker', 5);
-
-// Methode aufrufen
-$popularity = $task->getPopularity();
-
-// Statisch Methode aufrufen
-$isValid = Hero::validatePopularity($popularity);
-``` 
-
 private/public
 : Zugriff auf Attribute und Methoden nur innerhalb des Objekts (*private*) oder auch von aussen (*public*) erlauben
 
@@ -68,6 +57,17 @@ __construct()
 $this
 : Attribute und Methoden werden innerhalb der Klasse über `$this->` aufgerufen.
 
+```php
+// Objekt erstellen
+$task = new Hero('Spiderman', 'Peter Parker', 5);
+
+// Methode aufrufen
+$popularity = $task->getPopularity();
+
+// Statisch Methode aufrufen
+$isValid = Hero::validatePopularity($popularity);
+``` 
+
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
 
@@ -77,6 +77,7 @@ $this
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzQzODI2NywtODg4NjY5Mjg1LC0xMz
-EyNjQ2NDAsLTcxNDg1Mzg3OSwtMTQxNDQxNzA3Ml19
+eyJoaXN0b3J5IjpbOTMzMjQwOTQxLDIwMDM0MzgyNjcsLTg4OD
+Y2OTI4NSwtMTMxMjY0NjQwLC03MTQ4NTM4NzksLTE0MTQ0MTcw
+NzJdfQ==
 -->
