@@ -74,9 +74,7 @@ $isValid = Hero::validatePopularity($popularity);
 ::
 : Der Zugriff auf statische Methoden erfolgt über `::`
 
- [Übung Klassen und Objekte](/ilv.307/03-modul-307/01.1-klassen-objekte-uebung)
-
-
+ [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNzYxOTg2LDkzMzI0MDk0MV19
+eyJoaXN0b3J5IjpbLTEwMzU4MTI5NTIsOTMzMjQwOTQxXX0=
 -->
