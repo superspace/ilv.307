@@ -1,6 +1,6 @@
 ## Modul 307 Tag 2
 
-- [Repetition HTML](01-html-repetition)
+- [Repetition HTML](/ilv.307/02-modul-307/01-html-repetition)
 01.1-html-uebung	
 02-formulardaten-php
 02.1-formulardaten-uebung
