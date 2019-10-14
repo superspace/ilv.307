@@ -105,7 +105,7 @@ type
 required
 : Zwingende Eingabe
 
- [Übung HTML](/ilv.307/02-modul-307/01.1-html-uebung)
+ [Modul 307 / Tag 2](/ilv.307/02-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc1ODQ0MDRdfQ==
+eyJoaXN0b3J5IjpbLTg1MzI2NjM1XX0=
 -->
