@@ -32,12 +32,14 @@ Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
 Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
 
 
-## Aufabe 3
+## Aufgabe 3
 Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 - Erstellen Sie eine Funktionso um da , welche die Aufgabe der Formatierung nach Bedingungen (Farbe /und unterstrichen) übernimmt.
 	- Eingebeparameter: Zahl
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
+
+ [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NTkwNDQ2XX0=
+eyJoaXN0b3J5IjpbOTQ3MTM3MTc2XX0=
 -->
