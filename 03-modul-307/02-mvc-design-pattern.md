@@ -1,4 +1,5 @@
-
+ [Modul 307 / Tag 3](/ilv.307/03-modul-307)
+ 
 # MVC Design-Pattern
 
 Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
@@ -35,8 +36,6 @@ Die Trennung des Datenmodells von der Datenhaltung erlaubt uns z.B. später eine
 
 ## Erweiterbarkeit
 Da die Struktur der Anwendung klar definiert ist, lassen sich zusätzliche Funktionen relativ einfach hinzufügen.
-
- [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Njc4MzA3OSwxNDY4Nzk1MDkwXX0=
+eyJoaXN0b3J5IjpbLTY3NTEzODcxLDE0Njg3OTUwOTBdfQ==
 -->
