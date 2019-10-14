@@ -112,6 +112,8 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 ```php
 $id = hash('md5', time() .  rand(1000,9999));
 ```
+
+[File Handling](/ilv.307/02-modul-307/04.1-file-handling)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzY5ODI2N119
+eyJoaXN0b3J5IjpbLTI0Mzc0NTQyMiwxOTk3Njk4MjY3XX0=
 -->
