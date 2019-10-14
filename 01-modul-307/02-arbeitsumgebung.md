@@ -1,6 +1,6 @@
  [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 
-# Arbeitsumgebung
+# Die Arbeitsumgebung
 - Labor-PC dient als Entwicklungsumgebung
 	- An Stelle des Labor-PC darf auch ein eigenes Device verwendet werden.
 - Dokumentations-PC zum Dokumentieren und Recherchieren
@@ -20,5 +20,5 @@
 - Selbstständiges Herunterladen und Installieren der Umgebung
 - Zielvorgabe: **Im Quellcode Editor ein `Hello World` in PHP programmieren und über `XAMPP`/`MAMP` im Browser anzeigen.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODY2NTUxMF19
+eyJoaXN0b3J5IjpbNjk1MTQ1MjQyXX0=
 -->
