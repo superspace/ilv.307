@@ -39,7 +39,7 @@ JSON (*JavaScript Object Notation*) hat sich in der Webenwticklung als qQuasiSta
 ]
 ```
 
-https://wiki.selfhtml.org/wiki/JSON
+[wiki.selfhtml.org/wiki/JSON](https://wiki.selfhtml.org/wiki/JSON)
 
 ### XML
 
@@ -114,5 +114,5 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 $id = hash('md5', time() .  rand(1000,9999));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAwNTM1MCwxOTk3Njk4MjY3XX0=
+eyJoaXN0b3J5IjpbNjYxMzQzNzQ4LDE5OTc2OTgyNjddfQ==
 -->
