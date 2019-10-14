@@ -12,9 +12,9 @@
 ### Übungen
 
 - [Übung 1: Erste Schritte mit PHP](/ilv.307/101-modul-307/01-erste-schritte-uebung)
-- [Übung 2: Kontrollstrukturen Einführung (Gruppenarbeit)](/ilv.307/103-modul-307/02-kontrollstrukturen-uebung)
+- [Übung 2: Kontrollstrukturen Einführung (Gruppenarbeit)](/ilv.307/102-kontrollstrukturen-einfuhrung)
 - [Übung 3: Kontrollstrukturen anwenden](/ilv.307/103-modul-307/02-kontrollstrukturen-uebung)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzcwNjQwNSwtMTY0NDc4OTE0MiwtMT
-E0NTgwOTAzNV19
+eyJoaXN0b3J5IjpbLTExODcxODk3OTksLTE2NDQ3ODkxNDIsLT
+ExNDU4MDkwMzVdfQ==
 -->
