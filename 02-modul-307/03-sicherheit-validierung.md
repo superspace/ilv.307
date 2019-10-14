@@ -10,7 +10,7 @@ Damit keine falschen oder schädlichen Daten auf dem Server verarbeitet werden, 
 
 - Mit der Funktion `htmlspecialchars()` werden Sonderzeichen  in die entsprechenden HTML-Codes umgewandelt und verhindert damit *Cross-Site-Scripting*.
 
-https://www.php.net/manual/de/function.htmlspecialchars.php
+[function.htmlspecialchars.php](https://www.php.net/manual/de/function.htmlspecialchars.php)
 
 *SQL-Injections wird in einem späteren Modul behandelt.*
 
@@ -22,14 +22,14 @@ Die clientseitige Validierung durch HTML5 oder JavaScript kann in vielen Fällen
 
 Zwingende Felder werden mit `empty()` darauf überprüft, ob ein Wert vorhanden ist.
 
-https://www.php.net/manual/de/function.empty.php
+[function.empty.php](https://www.php.net/manual/de/function.empty.php)
 
 Spezielle Formate wie z.B. eine E-Mail-Adresse können über PHP Filter validiert werden:
 
 ```php
 filter_var($email, FILTER_VALIDATE_EMAIL);
 ```
-https://www.php.net/manual/de/function.filter-var.php
+[function.filter-var.php](https://www.php.net/manual/de/function.filter-var.php)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU5MDQwMTUsLTY4MjA2MjY5Nl19
+eyJoaXN0b3J5IjpbLTY3MTQzODk1MCwtNjgyMDYyNjk2XX0=
 -->
