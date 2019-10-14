@@ -1,3 +1,5 @@
+ [Modul 307 / Tag 1](/ilv.307/01-modul-307)
+
 # PHP Konfiguration & Error Reporting
 ### php.ini
 - Über die php.ini-Datei lässt sich die PHP-Instanz global konfigurieren. Der Speicherort der Datei hängt von der Installation ab.  
@@ -38,5 +40,5 @@ ini_set('display_errors', 'On');
 ```
 [https://www.php.net/manual/de/function.error-reporting.php](https://www.php.net/manual/de/function.error-reporting.php)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIzMjE4NjhdfQ==
+eyJoaXN0b3J5IjpbOTcwODA1NDM5XX0=
 -->
