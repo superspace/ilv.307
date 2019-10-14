@@ -1,5 +1,9 @@
+ [Modul 307 / Tag 1](/ilv.307/01-modul-307)
+
 # Übung: Erste Schritte mit PHP
+
 #### Strings und Zeilenumbruch
+
 Schreiben Sie ein Script, welches folgende Ausgabe macht:
 ```
 Ich übe PHP
@@ -82,8 +86,6 @@ Fügen Sie zwischen der Erstellung des Arrays und der Ausgabe eine Codezeile ein
 > Montag
 > Samstag
 > Sonntag
-
- [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzg4MDU4NywtMTgzOTcyMTU0MF19
+eyJoaXN0b3J5IjpbMTYwOTE1MjU5MywtMTgzOTcyMTU0MF19
 -->
