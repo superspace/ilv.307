@@ -41,6 +41,8 @@ Die Auflistung der erfassten Einträge in HTML.
 `controller.php`
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
+
+ [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTYzNDY5MF19
+eyJoaXN0b3J5IjpbMTU3MTA3MDQ0NSwtOTc1NjM0NjkwXX0=
 -->
