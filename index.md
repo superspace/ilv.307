@@ -2,10 +2,10 @@
 
 ## Interaktive Webseiten mit PHP
 
-[**Tag1:** Einführung in PHP](/ilv.307/01-modul-307)
+[**Tag 1:** Einführung in PHP](/ilv.307/01-modul-307)
 
 
-[**Tag2:** PHP Vertiefung](/ilv.307/02-modul-307)
+[**Tag 2:** PHP Vertiefung](/ilv.307/02-modul-307)
 
 
 [**Tag 3:** Klassen und Objekte](/ilv.307/03-modul-307)
@@ -15,7 +15,7 @@
 
 [**Tag 5**: KNW]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTcxMDQwOCwxOTU5MDEzMDg1LDg5Mz
-AyOTQ1NCwtMTQ0MzQyODE3OCwtMTM2MjAwMTY4OSwxNDY5MTg1
-OTJdfQ==
+eyJoaXN0b3J5IjpbNDA5MDUxMzY0LDE5NTkwMTMwODUsODkzMD
+I5NDU0LC0xNDQzNDI4MTc4LC0xMzYyMDAxNjg5LDE0NjkxODU5
+Ml19
 -->
