@@ -1,6 +1,10 @@
  [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 
 # Übung: Erste Schritte mit PHP
+##### Hilfreiche Links:
+- [https://www.w3schools.com/php/](https://www.w3schools.com/php/)
+- [https://developer.hyvor.com/tutorials/php](https://developer.hyvor.com/tutorials/php)
+- [https://www.php.net/](https://www.php.net/)
 
 #### Strings und Zeilenumbruch
 
@@ -99,5 +103,5 @@ Fügen Sie zwischen der Erstellung des Arrays und der Ausgabe eine Codezeile ein
 >
 > Sonntag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MjU2NDk5XX0=
+eyJoaXN0b3J5IjpbMTg1MzkzNjg3Nl19
 -->
