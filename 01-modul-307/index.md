@@ -11,9 +11,9 @@
 - [Dynamischer Webserver](/ilv.307/01-modul-307/01-webserver)
 - [Die Arbeitsumgebung](/ilv.307/01-modul-307/02-arbeitsumgebung)
 - [Debugging mit xDebug](/ilv.307/01-modul-307/05-debugging)
-- [PHP Konfiguration & Error Reporting](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
-- [Übung 2: Kontrollstrukturen](/ilv.307/01-modul-307/02-kontrollstrukturen-uebung)
+- [PHP Konfiguration & Error Reporting](/ilv.307/01-modul-307/06-php-konfiguration-errorrep)
+- [Multidimenionale Arrays](/ilv.307/01-modul-307/07-multidimensionale-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgwNzY2MTIsLTExNDU4MDkwMzVdfQ
+eyJoaXN0b3J5IjpbLTE2NDQ3ODkxNDIsLTExNDU4MDkwMzVdfQ
 ==
 -->
