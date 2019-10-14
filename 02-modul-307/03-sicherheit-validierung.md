@@ -4,7 +4,8 @@
 
 Damit keine falschen oder schädlichen Daten auf dem Server verarbeitet werden, müssen diese erst einer Prüfung unterzogen werden. 
 
-==DEMO: Cross-Site-Scripting==
+DEMO
+: Cross-Site-Scripting
 
 - Mit der Funktion `trim()` werden unnötige Leerschläge entfernt. Dies erleichtert die Validierung von  Pflichtfeldern.
 
@@ -31,5 +32,5 @@ filter_var($email, FILTER_VALIDATE_EMAIL);
 ```
 [function.filter-var.php](https://www.php.net/manual/de/function.filter-var.php)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTQzODk1MCwtNjgyMDYyNjk2XX0=
+eyJoaXN0b3J5IjpbMTcxMzQ4Njc5MiwtNjgyMDYyNjk2XX0=
 -->
