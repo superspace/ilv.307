@@ -7,11 +7,11 @@ PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. *Dies ist 
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
 
 ```mermaid
-classDiagram
 
 Hero
 Hero : string name
 Hero : string realname
+Hero : setPopularity
 ```
 
 ```php
@@ -85,7 +85,7 @@ $isValid = Hero::validatePopularity($popularity);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTU0NDEwMSw5MzMyNDA5NDEsMjAwMz
-QzODI2NywtODg4NjY5Mjg1LC0xMzEyNjQ2NDAsLTcxNDg1Mzg3
-OSwtMTQxNDQxNzA3Ml19
+eyJoaXN0b3J5IjpbLTE1NzAwMTUyNTMsOTMzMjQwOTQxLDIwMD
+M0MzgyNjcsLTg4ODY2OTI4NSwtMTMxMjY0NjQwLC03MTQ4NTM4
+NzksLTE0MTQ0MTcwNzJdfQ==
 -->
