@@ -1,3 +1,5 @@
+ [Modul 307 / Tag 1](/ilv.307/01-modul-307)
+
 # Multidimenionale Arrays
 - Von `multidimensionale Arrays` spricht man, wenn Arrays als Elemente in eines Arrays gespeichert sind.  Die Arrays sind somit ineinander verschachtelt.
 - Damit lassen sich einfach hierarchische Strukturen abbilden.
@@ -72,5 +74,5 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU4NDg0MDhdfQ==
+eyJoaXN0b3J5IjpbMTg3NzgwMzVdfQ==
 -->
