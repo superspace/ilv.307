@@ -29,6 +29,7 @@ if (isset($_POST['realname']))
 
 ==DEMO: Ausgabe von $_POST und $_GET==
 
+[Übung Formulardaten](/ilv.307/02-modul-307/02.1-formulardaten-uebung)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzNjcwMzYxXX0=
+eyJoaXN0b3J5IjpbMzYxNjE0NTg2XX0=
 -->
