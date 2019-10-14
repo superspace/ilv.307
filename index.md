@@ -1,12 +1,7 @@
 # Modul 307
 
-## Tag 1
-
-1. [Einführung in PHP Teil 1 ](http://example.com)
-
-## Tag 2
-
-## Tag 3
+`{:toc}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIwMDE2ODksMTQ2OTE4NTkyXX0=
+eyJoaXN0b3J5IjpbLTEzMzM3MDU5MCwtMTM2MjAwMTY4OSwxND
+Y5MTg1OTJdfQ==
 -->
