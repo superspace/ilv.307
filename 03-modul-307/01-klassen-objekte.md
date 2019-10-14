@@ -1,3 +1,5 @@
+ [Modul 307 / Tag 3](/ilv.307/03-modul-307)
+
 # PHP Klassen und Objekte
 
 PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. *Dies ist nicht eine Einführung in die Objekt-orientierte Programmierung.*
@@ -73,8 +75,6 @@ $isValid = Hero::validatePopularity($popularity);
 
 ::
 : Der Zugriff auf statische Methoden erfolgt über `::`
-
- [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU4MTI5NTIsOTMzMjQwOTQxXX0=
+eyJoaXN0b3J5IjpbLTE4ODA0MzA5MCw5MzMyNDA5NDFdfQ==
 -->
