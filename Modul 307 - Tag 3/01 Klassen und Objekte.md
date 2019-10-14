@@ -8,29 +8,10 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden kÃ
 
 ```mermaid
 classDiagram
+
 Hero
-```
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+Hero : string name
+Hero : string realname
 ```
 
 ```php
@@ -104,7 +85,7 @@ $isValid = Hero::validatePopularity($popularity);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk0NjQ4MCw5MzMyNDA5NDEsMjAwMz
+eyJoaXN0b3J5IjpbLTQ3MTU0NDEwMSw5MzMyNDA5NDEsMjAwMz
 QzODI2NywtODg4NjY5Mjg1LC0xMzEyNjQ2NDAsLTcxNDg1Mzg3
 OSwtMTQxNDQxNzA3Ml19
 -->
