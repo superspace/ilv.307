@@ -86,13 +86,19 @@ Finden Sie heraus, wie sie am einfachsten einen Loop durch alle Elemente des Arr
 Fügen Sie zwischen der Erstellung des Arrays und der Ausgabe eine Codezeile ein, welche die Werte im Array alphabetisch sortiert. Die Ausgabe soll danach wie folgt aussehen:
 
 > Dienstag
+>
 > Donnerstag
+>
 > Freitag
+>
 > Mittwoch
+>
 > Montag
+>
 > Samstag
+>
 > Sonntag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzAxMzEwOSw5MDUzNjk4MTksMTYwOT
-E1MjU5MywtMTgzOTcyMTU0MF19
+eyJoaXN0b3J5IjpbNTE3MjU2NDk5LDkwNTM2OTgxOSwxNjA5MT
+UyNTkzLC0xODM5NzIxNTQwXX0=
 -->
