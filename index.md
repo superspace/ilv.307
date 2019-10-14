@@ -2,31 +2,20 @@
 
 ## Interaktive Webseiten mit PHP
 
-#### Tag 1
+[**Tag1:** Einführung in PHP](/ilv.307/01-modul-307)
 
-[**Einführung in PHP** ](/ilv.307/01-modul-307)
 
-#### Tag 2
+[**Tag2:** PHP Vertiefung](/ilv.307/02-modul-307)
 
-[**PHP Vertiefung**](/ilv.307/02-modul-307)
 
-#### Tag 3
+[**Tag 3:** Klassen und Objekte](/ilv.307/03-modul-307)
 
-[**Klassen und Objekte**](/ilv.307/03-modul-307)
 
-#### Tag 4
+[**Tag 4**: API-Schnittstellen]()
 
-**API-Schnittstellen**
-
-#### Tag 5
-
-[**KNW**]()
-
-**Tag 4** *DO, 24.10.2019*
-
-**Tag 5** *DO, 25.10.2019*
+[**Tag 5**: KNW]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5OTIwNjcsMTk1OTAxMzA4NSw4OTMwMj
-k0NTQsLTE0NDM0MjgxNzgsLTEzNjIwMDE2ODksMTQ2OTE4NTky
-XX0=
+eyJoaXN0b3J5IjpbMTUxNTcxMDQwOCwxOTU5MDEzMDg1LDg5Mz
+AyOTQ1NCwtMTQ0MzQyODE3OCwtMTM2MjAwMTY4OSwxNDY5MTg1
+OTJdfQ==
 -->
