@@ -1,3 +1,5 @@
+ [Modul 307 / Tag 2](/ilv.307/02-modul-307)
+
 # Formulardaten in PHP
 
 Die Request-Daten eines Serveraufrufes werden in den PHP Superglobals `$_REQUEST`, `$_GET` und `$_POST` als Schlüssel-Wert-Paare in einem Array abgelegt. 
@@ -28,8 +30,6 @@ if (isset($_POST['realname']))
 ```
 
 ==DEMO: Ausgabe von $_POST und $_GET==
-
- [Modul 307 / Tag 2](/ilv.307/02-modul-307)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzg3MzkyXX0=
+eyJoaXN0b3J5IjpbMTE4Nzk4NzM2MF19
 -->
