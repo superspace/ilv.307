@@ -75,6 +75,11 @@ $isValid = Hero::validatePopularity($popularity);
 
 ::
 : Der Zugriff auf statische Methoden erfolgt über `::`
+
+## Code-Dokumentation
+
+==TODO:== PHPDoc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA0MzA5MCw5MzMyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbNzcxMjgxNzUyLC0xODgwNDMwOTAsOTMzMj
+QwOTQxXX0=
 -->
