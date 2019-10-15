@@ -95,15 +95,13 @@ Durch die Standardisierung ist der DocBlock sehr einfach zu lesen und zu versteh
  *
  * @since 1.0
  *
- * @param int    $wert  This is an example parameter description.
- * @param string $wert2 This is a second example.
+ * @param int    $wert  Das ist die Parameter-Beschreibung.
+ * @param string $wert2 Dies ist ein weiterer Wert.
  * 
- * @return null
+ * @return string  Das ist der Rückgabewert der Funktion.
  */
 ```
-
-[docs.phpdoc.org](https://docs.phpdoc.org/references/phpdoc/basic-syntax.html#what-is-a-docblock)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzc4MjI0NiwtMTg4MDQzMDkwLDkzMz
-I0MDk0MV19
+eyJoaXN0b3J5IjpbLTIwMDEyOTc4ODcsLTE4ODA0MzA5MCw5Mz
+MyNDA5NDFdfQ==
 -->
