@@ -80,14 +80,14 @@ $isValid = Hero::validatePopularity($popularity);
 
 ### DocBlock
 
+Mit dem DocBlock-Standart lassen sich Funktionen, Methoden und Attribute  
+
 ```php
  /**
  * Einzelige Zusammenfassung
  *
- * Auführlichere Beschreibung, auch in mehreren 
+ * Auführlichere Beschreibung, gerne auch über mehrere 
  * Zeilen.
- *
- * Nach der Beschreibung folgen die strukturierten Meta-Daten:
  *
  * @author  Urs Beyeler <dev@superspace.ch>
  *
@@ -100,6 +100,6 @@ $isValid = Hero::validatePopularity($popularity);
  */
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODE0NTU2NCwtMTg4MDQzMDkwLDkzMz
-I0MDk0MV19
+eyJoaXN0b3J5IjpbLTE3NjgzMjU3NzcsLTE4ODA0MzA5MCw5Mz
+MyNDA5NDFdfQ==
 -->
