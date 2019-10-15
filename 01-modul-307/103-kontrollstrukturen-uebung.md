@@ -32,8 +32,6 @@ Generieren Sie eine Schulnote (1-6) per Zufall.
 Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
 > Note: 4 (genügend)
 
-Verwenden Sie für diese Ausgabe ein `switch-case` Struktur.
-
 
 ## Aufgabe 3
 Bauen Sie das Script aus Aufgabe 1 wie folgt um:
@@ -42,5 +40,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzMzMjA2XX0=
+eyJoaXN0b3J5IjpbMTUwMjczMjEwNiwtNjczMzMyMDZdfQ==
 -->
