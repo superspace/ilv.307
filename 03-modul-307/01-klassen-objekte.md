@@ -82,13 +82,12 @@ $isValid = Hero::validatePopularity($popularity);
 
 ```php
  /**
- * This is the summary for a DocBlock.
+ * Zusammenfassung der Funktion.
  *
- * This is the description for a DocBlock. This text may contain
- * multiple lines and even some _markdown_.
+ * Die Beschreibung der Funktion, auch in mehreren 
+ * Zeilen.
  *
- * The section after the description contains the tags; which provide
- * structured meta-data concerning the given element.
+ * Nach 
  *
  * @author  Mike van Riel <me@mikevanriel.com>
  *
@@ -97,10 +96,11 @@ $isValid = Hero::validatePopularity($popularity);
  * @param int    $example  This is an example parameter description.
  * @param string $example2 This is a second example.
  * 
- y3*
+ * @return null
+ *
  */
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAzMzQ0NzcsLTE4ODA0MzA5MCw5Mz
-MyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbLTIyNzYxMDUzMiwtMTg4MDQzMDkwLDkzMz
+I0MDk0MV19
 -->
