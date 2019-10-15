@@ -78,8 +78,8 @@ $isValid = Hero::validatePopularity($popularity);
 
 ## Code-Dokumentation
 
-==TODO:== PHPDoc
+DocBl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMjgxNzUyLC0xODgwNDMwOTAsOTMzMj
+eyJoaXN0b3J5IjpbNDEzMjIwNjIyLC0xODgwNDMwOTAsOTMzMj
 QwOTQxXX0=
 -->
