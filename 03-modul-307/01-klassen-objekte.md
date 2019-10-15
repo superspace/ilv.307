@@ -80,7 +80,9 @@ $isValid = Hero::validatePopularity($popularity);
 
 ### DocBlock
 
-Mit dem DocBlock-Standart lassen sich Funktionen, Methoden und Attribute  
+Ein DocBlock ist ein standardisiert aufgebauter Kommentar um Funktionen, Methoden und Attribute  zu dokumentieren.
+
+Durch die Standardisierung ist der DocBlock sehr einfach zu lesen und zu verstehen und es ist möglich, die technische Dokumentation des Codes zu automatisieren.
 
 ```php
  /**
@@ -100,6 +102,6 @@ Mit dem DocBlock-Standart lassen sich Funktionen, Methoden und Attribute
  */
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgzMjU3NzcsLTE4ODA0MzA5MCw5Mz
-MyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbLTg5NTU0Mzg1MCwtMTg4MDQzMDkwLDkzMz
+I0MDk0MV19
 -->
