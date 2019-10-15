@@ -29,25 +29,6 @@ action
 method
 : POST / GET
 
-*POST:* Datenübermittlung an Server
-
-*GET:* Datenanfrage an Server. 
-
-Die Daten können auch als URL-Parameter übergeben werden: 
-
- `https://www.google.com/search?q=Suchbegriff`
-
- ist dasselbe wie:
-```html
-<form action="https://www.google.com/search" method="get">
-    <input type="text" name="q" value="Suchbegriff" />
-    <button type="submit">Senden</button>
-</form>
-```
-*POST und GET können auch kombiniert werden.* 
-
-> *DEMO:* REQUEST-Daten in den Browser-Developer-Tools anzeigen
-
 ### Input-Felder
 ```html
 <label for="field1">Feld 1</label>
@@ -107,6 +88,26 @@ type
 required
 : Zwingende Eingabe
 
+## Datenübermittlung im Browser
+
+*POST:* Datenübermittlung an Server
+
+*GET:* Datenanfrage an Server. 
+
+Die Daten können auch als URL-Parameter übergeben werden: 
+
+ `https://www.google.com/search?q=Suchbegriff`
+
+ ist dasselbe wie:
+```html
+<form action="https://www.google.com/search" method="get">
+    <input type="text" name="q" value="Suchbegriff" />
+    <button type="submit">Senden</button>
+</form>
+```
+*POST und GET können auch kombiniert werden.* 
+
+> *DEMO:* REQUEST-Daten in den Browser-Developer-Tools anzeigen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMxNzU2MDFdfQ==
+eyJoaXN0b3J5IjpbLTY4MjYyNzYzOCwtMTIzMzE3NTYwMV19
 -->
