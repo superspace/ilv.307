@@ -82,25 +82,22 @@ $isValid = Hero::validatePopularity($popularity);
 
 ```php
  /**
- * Zusammenfassung der Funktion.
+ * Einzelige Zusammenfassung der Funktion
  *
  * Die Beschreibung der Funktion, auch in mehreren 
  * Zeilen.
  *
- * Nach 
+ * Nach der Beschreibung folgen die strukturierten Meta-Daten:
  *
- * @author  Mike van Riel <me@mikevanriel.com>
- *
- * @since 1.0
+ * @author  Urs Beyeler <dev@superspace.ch>
  *
  * @param int    $example  This is an example parameter description.
  * @param string $example2 This is a second example.
  * 
  * @return null
- *
  */
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzYxMDUzMiwtMTg4MDQzMDkwLDkzMz
-I0MDk0MV19
+eyJoaXN0b3J5IjpbODA4NTYxNDMsLTE4ODA0MzA5MCw5MzMyND
+A5NDFdfQ==
 -->
