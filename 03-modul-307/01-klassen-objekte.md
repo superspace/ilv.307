@@ -84,6 +84,8 @@ Ein DocBlock ist ein standardisiert aufgebauter Kommentar um Funktionen, Methode
 
 Durch die Standardisierung ist der DocBlock sehr einfach zu lesen und zu verstehen und es ist möglich, die technische Dokumentation des Codes zu automatisieren.
 
+[docs.phpdoc.org](https://docs.phpdoc.org/references/phpdoc/basic-syntax.html#what-is-a-docblock)
+
 ```php
  /**
  * Einzelige Zusammenfassung
@@ -101,7 +103,13 @@ Durch die Standardisierung ist der DocBlock sehr einfach zu lesen und zu versteh
  * @return string  Das ist der Rückgabewert der Funktion.
  */
 ```
+
+Der DocBlock besteht im Wesentlichen aus 3 Teilen:
+
+-  Zusammenfassung
+- Beschreibung
+- Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDEyOTc4ODcsLTE4ODA0MzA5MCw5Mz
-MyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbOTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMj
+QwOTQxXX0=
 -->
