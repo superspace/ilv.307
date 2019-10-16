@@ -27,7 +27,8 @@ Kopieren Sie Ihren Code und bauen Sie Ihre `while`-Schlife zu einer `for`-Schlei
 ## Aufgabe 2
 #### Schritt 1
 Generieren Sie eine Schulnote (1-6) per Zufall nach folgender Formel:
-``
+`(Erreichte Punktezahl / Maximale Punktezahl * 5) + 1`
+Sowohl die erreichte wie auch die maximale Punktezahl so
 
 #### Schritt 2
 Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
@@ -41,5 +42,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjEyOTMyM119
+eyJoaXN0b3J5IjpbLTQ4MDg2OTE2XX0=
 -->
