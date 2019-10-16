@@ -35,20 +35,20 @@ foreach ($flugzeuge  as  $flugzeug)
 	print("----------<br>\n");
 }
 ```
-
- Registrierung: HB-ABCD 
- Hersteller: Airbus  
- Typ: A380
-    ----------
- Registrierung: HB-CDE  
- Hersteller: Boeing  
- Typ: B777
-    ----------
- Registrierung: HB-ZCD  
- Hersteller: Piper  
- Typ: Archer
-    ----------
-
+```
+Registrierung: HB-ABC
+Hersteller: Airbus  
+Typ: A380
+----------
+Registrierung: HB-CDE  
+Hersteller: Boeing  
+Typ: B777
+----------
+Registrierung: HB-ZCD  
+Hersteller: Piper  
+Typ: Archer
+----------
+```
 
 Alternativ können durch einen weiteren Loop alle Attribute dynamisch ausgelesen werden:
 ```php
@@ -61,18 +61,20 @@ foreach ($flugzeuge as $flugzeug)
         print("----------<br>\n");
 }
 ```
- > registrierung: HB-ABC  
-    hersteller: Airbus  
-    typ: A380
-    ----------
-    registrierung: HB-CDE  
-    hersteller: Boeing  
-    typ: B777
-    ----------
-    registrierung: HB-ZCD  
-    hersteller: Piper  
-    typ: Archer
-    ----------
+```
+registrierung: HB-ABC  
+hersteller: Airbus  
+typ: A380
+----------
+registrierung: HB-CDE  
+hersteller: Boeing  
+typ: B777
+----------
+registrierung: HB-ZCD  
+hersteller: Piper  
+typ: Archer
+----------
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4ODE0MjA3LDE4Nzc4MDM1XX0=
+eyJoaXN0b3J5IjpbLTEyODIxODA4OTEsMTg3NzgwMzVdfQ==
 -->
