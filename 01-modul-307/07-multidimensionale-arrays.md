@@ -36,18 +36,18 @@ foreach ($flugzeuge  as  $flugzeug)
 }
 ```
 
- > Registrierung: HB-ABCD 
-    Hersteller: Airbus  
-    Typ: A380
-        ----------
-    Registrierung: HB-CDE  
-    Hersteller: Boeing  
-    Typ: B777
-        ----------
-    Registrierung: HB-ZCD  
-    Hersteller: Piper  
-    Typ: Archer
-        ----------
+ Registrierung: HB-ABCD 
+ Hersteller: Airbus  
+ Typ: A380
+    ----------
+ Registrierung: HB-CDE  
+ Hersteller: Boeing  
+ Typ: B777
+    ----------
+ Registrierung: HB-ZCD  
+ Hersteller: Piper  
+ Typ: Archer
+    ----------
 
 
 Alternativ können durch einen weiteren Loop alle Attribute dynamisch ausgelesen werden:
@@ -74,5 +74,5 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjkxMDQ3OSwxODc3ODAzNV19
+eyJoaXN0b3J5IjpbOTY4ODE0MjA3LDE4Nzc4MDM1XX0=
 -->
