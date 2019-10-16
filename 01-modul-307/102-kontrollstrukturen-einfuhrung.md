@@ -1,3 +1,4 @@
+ [Modul 307 / Tag 1](/ilv.307/01-modul-307)
 # Gruppenarbeit Kontrollstrukturen
 ##  Ausgangslage
 Wie in den meisten Programmiersprachen existieren auch in PHP folgende Kontrollstrukturen:
@@ -18,5 +19,5 @@ Wie in den meisten Programmiersprachen existieren auch in PHP folgende Kontrolls
 - *TIPP: Ihre Präsentation wird spannender, wenn Sie am Beamer teile des Codes entstehen lassen oder verändern, statt nur einen fertigen Code zu präsentieren.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3NzY4ODQxXX0=
+eyJoaXN0b3J5IjpbMTEyNTE0NTU3NCw4Mzc3Njg4NDFdfQ==
 -->
