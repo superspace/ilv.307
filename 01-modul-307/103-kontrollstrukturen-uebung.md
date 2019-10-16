@@ -35,10 +35,11 @@ Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
 
 ## Aufgabe 3
 Bauen Sie das Script aus Aufgabe 1 wie folgt um:
-- Erstellen Sie eine Funktionso um da , welche die Aufgabe der Formatierung nach Bedingungen (Farbe /und unterstrichen) übernimmt.
+- Erstellen Sie eine Funktion, welche die Aufgabe der Formatierung nach Bedingungen (Farbe/unterstrichen) übernimmt.
 	- Eingebeparameter: Zahl
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjczMjEwNiwtNjczMzMyMDZdfQ==
+eyJoaXN0b3J5IjpbNjg0MjE1NjEwLDE1MDI3MzIxMDYsLTY3Mz
+MzMjA2XX0=
 -->
