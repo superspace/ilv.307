@@ -30,7 +30,7 @@ Generieren Sie eine Schulnote (1-6) per Zufall nach folgender Formel:
 `(Erreichte Punktezahl / Maximale Punktezahl * 5) + 1`
 Sowohl die erreichte wie auch die maximale Punktezahl sollen per Zufall generiert werden. Beachten Sie dabei:
 - Die erreichte Punktezahl darf nicht grösser als die maximale Punktezahl sein!
-- Es muss auf ganze Noten gerundet werden.
+- Es muss auf ein "ganze" Noten gerundet werden.
 
 #### Schritt 2
 Geben Sie die Note als Zahl und als Wort (6 = "sehr gut", 5= "gut" usw.) aus:
@@ -44,5 +44,5 @@ Bauen Sie das Script aus Aufgabe 1 wie folgt um:
 	- Ausgabe: Formatiertes HTML-Code Segment
 - Rufen Sie die Funktion innerhalb der Schleife entsprechend auf. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDMwNjEzMl19
+eyJoaXN0b3J5IjpbNjI1OTY5MTUwXX0=
 -->
