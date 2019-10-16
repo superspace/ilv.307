@@ -36,7 +36,7 @@ foreach ($flugzeuge  as  $flugzeug)
 }
 ```
 
- > Registrierung: HB-ABC  
+ > Registrierung: HB-ABCD 
     Hersteller: Airbus  
     Typ: A380
         ----------
@@ -74,5 +74,5 @@ foreach ($flugzeuge as $flugzeug)
     typ: Archer
     ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc0OTE0MDUsMTg3NzgwMzVdfQ==
+eyJoaXN0b3J5IjpbMTE5MjkxMDQ3OSwxODc3ODAzNV19
 -->
