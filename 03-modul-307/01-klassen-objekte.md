@@ -69,12 +69,8 @@ $popularity = $hero->getPopularity();
 // Setter aufrufen
 $hero->setPopularity($popularity);
 ``` 
-
 ->
-: Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Operator `->`
-
-::
-: Der Zugriff auf statische Methoden erfolgt über `::`
+: Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
 
 ## Code-Dokumentation
 
@@ -110,7 +106,7 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTQ1NzYzNywtNzI3MDg5OTg1LDY0Mj
-Y3NDg0MiwxOTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1ODY0Nzgz
-NSwtMTg4MDQzMDkwLDkzMzI0MDk0MV19
+eyJoaXN0b3J5IjpbMTc2NDYxMDg4LC03MjcwODk5ODUsNjQyNj
+c0ODQyLDE5MzAyMjM1OTcsLTE2MzA0NzAxMTcsOTU4NjQ3ODM1
+LC0xODgwNDMwOTAsOTMzMjQwOTQxXX0=
 -->
