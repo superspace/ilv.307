@@ -16,9 +16,9 @@ Der Grundsatz entspricht der Forderung, dass jede Einheit eine klare Aufgabe hat
 
 Ziel des Musters ist ein flexibler Programmentwurf, der eine spätere Änderung oder Erweiterung erleichtert und eine Wiederverwendbarkeit der einzelnen Komponenten möglich macht.
 
-## Trennung von Daten, Darstellung und Logik
-
 ![MVC](/ilv.307/assets/images/mvc-diagram.png)
+
+## Trennung von Daten, Darstellung und Logik
 
 ### Daten (Model)
 Im Model sind unsere Datenfelder sowie die Schnittstelle zur Datenhaltung definiert. 
@@ -39,6 +39,6 @@ Die Trennung des Datenmodells von der Datenhaltung erlaubt uns z.B. später eine
 ## Erweiterbarkeit
 Da die Struktur der Anwendung klar definiert ist, lassen sich zusätzliche Funktionen relativ einfach hinzufügen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1MjE1NzQ0LC02NzUxMzg3MSwxNDY4Nz
+eyJoaXN0b3J5IjpbNjg0NjQ1Mzc2LC02NzUxMzg3MSwxNDY4Nz
 k1MDkwXX0=
 -->
