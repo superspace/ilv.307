@@ -29,7 +29,6 @@ Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attribu
 
 ![MVC](/ilv.307/assets/images/uml-class-task.png)
 
-
 `public/index.php`
 
 index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `view` lässt sich die Ansicht steuern.
@@ -46,6 +45,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5Mzc2MDE1LC0xNjQ2MjA3MjY3LC05Nz
-U2MzQ2OTBdfQ==
+eyJoaXN0b3J5IjpbLTExOTI1OTU1MSwtMTY0NjIwNzI2NywtOT
+c1NjM0NjkwXX0=
 -->
