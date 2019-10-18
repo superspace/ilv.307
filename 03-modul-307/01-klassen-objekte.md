@@ -15,32 +15,32 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden kÃ
 class Hero {
 
 	// Attribute
-	public $name = '';
-	public $realname = '';
-	private $popularity = 0;
+	public string $name = '';
+	public string $realname = '';
+	private int $popularity = 0;
 
 	// Konstante
 	const POPULARITY_MAX = 5;	
 
 	// Konstruktor
-	function __construct ($name, $realname, $popularity) {
+	function __construct (string $name, string $realname, int $popularity) : void {
 		$this->name = $name;
 		$this->realname = $realname;
 		$this->setPopularity($popularity);
 	}
 
 	// Methoden
-	public function setPopularity ($popularity) {
+	public function setPopularity (int $popularity) : void {
 		if (self::validatePopularity($popularity)) {
 			$this->popularity = $popularity;
 		}
 	}
 
-	public function getPopularity () {
+	public function getPopularity () : int {
 		return $this->popularity;
 	}
 
-        static function validatePopularity ($popularity) {
+        static function validatePopularity (int $popularity) : boolean {
 		return ($popularity > 0 && $popularity <= self::POPULARITY_MAX);
 	}
 }
@@ -113,6 +113,7 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDIyMzU5NywtMTYzMDQ3MDExNyw5NT
-g2NDc4MzUsLTE4ODA0MzA5MCw5MzMyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbNjQyNjc0ODQyLDE5MzAyMjM1OTcsLTE2Mz
+A0NzAxMTcsOTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMjQwOTQx
+XX0=
 -->
