@@ -27,6 +27,9 @@ Das JSON-File zur Speicherung der Daten.
 
 Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attributen und Methoden zur Eingabe-Verarbeitung Validierung und Speicherung. 
 
+![MVC](/ilv.307/assets/images/uml-class-task.png)
+
+
 `public/index.php`
 
 index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `view` lässt sich die Ansicht steuern.
@@ -43,5 +46,6 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYyMDcyNjcsLTk3NTYzNDY5MF19
+eyJoaXN0b3J5IjpbODY5Mzc2MDE1LC0xNjQ2MjA3MjY3LC05Nz
+U2MzQ2OTBdfQ==
 -->
