@@ -4,6 +4,7 @@
 
 PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. *Dies ist nicht eine Einführung in die Objekt-orientierte Programmierung.*
 
+
 ## Klasse
 
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
@@ -112,6 +113,6 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA0NzAxMTcsOTU4NjQ3ODM1LC0xOD
-gwNDMwOTAsOTMzMjQwOTQxXX0=
+eyJoaXN0b3J5IjpbMTkzMDIyMzU5NywtMTYzMDQ3MDExNyw5NT
+g2NDc4MzUsLTE4ODA0MzA5MCw5MzMyNDA5NDFdfQ==
 -->
