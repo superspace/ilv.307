@@ -10,7 +10,6 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden k√
 
 ![UML Diagram](/ilv.307/assets/images/uml-class-hero.png)
 
-
 ```php
 class Hero {
 
@@ -113,6 +112,6 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE4MDA0MDMsOTU4NjQ3ODM1LC0xOD
+eyJoaXN0b3J5IjpbLTE2MzA0NzAxMTcsOTU4NjQ3ODM1LC0xOD
 gwNDMwOTAsOTMzMjQwOTQxXX0=
 -->
