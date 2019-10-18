@@ -31,7 +31,7 @@ class Hero {
 
 	// Methoden
 	public function setPopularity (int $popularity) : void {
-		if (self::validatePopularity($popularity)) {
+		if ($this->validatePopularity($popularity)) {
 			$this->popularity = $popularity;
 		}
 	}
@@ -40,7 +40,7 @@ class Hero {
 		return $this->popularity;
 	}
 
-        static function validatePopularity (int $popularity) : bool {
+        private function validatePopularity (int $popularity) : bool {
 		return ($popularity > 0 && $popularity <= self::POPULARITY_MAX);
 	}
 }
@@ -49,9 +49,6 @@ Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine 
 
 private/public
 : Zugriff auf Attribute und Methoden nur innerhalb des Objekts (*private*) oder auch von aussen (*public*) erlauben
-
-static
-: Definition einer statischen Methode. In statischen Methoden ist es nicht möglich, auf `$this` zuzugreifen.
 
 const
 : Definition einer Konstanten, Aufruf über `self::PRIORITY_MAX`
@@ -64,13 +61,13 @@ $this
 
 ```php
 // Objekt erstellen
-$task = new Hero('Spiderman', 'Peter Parker', 5);
+$hero = new Hero('Spiderman', 'Peter Parker', 5);
 
-// Methode aufrufen
-$popularity = $task->getPopularity();
+// Getter aufrufen
+$popularity = $hero->getPopularity();
 
-// Statisch Methode aufrufen
-$isValid = Hero::validatePopularity($popularity);
+// Setter aufrufen
+$hero->setPopularity($popularity);
 ``` 
 
 ->
@@ -113,7 +110,7 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzA4OTk4NSw2NDI2NzQ4NDIsMTkzMD
-IyMzU5NywtMTYzMDQ3MDExNyw5NTg2NDc4MzUsLTE4ODA0MzA5
-MCw5MzMyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbLTQ5NTQ1NzYzNywtNzI3MDg5OTg1LDY0Mj
+Y3NDg0MiwxOTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1ODY0Nzgz
+NSwtMTg4MDQzMDkwLDkzMzI0MDk0MV19
 -->
