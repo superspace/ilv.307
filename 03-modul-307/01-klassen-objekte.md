@@ -8,6 +8,8 @@ PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. *Dies ist 
 
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
 
+![UML Diagram](assets/images/uml-class-hero.png)
+
 ```php
 class Hero {
 
@@ -110,6 +112,6 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMj
-QwOTQxXX0=
+eyJoaXN0b3J5IjpbNzc0MzY5NDQyLDk1ODY0NzgzNSwtMTg4MD
+QzMDkwLDkzMzI0MDk0MV19
 -->
