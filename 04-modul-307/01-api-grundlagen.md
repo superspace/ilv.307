@@ -7,7 +7,7 @@
 
 ### API vs ABI
 - Der Datenaustausch einer API erfolgt immer in Form von Text.
-- Eine ABI (application binary interface) kommuniziert auf Basis vo Maschinencode
+- Eine ABI (application binary interface) kommuniziert auf Basis von Maschinencode (z.B. ein Grafikkarten-Treiber)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk4NDkzNTJdfQ==
+eyJoaXN0b3J5IjpbMTM2MTEwNjIxNl19
 -->
