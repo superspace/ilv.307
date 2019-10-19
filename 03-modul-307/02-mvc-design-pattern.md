@@ -6,7 +6,7 @@ Eine einfachen PHP-Anwendung mit dem MVC Design-Pattern
 
 *Wir arbeiten bewusst ohne Framework und verzichten auf einen Router.*
 
-MVC steht für Model – View – Controller und hilft uns dabei, eine Anwendung sinnvoll zu strukturieren. Wir verfolgend dabei unter anderem folgende Zielsetzungen:
+MVC steht für Model – View – Controller und hilft uns dabei, eine Anwendung sinnvoll zu strukturieren. Wir verfolgen dabei unter anderem folgende Zielsetzungen:
 
 - Trennung von Daten, Darstellung und Logik
 - Wiederverwendung
@@ -39,6 +39,6 @@ Die Trennung des Datenmodells von der Datenhaltung erlaubt uns z.B. später eine
 ## Erweiterbarkeit
 Da die Struktur der Anwendung klar definiert ist, lassen sich zusätzliche Funktionen relativ einfach hinzufügen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NjQ1Mzc2LC02NzUxMzg3MSwxNDY4Nz
-k1MDkwXX0=
+eyJoaXN0b3J5IjpbLTEzNTEyNTYxMjAsNjg0NjQ1Mzc2LC02Nz
+UxMzg3MSwxNDY4Nzk1MDkwXX0=
 -->
