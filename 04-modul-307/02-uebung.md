@@ -1,6 +1,6 @@
 # Virtuelle Abfahrtstafel (API Übung)
 -	Eingebunden wird die API "Fahrplan" von search.ch: [https://fahrplan.search.ch/api/help](https://fahrplan.search.ch/api/help)
-Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz in verschiedenen Formen zur Verfügung.
+Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz zur Verfügung.
 
 ## Teil 1: Datenbezug und Aufbereitung der Abfahrtstafel
 -	Über einen URL Parameter kann ein Bahnhof (Ortschaft) definiert werden. 
@@ -28,6 +28,6 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 - Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
 - Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjE1NjA5NywxODIzOTg4NzkyLC0xMD
+eyJoaXN0b3J5IjpbLTc0MzI4OTAyMCwxODIzOTg4NzkyLC0xMD
 U5NjE5MTA0LC0xNDIwNjEyOTY4XX0=
 -->
