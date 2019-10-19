@@ -13,11 +13,16 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 -	Grafisch muss die Darstellung nicht exakt identisch sein. 
 
 ## Teil 2: Konfigurations-Interface
-- Auf einer separaten Seite soll ein Interface zur Konfiguration der Abfhartstafel 
+- Auf einer separaten Seite soll ein Interface zur Konfiguration der Abfahrtstafel angeboten werden.
+- Die Konfigurationsdaten sollen dafür in eine JSON-Datei geschrieben und beim Laden der Abfahrtstafel von dort geladen werden.
+- Folgende Konfigurationen sollen mindestens möglich sein:
+	- Eingabe des Bahnhofes (anstelle des URL-Parameters)
+	-  
 
 
 ## Zusatzaufgabe: 
 - Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2Mjk1OTMyLC0xNDIwNjEyOTY4XX0=
+eyJoaXN0b3J5IjpbLTEwNTk2MTkxMDQsLTE0MjA2MTI5NjhdfQ
+==
 -->
