@@ -2,7 +2,9 @@
 
 # API Grundlagen
 
+- API = application programming interface
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDQzOTg1MV19
+eyJoaXN0b3J5IjpbMTM0NjQxNTc2NV19
 -->
