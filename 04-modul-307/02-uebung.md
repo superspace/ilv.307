@@ -9,7 +9,7 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 -	Die Tafel soll schematisch der "echten" Abfahrtstafel entsprechen:
 ![SBB-Tafel](/ilv.307/assets/images/sbb-tafel.png)
 
--	Alle auf der Vorlage enthaltenen Daten müssen zwingend abgebildet sein.
+-	Alle auf dem obigen Bild enthaltenen Daten müssen zwingend abgebildet sein.
 -	Grafisch muss die Darstellung nicht exakt identisch sein. 
 
 ## Teil 2: Konfigurations-Interface
@@ -28,6 +28,6 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 - Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
 - Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTExNzA0MTYsMTgyMzk4ODc5MiwtMT
+eyJoaXN0b3J5IjpbLTIwOTEzMjAzMjQsMTgyMzk4ODc5MiwtMT
 A1OTYxOTEwNCwtMTQyMDYxMjk2OF19
 -->
