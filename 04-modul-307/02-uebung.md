@@ -10,11 +10,8 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 ![SBB-Tafel](/ilv.307/assets/images/sbb-tafel.png)
 
 -	Alle auf der Vorlage enthaltenen Daten müssen zwingend abgebildet sein.
--	Die Darstellung soll nach demselben Schema erfolgen.
 -	Grafisch muss die Darstellung nicht exakt identisch sein.
--	Die Zugsbezeichnungen (z.B. S1, S3, IC, ICE usw.) sollen als dynamisch generierte Grafiken eingebunden werden und möglichst der Vorlage entsprechen.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk3Mjc0MjcsLTE0MjA2MTI5NjhdfQ
-==
+eyJoaXN0b3J5IjpbNDk2MDI1NzkwLC0xNDIwNjEyOTY4XX0=
 -->
