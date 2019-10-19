@@ -12,11 +12,12 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 -	Alle auf der Vorlage enthaltenen Daten müssen zwingend abgebildet sein.
 -	Grafisch muss die Darstellung nicht exakt identisch sein. 
 
-## Teil 2: Config-Panel
-Auf einer separaten Seite soll 
+## Teil 2: Konfigurations-Interface
+- Auf einer separaten Seite soll ein Interface zur Konfiguration der Abfhartstafel 
 
 
-## Zusatz
+## Zusatzaufgabe: 
+- Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODYyMTcxNywtMTQyMDYxMjk2OF19
+eyJoaXN0b3J5IjpbODk2Mjk1OTMyLC0xNDIwNjEyOTY4XX0=
 -->
