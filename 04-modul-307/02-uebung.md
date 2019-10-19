@@ -10,9 +10,13 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 ![SBB-Tafel](/ilv.307/assets/images/sbb-tafel.png)
 
 -	Alle auf der Vorlage enthaltenen Daten müssen zwingend abgebildet sein.
--	Grafisch muss die Darstellung nicht exakt identisch sein.
+-	Grafisch muss die Darstellung nicht exakt identisch sein. 
 
+## Teil 2: Config-Panel
+Auf einer separaten Seite soll 
+
+
+## Zusatz
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ1NDgyNzMsLTE0MjA2MTI5NjhdfQ
-==
+eyJoaXN0b3J5IjpbMTU4ODYyMTcxNywtMTQyMDYxMjk2OF19
 -->
