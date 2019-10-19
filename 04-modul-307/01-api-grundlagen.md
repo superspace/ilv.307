@@ -3,8 +3,8 @@
 # API Grundlagen
 
 - API = application programming interface
-- Ein Programmteil, welcher anderen Programmen eine Anbindung (einen Zugang) zum progra
+- Ein Teil einer Applikation, welcher anderen Applikationen einen Zugang zur Applikation und/oder deren Daten ermöglicht.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMTk2MDU4XX0=
+eyJoaXN0b3J5IjpbLTExODYyOTE5MjZdfQ==
 -->
