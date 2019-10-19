@@ -8,14 +8,14 @@
 [**Tag 2:** PHP Vertiefung](/ilv.307/02-modul-307)
 
 
-[**Tag 3:** Klassen und Objekte]()
+[**Tag 3:** Klassen und Objekte](/ilv.307/03-modul-307)
 
 
 [**Tag 4**: API-Schnittstellen]()
 
 [**Tag 5**: KNW]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDExNjMwMjIsNDA5MDUxMzY0LDE5NT
-kwMTMwODUsODkzMDI5NDU0LC0xNDQzNDI4MTc4LC0xMzYyMDAx
-Njg5LDE0NjkxODU5Ml19
+eyJoaXN0b3J5IjpbLTYxNDMzMzg1MSwtMTEwMTE2MzAyMiw0MD
+kwNTEzNjQsMTk1OTAxMzA4NSw4OTMwMjk0NTQsLTE0NDM0Mjgx
+NzgsLTEzNjIwMDE2ODksMTQ2OTE4NTkyXX0=
 -->
