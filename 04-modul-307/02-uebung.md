@@ -25,9 +25,9 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 
 
 ## Zusatzaufgaben: 
-- Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
-- Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
+- Konfigurations-Interface: Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
+- Tafel: Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTEzMjAzMjQsMTgyMzk4ODc5MiwtMT
-A1OTYxOTEwNCwtMTQyMDYxMjk2OF19
+eyJoaXN0b3J5IjpbMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMD
+U5NjE5MTA0LC0xNDIwNjEyOTY4XX0=
 -->
