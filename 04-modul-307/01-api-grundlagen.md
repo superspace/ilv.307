@@ -6,8 +6,8 @@
 - Ein Teil einer Applikation, welcher anderen Applikationen einen Zugang zur Applikation und/oder deren Daten ermöglicht.
 
 ### API vs ABI
-- Der Datenaustausch einer API erfolgt immer in Form von Text.
+- Der Datenaustausch einer API erfolgt auf Quelltext-Ebene.
 - Eine ABI (application binary interface) kommuniziert auf Basis von Maschinencode (z.B. ein Grafikkarten-Treiber)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTEwNjIxNl19
+eyJoaXN0b3J5IjpbLTE5NjA4MTMwNjksMTM2MTEwNjIxNl19
 -->
