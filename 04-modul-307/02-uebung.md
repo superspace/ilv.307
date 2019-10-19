@@ -19,13 +19,13 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 	- Eingabe des Bahnhofes (anstelle des URL-Parameters)
 	-  Umstellen zwischen Abfahrts- und Ankunftstafel
 	- Maximale Anzahl Verbindungen
-	- 
+	- Transportmittel, welche Angezeigt werden sollen (Zug, Tram, Bus. Schiff, )
 
 
 ## Zusatzaufgaben: 
 - Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
 - Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzk4ODc5MiwtMTA1OTYxOTEwNCwtMT
-QyMDYxMjk2OF19
+eyJoaXN0b3J5IjpbMzIwODAzODQyLDE4MjM5ODg3OTIsLTEwNT
+k2MTkxMDQsLTE0MjA2MTI5NjhdfQ==
 -->
