@@ -15,6 +15,7 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 ## Teil 2: Konfigurations-Interface
 - Auf einer separaten Seite soll ein Interface zur Konfiguration der Abfahrtstafel angeboten werden.
 - Die Konfigurationsdaten sollen dafür in eine JSON-Datei geschrieben und beim Laden der Abfahrtstafel von dort geladen werden:
+
 ![SBB-Tafel](/ilv.307/assets/images/sbb-schema.png)
 - Folgende Konfigurationen sollen mindestens möglich sein:
 	- Eingabe des Bahnhofes (anstelle des URL-Parameters)
@@ -29,6 +30,6 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 - Konfigurations-Interface: Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
 - Tafel: Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjg1NzYzOSwxNDk0NDI4MDA1LDE4Mj
+eyJoaXN0b3J5IjpbLTg1NzgyNDkzOSwxNDk0NDI4MDA1LDE4Mj
 M5ODg3OTIsLTEwNTk2MTkxMDQsLTE0MjA2MTI5NjhdfQ==
 -->
