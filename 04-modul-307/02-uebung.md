@@ -1,7 +1,8 @@
 # Virtuelle Abfahrtstafel (API Übung)
 -	Eingebunden wird die API "Fahrplan" von search.ch: [https://fahrplan.search.ch/api/help](https://fahrplan.search.ch/api/help)
-Diese ste
+Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz in verschiedenen Formen zur Verfügung.
 
+## Teil 1: Datenbezug und Aufbereitung der Abfhartstafel
 -	Nach Eingabe eines Bahnhofes (Ortschaft) wird eine virtuelle Abfahrtstafel für den eingegebenen Bahnhof und die aktuelle Zeit angezeigt.
 -	Wird keine entsprechende Haltestelle gefunden, wird eine entsprechende Fehlermeldung angezeigt.
 -	Die Tafel soll der (echten) Abfahrtstafel im Anhang so ähnlich wie möglich sein
@@ -11,5 +12,5 @@ Diese ste
 -	Die Zugsbezeichnungen (z.B. S1, S3, IC, ICE usw.) sollen als dynamisch generierte Grafiken eingebunden werden und möglichst der Vorlage entsprechen.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM3NjYxOTddfQ==
+eyJoaXN0b3J5IjpbMTQzNDk2MDU0Nl19
 -->
