@@ -17,13 +17,15 @@ Diese stellt Fahrplan-Daten zu den öffentlichen Verkehrsmitteln in der Schweiz 
 - Die Konfigurationsdaten sollen dafür in eine JSON-Datei geschrieben und beim Laden der Abfahrtstafel von dort geladen werden.
 - Folgende Konfigurationen sollen mindestens möglich sein:
 	- Eingabe des Bahnhofes (anstelle des URL-Parameters)
-	-  
+	-  Umstellen zwischen Abfahrts- und Ankunftstafel
+	- Maximale Anzahl Verbindungen
+	- 
 
 
 ## Zusatzaufgaben: 
-- Für die Eingabe des Bahnhofes  
+- Für die Eingabe des Bahnhofes kann vorab eine Suche durchgeführt werden.
 - Die Anzeige aktualisiert sich alle 60 Sekunden selbst, ohne die komplette Seite neu zu laden. (z.B. über AJAX)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA1MTg3MCwtMTA1OTYxOTEwNCwtMT
+eyJoaXN0b3J5IjpbMTgyMzk4ODc5MiwtMTA1OTYxOTEwNCwtMT
 QyMDYxMjk2OF19
 -->
