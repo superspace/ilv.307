@@ -9,39 +9,39 @@ PHP kann sowohl prozedual wie auch objektorientiert verwendet werden. *Dies ist 
 
 Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden können. Die Klasse definiert sich über Attribute und Methoden.
 
-![UML Diagram](/ilv.307/assets/images/uml-class-hero.png)
+![UML Diagram](/ilv.307/assets/images/uml-class-task.png)
 
 ```php
-class Hero {
+class ToDo {
 
 	// Attribute
-	public $name = '';
-	public $realname = '';
-	private $popularity = 0;
+	public $title = '';
+	public $description = '';
+	private $priority = 0;
 
 	// Konstante
-	const POPULARITY_MAX = 5;	
+    const MAX_PRIORITY = 5;
 
 	// Konstruktor
-	function __construct (string $name, string $realname, int $popularity) {
-		$this->name = $name;
-		$this->realname = $realname;
-		$this->setPopularity($popularity);
+	function __construct (string $title, string $description, int $priority) {
+		$this->title = $title;
+		$this->description = $description;
+		$this->setPriority($priority);
 	}
 
 	// Methoden
-	public function setPopularity (int $popularity) : void {
-		if ($this->validatePopularity($popularity)) {
-			$this->popularity = $popularity;
+	public function setPriority (int $priority) : void {
+		if ($this->validatepriority($priority)) {
+			$this->priority = $priority;
 		}
 	}
 
-	public function getPopularity () : int {
-		return $this->popularity;
+	public function getPriority () : int {
+		return $this->priority;
 	}
 
-        private function validatePopularity (int $popularity) : bool {
-		return ($popularity > 0 && $popularity <= self::POPULARITY_MAX);
+	private function validatePriority (int $priority) : bool {
+		return ($priority > 0 && $priority <= self::MAX_PRIORITY);
 	}
 }
 ```
@@ -51,7 +51,7 @@ private/public
 : Zugriff auf Attribute und Methoden nur innerhalb des Objekts (*private*) oder auch von aussen (*public*) erlauben
 
 const
-: Definition einer Konstanten, Aufruf über `self::PRIORITY_MAX`
+: Definition einer Konstanten, Aufruf über `self::MAX_PRIORITY`
 
 __construct()
 : Die Methode `__construct()` wird bei der Erstellung eines Objektes aufgerufen. Die aufgeführten Argumente müssen beim Erstellen des Objektes berücksichtigt werden.
@@ -61,13 +61,13 @@ $this
 
 ```php
 // Objekt erstellen
-$hero = new Hero('Spiderman', 'Peter Parker', 5);
+$todo = new ToDo('Klassen erstellen', 'Verstehen, wie Klassen und Objekte funktionieren.', 4);
 
 // Getter aufrufen
-$popularity = $hero->getPopularity();
+$priority = $hero->getPriority();
 
 // Setter aufrufen
-$hero->setPopularity($popularity);
+$hero->setPriority($priority);
 ``` 
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
