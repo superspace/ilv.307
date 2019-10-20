@@ -20,7 +20,7 @@ class Task {
 	private $priority = 0;
 
 	// Konstante
-    const MAX_PRIORITY = 5;
+        const MAX_PRIORITY = 5;
 
 	// Konstruktor
 	function __construct (string $title='', string $description='', int $priority=0) {
@@ -106,7 +106,8 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDY4NjcxNSwxNzY0NjEwODgsLTcyNz
-A4OTk4NSw2NDI2NzQ4NDIsMTkzMDIyMzU5NywtMTYzMDQ3MDEx
-Nyw5NTg2NDc4MzUsLTE4ODA0MzA5MCw5MzMyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbNDIxMTk4OTU1LC00NjQ2ODY3MTUsMTc2ND
+YxMDg4LC03MjcwODk5ODUsNjQyNjc0ODQyLDE5MzAyMjM1OTcs
+LTE2MzA0NzAxMTcsOTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMj
+QwOTQxXX0=
 -->
