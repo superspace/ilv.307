@@ -12,7 +12,7 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden kÃ
 ![UML Diagram](/ilv.307/assets/images/uml-class-task.png)
 
 ```php
-class ToDo {
+class Task {
 
 	// Attribute
 	public $title = '';
@@ -20,10 +20,10 @@ class ToDo {
 	private $priority = 0;
 
 	// Konstante
-	const MAX_PRIORITY = 5;
+    const MAX_PRIORITY = 5;
 
 	// Konstruktor
-	function __construct (string $title, string $description, int $priority) {
+	function __construct (string $title='', string $description='', int $priority=0) {
 		$this->title = $title;
 		$this->description = $description;
 		$this->setPriority($priority);
