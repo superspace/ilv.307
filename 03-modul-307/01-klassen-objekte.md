@@ -20,7 +20,7 @@ class ToDo {
 	private $priority = 0;
 
 	// Konstante
-    const MAX_PRIORITY = 5;
+	const MAX_PRIORITY = 5;
 
 	// Konstruktor
 	function __construct (string $title, string $description, int $priority) {
@@ -76,7 +76,7 @@ $hero->setPriority($priority);
 
 ### DocBlock
 
-Ein DocBlock ist ein standardisiert aufgebauter Kommentar um Funktionen, Methoden und Attribute  zu dokumentieren.
+Ein DocBlock ist ein standardisiert aufgebauter Kommentar um  Methoden, Parameter und Attribute  zu dokumentieren.
 
 Durch die Standardisierung ist der DocBlock sehr einfach zu lesen und zu verstehen und es ist möglich, die technische Dokumentation des Codes zu automatisieren.
 
@@ -106,7 +106,7 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDYxMDg4LC03MjcwODk5ODUsNjQyNj
-c0ODQyLDE5MzAyMjM1OTcsLTE2MzA0NzAxMTcsOTU4NjQ3ODM1
-LC0xODgwNDMwOTAsOTMzMjQwOTQxXX0=
+eyJoaXN0b3J5IjpbLTQ2NDY4NjcxNSwxNzY0NjEwODgsLTcyNz
+A4OTk4NSw2NDI2NzQ4NDIsMTkzMDIyMzU5NywtMTYzMDQ3MDEx
+Nyw5NTg2NDc4MzUsLTE4ODA0MzA5MCw5MzMyNDA5NDFdfQ==
 -->
