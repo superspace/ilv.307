@@ -12,7 +12,7 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden kÃ
 ![UML Diagram](/ilv.307/assets/images/uml-class-task.png)
 
 ```php
-class Task {
+class ToDo {
 
 	// Attribute
 	public $title = '';
@@ -44,7 +44,7 @@ class Task {
 		return ($priority > 0 && $priority <= self::MAX_PRIORITY);
 	}
 
-	static  function  getMaxPriority () : int {
+	public static  function  getMaxPriority () : int {
 		return  self::MAX_PRIORITY;
 	}
 }
@@ -71,10 +71,13 @@ static
 $todo = new ToDo('Klassen erstellen', 'Verstehen, wie Klassen und Objekte funktionieren.', 4);
 
 // Getter aufrufen
-$priority = $hero->getPriority();
+$priority = $todo->getPriority();
 
 // Setter aufrufen
-$hero->setPriority($priority);
+$todo->setPriority($priority);
+
+// Statische Method aufrufen
+ToDo::getMaxPriority();
 ``` 
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt Ã¼ber den Pointer `->`
@@ -113,8 +116,9 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzgwNjU3MCwtNzQwNDk1OTMsNDIxMT
-k4OTU1LC00NjQ2ODY3MTUsMTc2NDYxMDg4LC03MjcwODk5ODUs
-NjQyNjc0ODQyLDE5MzAyMjM1OTcsLTE2MzA0NzAxMTcsOTU4Nj
-Q3ODM1LC0xODgwNDMwOTAsOTMzMjQwOTQxXX0=
+eyJoaXN0b3J5IjpbMTA5NzQ0MjQ3NywtNTE3ODA2NTcwLC03ND
+A0OTU5Myw0MjExOTg5NTUsLTQ2NDY4NjcxNSwxNzY0NjEwODgs
+LTcyNzA4OTk4NSw2NDI2NzQ4NDIsMTkzMDIyMzU5NywtMTYzMD
+Q3MDExNyw5NTg2NDc4MzUsLTE4ODA0MzA5MCw5MzMyNDA5NDFd
+fQ==
 -->
