@@ -77,7 +77,7 @@ $priority = $todo->getPriority();
 $todo->setPriority($priority);
 
 // Statische Method aufrufen
-ToDo::getMaxPriority();
+$max = ToDo::getMaxPriority();
 ``` 
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
@@ -116,9 +116,9 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzQ0MjQ3NywtNTE3ODA2NTcwLC03ND
-A0OTU5Myw0MjExOTg5NTUsLTQ2NDY4NjcxNSwxNzY0NjEwODgs
-LTcyNzA4OTk4NSw2NDI2NzQ4NDIsMTkzMDIyMzU5NywtMTYzMD
-Q3MDExNyw5NTg2NDc4MzUsLTE4ODA0MzA5MCw5MzMyNDA5NDFd
-fQ==
+eyJoaXN0b3J5IjpbNDIwODk4OTIwLC01MTc4MDY1NzAsLTc0MD
+Q5NTkzLDQyMTE5ODk1NSwtNDY0Njg2NzE1LDE3NjQ2MTA4OCwt
+NzI3MDg5OTg1LDY0MjY3NDg0MiwxOTMwMjIzNTk3LC0xNjMwND
+cwMTE3LDk1ODY0NzgzNSwtMTg4MDQzMDkwLDkzMzI0MDk0MV19
+
 -->
