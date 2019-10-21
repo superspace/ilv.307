@@ -64,7 +64,7 @@ $this
 : Attribute und Methoden werden innerhalb der Klasse über `$this->` aufgerufen.
 
 static
-: Statische Methoden werden direkt über die Klasse aufgerufen. Es wird keine Instanz erstell: `Task::getMaxPrio`
+: Statische Methoden werden direkt über die Klasse aufgerufen. Es wird keine Instanz erstellt: `Task::getMaxPriority()`. In einer statische Methode ist es *nicht* möglich, auf `$this` zuzugreifen. 
 
 ```php
 // Objekt erstellen
@@ -113,8 +113,8 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg1MTQ1NDEsLTc0MDQ5NTkzLDQyMT
-E5ODk1NSwtNDY0Njg2NzE1LDE3NjQ2MTA4OCwtNzI3MDg5OTg1
-LDY0MjY3NDg0MiwxOTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1OD
-Y0NzgzNSwtMTg4MDQzMDkwLDkzMzI0MDk0MV19
+eyJoaXN0b3J5IjpbLTUxNzgwNjU3MCwtNzQwNDk1OTMsNDIxMT
+k4OTU1LC00NjQ2ODY3MTUsMTc2NDYxMDg4LC03MjcwODk5ODUs
+NjQyNjc0ODQyLDE5MzAyMjM1OTcsLTE2MzA0NzAxMTcsOTU4Nj
+Q3ODM1LC0xODgwNDMwOTAsOTMzMjQwOTQxXX0=
 -->
