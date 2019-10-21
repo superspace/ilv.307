@@ -43,6 +43,8 @@ class Task {
 	private function validatePriority (int $priority) : bool {
 		return ($priority > 0 && $priority <= self::MAX_PRIORITY);
 	}
+
+        
 }
 ```
 Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden. Eine Ausnahme sind statische Methoden oder Konstanten, diese lassen sich auch direkt aufrufen.
@@ -106,8 +108,8 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMTk4OTU1LC00NjQ2ODY3MTUsMTc2ND
-YxMDg4LC03MjcwODk5ODUsNjQyNjc0ODQyLDE5MzAyMjM1OTcs
-LTE2MzA0NzAxMTcsOTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMj
-QwOTQxXX0=
+eyJoaXN0b3J5IjpbLTc0MDQ5NTkzLDQyMTE5ODk1NSwtNDY0Nj
+g2NzE1LDE3NjQ2MTA4OCwtNzI3MDg5OTg1LDY0MjY3NDg0Miwx
+OTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1ODY0NzgzNSwtMTg4MD
+QzMDkwLDkzMzI0MDk0MV19
 -->
