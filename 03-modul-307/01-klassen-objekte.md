@@ -44,12 +44,14 @@ class Task {
 		return ($priority > 0 && $priority <= self::MAX_PRIORITY);
 	}
 
-        
+	static  function  getMaxPriority () : int {
+		return  self::MAX_PRIORITY;
+	}
 }
 ```
 Damit auf ein Attribut oder eine Methode aufgerufen werden kann, muss erst eine Instanz (Objekt) der Klasse erstellt werden. Eine Ausnahme sind statische Methoden oder Konstanten, diese lassen sich auch direkt aufrufen.
 
-private/public
+private/public/protected
 : Zugriff auf Attribute und Methoden nur innerhalb des Objekts (*private*) oder auch von aussen (*public*) erlauben
 
 const
@@ -60,6 +62,9 @@ __construct()
 
 $this
 : Attribute und Methoden werden innerhalb der Klasse über `$this->` aufgerufen.
+
+static
+: Statische Methoden werden direkt über die Klasse aufgerufen. Es wird keine Instanz erstell: `Task::getMaxPrio`
 
 ```php
 // Objekt erstellen
@@ -108,8 +113,8 @@ Der DocBlock besteht im Wesentlichen aus 3 Teilen:
 - Beschreibung
 - Meta-Daten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDQ5NTkzLDQyMTE5ODk1NSwtNDY0Nj
-g2NzE1LDE3NjQ2MTA4OCwtNzI3MDg5OTg1LDY0MjY3NDg0Miwx
-OTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1ODY0NzgzNSwtMTg4MD
-QzMDkwLDkzMzI0MDk0MV19
+eyJoaXN0b3J5IjpbLTE1MTg1MTQ1NDEsLTc0MDQ5NTkzLDQyMT
+E5ODk1NSwtNDY0Njg2NzE1LDE3NjQ2MTA4OCwtNzI3MDg5OTg1
+LDY0MjY3NDg0MiwxOTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1OD
+Y0NzgzNSwtMTg4MDQzMDkwLDkzMzI0MDk0MV19
 -->
