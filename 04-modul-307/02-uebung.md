@@ -19,10 +19,12 @@ Erstellen Sie eine Web-Applikation zur Abfrage der oben genannten API in Echtzei
 
 ###  Vorgaben
 Folgende Vorgaben müssen erfüllt sein:
-- Alle Felder müssen in HTML und serverseitig validiert werden.
-- Den Formularfeldern müssen entasprechende 
+- Alle Felder müssen in HTML5 und serverseitig validiert werden.
+- Den Formularfeldern müssen entsprechende `lable`-Tags zugewiesen werden.
+- Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
+-  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQxODQ5NjIsNDk3ODE4ODEwLC04NT
-c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
-MTA0LC0xNDIwNjEyOTY4XX0=
+eyJoaXN0b3J5IjpbLTk0MjQ1Njc0NSw0OTc4MTg4MTAsLTg1Nz
+gyNDkzOSwxNDk0NDI4MDA1LDE4MjM5ODg3OTIsLTEwNTk2MTkx
+MDQsLTE0MjA2MTI5NjhdfQ==
 -->
