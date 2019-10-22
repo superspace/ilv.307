@@ -1,6 +1,6 @@
 
 # API Übung: Chuck Norris
-### Datenbezug
+### Datenquelle
 Unter folgender URL wird eine REST API angeboten, welche den Bezug von "Chuck Norris"-Jokes ermöglicht. 
 [http://www.icndb.com/api/](http://www.icndb.com/api/)
 
@@ -14,9 +14,12 @@ Erstellen Sie eine Web-Applikation zur Abfrage der oben genannten API in Echtzei
 	- Gewünschte Kategorien (Checkboxen, Mehrfachauswahl möglich)
 - Nach dem Absenden des Formulars werden die entsprechenden Datensätze angezeigt, bestehend aus:
 	- Joke
-	- Kategorie 
+	- Kategorie(n)
+	- Joke-ID
+
+###  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNTgwMzk1LDQ5NzgxODgxMCwtODU3OD
-I0OTM5LDE0OTQ0MjgwMDUsMTgyMzk4ODc5MiwtMTA1OTYxOTEw
-NCwtMTQyMDYxMjk2OF19
+eyJoaXN0b3J5IjpbLTE4MjM2NTA3OTQsNDk3ODE4ODEwLC04NT
+c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
+MTA0LC0xNDIwNjEyOTY4XX0=
 -->
