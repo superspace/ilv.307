@@ -12,9 +12,11 @@ Erstellen Sie eine Web-Applikation zur Abfrage der oben genannten API in Echtzei
 	- Alternativer Vorname (optionales Feld)
 	- Alternativer Nachname (optionales Feld)
 	- Gewünschte Kategorien (Checkboxen, Mehrfachauswahl möglich)
-- Nach dem Absenden des Formulars werden die entsprechenden Jokes angezeigt. 
+- Nach dem Absenden des Formulars werden die entsprechenden Datensätze angezeigt, bestehend aus:
+	- Joke
+	- Kategorie 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDY5MTUyLDQ5NzgxODgxMCwtODU3OD
+eyJoaXN0b3J5IjpbOTgyNTgwMzk1LDQ5NzgxODgxMCwtODU3OD
 I0OTM5LDE0OTQ0MjgwMDUsMTgyMzk4ODc5MiwtMTA1OTYxOTEw
 NCwtMTQyMDYxMjk2OF19
 -->
