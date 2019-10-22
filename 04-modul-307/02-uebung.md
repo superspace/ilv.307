@@ -19,12 +19,13 @@ Studieren Sie die API-Dokumentation und erstellen Sie eine Web-Applikation zur E
 
 ###  Vorgaben
 Folgende Vorgaben müssen erfüllt sein:
+- Es müssen sinnvolle HTML5 Feldtypen gewählt werden.
 - Alle Felder müssen in HTML5 und serverseitig validiert werden.
 - Den Formularfeldern müssen entsprechende `lable`-Tags zugewiesen werden.
 - Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
 -  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzE1MDk0Myw0OTc4MTg4MTAsLTg1Nz
-gyNDkzOSwxNDk0NDI4MDA1LDE4MjM5ODg3OTIsLTEwNTk2MTkx
-MDQsLTE0MjA2MTI5NjhdfQ==
+eyJoaXN0b3J5IjpbLTE1MzEzNTE4MDUsNDk3ODE4ODEwLC04NT
+c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
+MTA0LC0xNDIwNjEyOTY4XX0=
 -->
