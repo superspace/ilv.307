@@ -36,7 +36,12 @@ $id = hash('md5', time() .  rand(1000,9999));
 
 ### Datei-Struktur
 
+```
+view/
+	update.php          // Daten aktualisieren
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODA4ODExNl19
+eyJoaXN0b3J5IjpbMTkzMDkxMTMzMF19
 -->
