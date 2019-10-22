@@ -9,9 +9,11 @@ Unter folgender URL wird eine REST API angeboten, welche den Bezug von "Chuck No
 Erstellen Sie eine Web-Applikation zur Abfrage der oben genannten API in Echtzeit.
 - Über ein HTML Formular lassen sich folgende Parameter eingeben:
 	- Anzahl Jokes (Pflichtfeld, Ganzzahl, begrenzt auf 1 - 10)
-	- Alternative 
+	- Alternativer Vorname (optionales Feld)
+	- Alternativer Nachname (optionales Feld)
+	- Gewünschte Kategorien (Checkboxen, me)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDA0MzE2OCw0OTc4MTg4MTAsLTg1Nz
-gyNDkzOSwxNDk0NDI4MDA1LDE4MjM5ODg3OTIsLTEwNTk2MTkx
-MDQsLTE0MjA2MTI5NjhdfQ==
+eyJoaXN0b3J5IjpbODI3ODA0Mjc2LDQ5NzgxODgxMCwtODU3OD
+I0OTM5LDE0OTQ0MjgwMDUsMTgyMzk4ODc5MiwtMTA1OTYxOTEw
+NCwtMTQyMDYxMjk2OF19
 -->
