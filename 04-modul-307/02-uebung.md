@@ -23,9 +23,11 @@ Folgende Vorgaben müssen erfüllt sein:
 - Alle Felder müssen in HTML5 und serverseitig validiert werden.
 - Den Formularfeldern müssen entsprechende `lable`-Tags zugewiesen werden.
 - Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
--  
+
+### Zusatzaufgabe
+- Einzelne Jokes können mit "gefällt mir" 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzEzNTE4MDUsNDk3ODE4ODEwLC04NT
-c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
-MTA0LC0xNDIwNjEyOTY4XX0=
+eyJoaXN0b3J5IjpbNDIxOTM4MDk4LDQ5NzgxODgxMCwtODU3OD
+I0OTM5LDE0OTQ0MjgwMDUsMTgyMzk4ODc5MiwtMTA1OTYxOTEw
+NCwtMTQyMDYxMjk2OF19
 -->
