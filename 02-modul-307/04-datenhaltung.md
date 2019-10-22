@@ -83,38 +83,7 @@ $meinJsonString = json_encode($meinArray);`
 [function.json-encode](https://www.php.net/manual/de/function.json-encode.php)
 
 > *DEMO*: JSON-String zu PHP
-
-### Datenstruktur
-
-#### Identifikation einzelner Einträge
-
-Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine eindeutige ID aufweisen. In JSON können wir diese ID als Schlüssel für den direkten Zugriff verwenden. Dies vereinfacht es uns, einzelne Einträge zu bearbeiten oder zu löschen. 
-
-```json
-{
-	"ee716009417de64432d6f7195425ed18": {
-		"name": "Urs Beyeler",
-		"email" : "dev@superspace.ch"
-	},
-	"02621484d917cd47eaa125b12249d4b3": {
-		"name": "Hans Dampf",
-		"email": "hans@dampf.ch"
-	}
-}
-```
-Zugriff auf einen spezifischen Eintrag:
-
-```php
-$values = json_decode($meinJSONString, true);
-$value = $values['ee716009417de64432d6f7195425ed18'];
-```
-
-Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem aktuellen Zeitpunkt erstellt werden:
-
-```php
-$id = hash('md5', time() .  rand(1000,9999));
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4NjAzNjgwLC0xMTMxNTg5ODc4LDE5OT
-c2OTgyNjddfQ==
+eyJoaXN0b3J5IjpbMTExNDM4NDc1NCwzMDg2MDM2ODAsLTExMz
+E1ODk4NzgsMTk5NzY5ODI2N119
 -->
