@@ -6,7 +6,7 @@ Unter folgender URL wird eine REST API angeboten, welche den Bezug von "Chuck No
 
 
 ### Aufgabe
-Erstellen Sie eine Web-Applikation zur Abfrage der oben genannten API in Echtzeit.
+Studieren Sie die API-Dokumentation und erstellen Sie eine Web-Applikation zur Echtzeit-Abfrage der oben genannten API.
 - Über ein HTML Formular lassen sich folgende Parameter eingeben:
 	- Anzahl Jokes (Pflichtfeld, Ganzzahl, begrenzt auf 1 - 10)
 	- Alternativer Vorname (optionales Feld)
@@ -24,7 +24,7 @@ Folgende Vorgaben müssen erfüllt sein:
 - Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
 -  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjQ1Njc0NSw0OTc4MTg4MTAsLTg1Nz
-gyNDkzOSwxNDk0NDI4MDA1LDE4MjM5ODg3OTIsLTEwNTk2MTkx
-MDQsLTE0MjA2MTI5NjhdfQ==
+eyJoaXN0b3J5IjpbLTE0MzY0MDIzMjUsNDk3ODE4ODEwLC04NT
+c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
+MTA0LC0xNDIwNjEyOTY4XX0=
 -->
