@@ -25,9 +25,11 @@ Folgende Vorgaben müssen erfüllt sein:
 - Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
 
 ### Zusatzaufgabe
-- Einzelne Jokes können mit "gefällt mir" 
+- Einzelne Jokes können mit "gefällt mir" markiert werden:
+	- Diese werden in der Folge in einer JSON-Datei gespeichert.
+	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxOTM4MDk4LDQ5NzgxODgxMCwtODU3OD
-I0OTM5LDE0OTQ0MjgwMDUsMTgyMzk4ODc5MiwtMTA1OTYxOTEw
-NCwtMTQyMDYxMjk2OF19
+eyJoaXN0b3J5IjpbLTE5NTcwMDI0NzksNDk3ODE4ODEwLC04NT
+c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
+MTA0LC0xNDIwNjEyOTY4XX0=
 -->
