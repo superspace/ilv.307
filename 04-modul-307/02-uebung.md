@@ -17,9 +17,12 @@ Erstellen Sie eine Web-Applikation zur Abfrage der oben genannten API in Echtzei
 	- Kategorie(n)
 	- Joke-ID
 
-###  
+###  Vorgaben
+Folgende Vorgaben müssen erfüllt sein:
+- Alle Felder müssen in HTML und serverseitig validiert werden.
+- Den Formularfeldern müssen entasprechende 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM2NTA3OTQsNDk3ODE4ODEwLC04NT
+eyJoaXN0b3J5IjpbLTIwNjQxODQ5NjIsNDk3ODE4ODEwLC04NT
 c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
 MTA0LC0xNDIwNjEyOTY4XX0=
 -->
