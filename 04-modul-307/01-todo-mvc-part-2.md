@@ -41,11 +41,20 @@ view/
 	update.php          // Daten aktualisieren
 ```
 
-`controller.php`
+*index.php*
+```php
+	case  'update' :
+		include  '../view/update.php';
+		break;
+```
+
+*controller.php*
 
 ```php
+elseif (isset($_POST['update'])) {
 
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjU5ODE5Nl19
+eyJoaXN0b3J5IjpbODA4ODI5NTg2XX0=
 -->
