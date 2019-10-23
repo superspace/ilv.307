@@ -22,8 +22,10 @@ Die folgenden 4 HTTP Methoden stehen in REST per HTTP grundsätzlich zur Verfüg
 -   **PUT/PATCH**  - ändern bestehende Daten auf dem Server
 -   **DELETE**  - löscht bestehende Daten auf dem Server
 
-Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Ändern von Daten erfolgt oft ebenfalls über die POST Methode, während das Löschen von Datensätzen oft auch über einen URL-Parameter in einem GET getätigt wird.   
+Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Ändern von Daten erfolgt häufig ebenfalls über die POST Methode, während das Löschen von Datensätzen auch über einen URL-Parameter in einem GET Request gelöst werden kann. Dies entspricht nicht der offiziellen REST Definition, hat sich aber in der Praxis bewährt.
+
+ *Wir beschränken uns in diesem Kurs auf auf .*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjMxNzU2MywtMTg5NjYwNDcyNiwtMz
-A1MTU3NTA5XX0=
+eyJoaXN0b3J5IjpbMjk0MTQxOTIwLC0xODk2NjA0NzI2LC0zMD
+UxNTc1MDldfQ==
 -->
