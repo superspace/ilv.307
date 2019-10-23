@@ -128,6 +128,18 @@ class Task {
 			...
 		}
 	}
+	
+	function delete () : void {
+		
+		// Load data
+		...
+		
+		// Delete data
+		unset($data[$this->id]);
+
+		// Save data
+		...
+	}
 }
 ```
 *update.php*
@@ -140,7 +152,7 @@ class Task {
 <input type="hidden" name="id" value="<?=  $task->id; ?>">
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTczMjg0MDIsLTgzOTg5NjQzMywtMT
-QzMzg5NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2
-NzYyNCw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbLTYzNzczMTE5NywtODM5ODk2NDMzLC0xND
+MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
+NjI0LDgwODgyOTU4Nl19
 -->
