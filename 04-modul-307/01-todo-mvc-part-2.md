@@ -70,7 +70,6 @@ elseif (isset($_POST['update'])) {
 *task.class.php*
 
 ```php
-
 class Task {
 	
 	function __construct ($id) {
@@ -122,10 +121,12 @@ class Task {
 *update.php*
 
 ```php
-<input  type="text"  class="form-control"  value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->title; ?>"  name="title"  required>
+<input  type="text" value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->title; ?>"
+
+<input  type="hidden"  value="<?=  $task->id; ?>"  name="id">
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTEzNzM0MCwtODM5ODk2NDMzLC0xND
-MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
-NjI0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTQzNzcwMjYzLC04Mzk4OTY0MzMsLTE0Mz
+M4OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2
+MjQsODA4ODI5NTg2XX0=
 -->
