@@ -4,7 +4,7 @@
 
 - Einführung KNW, Möglichkeit zum Lösen von Unklarheiten
 - Start KNW (Dauer total 5.5h)
-*- Vorm Mittags-Ppause*
+*- Vormittags-Pause*
 - Fortsetzung KNW
 *- Mittags-Pause*
 - MC-Prüfung Verständnisfragen
@@ -26,5 +26,5 @@
 	- Funktion der eigenen Devices ist Eigenverantwortung
 - Ein Verstoss gegen die Regeln kann zum Prüfungsabbruch und zur Note 1 führen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDg0MzMxNV19
+eyJoaXN0b3J5IjpbLTYwMTgzMzcxNCwtNTkwODQzMzE1XX0=
 -->
