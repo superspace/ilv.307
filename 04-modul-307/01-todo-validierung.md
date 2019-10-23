@@ -57,12 +57,10 @@ Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstell
 *view/errors.inc.php*
 
 ```php
-if (!empty($errors)) {
-	$error_messages = '';
+if (isset($errors)) {
 	foreach($errors as $error) {
-		$error_messages  .=  "<p>$error</p>";
+		echo  "<p>$error</p>";
 	}
-	echo  $error_messages;
 }
 ``` 
 *view/update.php*
@@ -77,5 +75,5 @@ if (!empty($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODU1MzA5NV19
+eyJoaXN0b3J5IjpbLTEwNjEzNDkwMzgsLTUxODU1MzA5NV19
 -->
