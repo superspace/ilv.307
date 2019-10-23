@@ -55,12 +55,24 @@ view/
 ```php
 elseif (isset($_POST['update'])) {
 
+	// Get id
 	$id = isset($data['id']) ? $data['id'] : 0;
 	
+	// Create Task with id
 	$task = new Task($id);
-	$task
+	
+	// Update task
+	$task->update(...)
 }
 ```
+
+*task.class.php*
+
+```php
+
+class Task 
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0MDc4ODUsODA4ODI5NTg2XX0=
+eyJoaXN0b3J5IjpbNTEwNjA5NDc1LDgwODgyOTU4Nl19
 -->
