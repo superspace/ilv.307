@@ -13,11 +13,11 @@ Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine
 
 ```json
 {
-	"ee716009417de64432d6f7195425ed18": {
+	"1": {
 		"name": "Urs Beyeler",
 		"email" : "dev@superspace.ch"
 	},
-	"02621484d917cd47eaa125b12249d4b3": {
+	"2": {
 		"name": "Hans Dampf",
 		"email": "hans@dampf.ch"
 	}
@@ -27,10 +27,10 @@ Zugriff auf einen spezifischen Eintrag:
 
 ```php
 $values = json_decode($meinJSONString, true);
-$value = $values['ee716009417de64432d6f7195425ed18'];
+$value = $values['1'];
 ```
 
-Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem aktuellen Zeitpunkt erstellt werden:
+Eine inkrementelle ID kann mit der Funktion `max()` re :
 
 ```php
 $id = hash('md5', time() .  rand(1000,9999));
@@ -113,5 +113,6 @@ class Task {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODc2NzYyNCw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbMTQ1MjYyNDIzNiwtMjI4NzY3NjI0LDgwOD
+gyOTU4Nl19
 -->
