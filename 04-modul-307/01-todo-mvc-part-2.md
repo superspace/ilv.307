@@ -119,8 +119,13 @@ class Task {
 	}
 }
 ```
+*update.php*
+
+```php
+<input  type="text"  class="form-control"  value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->title; ?>"  name="title"  required>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTg5NjQzMywtMTQzMzg5NzQ4OCwxMz
-Y0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNCw4MDg4Mjk1
-ODZdfQ==
+eyJoaXN0b3J5IjpbMTM2NTEzNzM0MCwtODM5ODk2NDMzLC0xND
+MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
+NjI0LDgwODgyOTU4Nl19
 -->
