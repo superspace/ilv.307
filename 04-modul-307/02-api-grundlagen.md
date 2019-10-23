@@ -47,7 +47,10 @@ Als Antwort liefert die API die entsprechenden Datensätze im JSON Format:
 ]
 ```  
 
+### Implementation in PHP
+Alle benötigten Werkzeuge zur Implementation einer HTTP-GET/JOSN API sind bereits bekannt:
+- Die PHP-Funktion `` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMTE4NTcxLC0xODk2NjA0NzI2LC0zMD
-UxNTc1MDldfQ==
+eyJoaXN0b3J5IjpbMTI4NzIyMjQ3MywtMTg5NjYwNDcyNiwtMz
+A1MTU3NTA5XX0=
 -->
