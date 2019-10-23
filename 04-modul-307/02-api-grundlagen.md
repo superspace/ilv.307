@@ -8,7 +8,7 @@
 ### REST (REpresentational State Transfer)
 Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP oder WSDL) hat sich REST zu einer der populärsten Methoden für den webbasierten Datenaustausch entwickelt.
  
-REST ist kein eigenes Protokoll. Es werden zahlreiche bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder `XML` als Datenformat. Dabei wird auf die Einhaltung von 6 Prinzipien geachtet, auf die wir an dieser Stelle nicht weiter eingehen. Weitere Details:
+REST ist kein eigenes Protokoll sondern eine Architektur. Es werden zahlreiche bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder `XML` als Datenformat. Dabei wird auf die Einhaltung von 6 Prinzipien geachtet, auf die wir an dieser Stelle nicht weiter eingehen. Weitere Details:
 [https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien](https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien)
 
  *Wir beschränken uns in diesem Kurs auf HTTP und JSON basierte REST API's.*
@@ -58,6 +58,6 @@ $json = file_get_contents('http://api.superheld.xyz/getHero?universe=marvel&popu
 $data= json_decode($json, true);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2NTE3MDM0LC05MDMwNTQ1ODcsLTE5Mj
-IwODk2MDgsLTE4OTY2MDQ3MjYsLTMwNTE1NzUwOV19
+eyJoaXN0b3J5IjpbMTYzNDAyNzY5NiwtOTAzMDU0NTg3LC0xOT
+IyMDg5NjA4LC0xODk2NjA0NzI2LC0zMDUxNTc1MDldfQ==
 -->
