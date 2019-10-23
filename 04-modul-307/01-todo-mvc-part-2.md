@@ -70,9 +70,24 @@ elseif (isset($_POST['update'])) {
 
 ```php
 
-class Task 
-
+class Task {
+	
+	function __construct ($id) {
+	
+		if (!empty($id)) {
+			
+			$data = self::load();
+			
+			if ($data && key_exists($id, $data) {
+				
+				$this->id = $id;
+				
+			}
+		
+		}	
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNjA5NDc1LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTU1MTU3MjQ3LDgwODgyOTU4Nl19
 -->
