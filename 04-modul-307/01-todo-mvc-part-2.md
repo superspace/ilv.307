@@ -35,10 +35,10 @@ $values = json_decode($meinJSONString, true);
 $value = $values['1'];
 ```
 
-Eine inkrementelle ID kann mit PHP relativ einfach generiert werden. Wir übergeben der Funktion `max($ids)` alle bestehenen IDs und addieren 1 dazu. Die bestehenden IDs können mit `array_keys($data)` ausgelesen werden.
+Eine inkrementelle ID kann mit PHP relativ einfach generiert werden. Wir übergeben der Funktion `max($ids)` alle bestehenen IDs und addieren 1. dazu. Die bestehenden IDs können mit `array_keys($data)` ausgelesen werden.
 
 ```php
-$ids = array_keys($data);
+$idkeys = array_keys($data);
 $id = max($ids) + 1;
 ```
 
@@ -64,10 +64,10 @@ if (isset($_POST['update'])) {
 	// Get id
 	$id = isset($data['id']) ? $data['id'] : 0;
 	
-	// Initialize Task with id
+	// InitializCreate Task with id
 	$task = new Task($id);
 	
-	// Update task
+	// e task
 	$task->update(...)
 }
 
@@ -123,8 +123,8 @@ class Task {
 			
 			}
 			
-			// Update data
-			$data[$this->id] = array(
+		// 
+		$data[$this->id] = array(
 				'title' => $this->title,
 				...
 			)
@@ -139,10 +139,10 @@ class Task {
 		// Load data
 		...
 		
-		// Delete data
-		unset($data[$this->id]);
+			// Delete data
+		unset($data[$this->id]);Update data
 
-		// Save data
+			// Save data
 		...
 	}
 }
@@ -163,7 +163,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTU1NjMzMSwtODM5ODk2NDMzLC0xND
-MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
-NjI0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTIwNDU2MDI0MTcsMTkwNTU1NjMzMSwtOD
+M5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5
+MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl19
 -->
