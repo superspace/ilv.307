@@ -112,7 +112,7 @@ $idkeys = array_keys($data);
 $id = max($ids) + 1;
 ```
 
-### Ergänzung Datei-Struktur
+### Daten bearbeiten
 
 ```
 view/
@@ -231,9 +231,27 @@ class Task {
 <!-- send action delete -->
 <button  type="submit"  name="delete">Löschen</button>
 ```
+
+### Daten löschen
+
+*controller.php*
+
+```php
+if (isset($_POST['delete'])) {
+	
+	// Get id
+	$id = isset($data['id']) ? $data['id'] : 0;
+	
+	// Initialize Task with id
+	$task = new Task($id);
+	
+	// Delete task
+	$task->delete();
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ5MTI4MjEsMjA0MDQ3Mjc4NiwtMT
-k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
-ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
-I0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbNDU5Njg3NTY2LDIwNDA0NzI3ODYsLTE5Nz
+M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
+NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
+w4MDg4Mjk1ODZdfQ==
 -->
