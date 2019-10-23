@@ -29,9 +29,10 @@ Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Än
 ### Beispiel für einen GET Request (HTTP und JSON)
 Meist werden die Parameter, welche an die API übermittelt werden sollen, per URL Parameter übergeben:
 ```
-http://api.superheld.xyz/getSuperhelden?universe=marvel&
+http://api.superheld.xyz/getHero?universe=marvel&popuplarity=5
 ```  
+Als Antwort l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzM0MzE0ODksLTE4OTY2MDQ3MjYsLT
-MwNTE1NzUwOV19
+eyJoaXN0b3J5IjpbLTE1OTg3NDE3MCwtMTg5NjYwNDcyNiwtMz
+A1MTU3NTA5XX0=
 -->
