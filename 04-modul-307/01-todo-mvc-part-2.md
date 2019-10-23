@@ -40,7 +40,7 @@ public function getErrors () : array {
 }
 ```
 
-Im `controller.php` werden die Fehler ausgelels
+Im `controller.php` werden die Fehler ausgelesen und die entsprechende View gesetzt:
 
 ```php
 if (isset($_POST['create'])) {
@@ -54,7 +54,7 @@ if (isset($_POST['create'])) {
 	}
 ```
 
-Die Ausgabe erfolgt in der View. Um die Anzeige der Fehlermeldung wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
+Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
 
 *view/errors.inc.php*
 
@@ -62,14 +62,10 @@ Die Ausgabe erfolgt in der View. Um die Anzeige der Fehlermeldung wiederverwende
 $error_messages = '';
 
 if (isset($errors)) {
-
-foreach($errors as $error) {
-	$error_messages  .=  "<div class=\"alert alert-danger\">$error</div>";
+	foreach($errors as $error) {
+		$error_messages  .=  "<div class=\"alert alert-danger\">$error</div>";
 	}
 }
-
-  
-
 echo  $error_messages;
 ``` 
 
@@ -229,8 +225,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzk1NjQzMCwyMDQwNDcyNzg2LC0xOT
-czOTEzNzUzLC0yMDQ1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4
-OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2Mj
-QsODA4ODI5NTg2XX0=
+eyJoaXN0b3J5IjpbNTcxNzk1OTIyLDIwNDA0NzI3ODYsLTE5Nz
+M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
+NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
+w4MDg4Mjk1ODZdfQ==
 -->
