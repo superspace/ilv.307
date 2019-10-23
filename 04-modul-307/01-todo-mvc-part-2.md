@@ -7,36 +7,36 @@
 Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
 ```php
-private $errors = [];
+	private $errors = [];
 
-function __construct (...) {
+	function __construct (...) {
 
-	$this->errors = $this->validate(...);
+		$this->errors = $this->validate(...);
 
-	if (empty($this->errors)) {
+		if (empty($this->errors)) {
 		
-		// Update values
-		...
+			// Update values
+			...
+		}
 	}
-}
 
-private function validate (...) : array {
+	private function validate (...) : array {
 	
-	$errors = [];
+		$errors = [];
 
-	if (empty($title)) {
-		$errors[] = "Geben Sie bitte einen Titel ein.";
+		if (empty($title)) {
+			$errors[] = "Geben Sie bitte einen Titel ein.";
+		}
+
+		...
+
+		return $errors;
 	}
 
-	...
+	public function getErrors () : array {
 
-	return $errors;
-}
-
-public function getErrors () : array {
-
-	return $this->errors;
-}
+		return $this->errors;
+	}
 ```
 
 Im `controller.php` werden die Fehler ausgelesen und die entsprechende View gesetzt:
@@ -232,8 +232,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMTQxNjQsMjA0MDQ3Mjc4NiwtMTk3Mz
-kxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMzODk3
-NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3NjI0LD
-gwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbMTA0MTA1NzM0MCwyMDQwNDcyNzg2LC0xOT
+czOTEzNzUzLC0yMDQ1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4
+OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2Mj
+QsODA4ODI5NTg2XX0=
 -->
