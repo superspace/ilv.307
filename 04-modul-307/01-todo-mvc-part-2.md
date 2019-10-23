@@ -88,12 +88,23 @@ class Task {
 	}
 
 	function update (...) {
+
 		$this->validate(...);
 		
+		if (empty($this->errors)) {
 		
+			$this->title = $title;
+			...
+			
+			if (empty($this->id) {
+			
+				$this->id = hash('md5
+			
+			}
+		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjMyNzE0OCw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTcxNjAyNDgsODA4ODI5NTg2XX0=
 -->
