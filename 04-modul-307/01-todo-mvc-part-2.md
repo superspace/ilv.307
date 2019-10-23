@@ -109,10 +109,8 @@ class Task {
 			
 			// Update data
 			$data[$this->id] = array(
-			'title' => $this->title,
-'description' => $this->description,
-'priority' => $this->priority,
-'created' => $this->created	
+				'title' => $this->title,
+				...
 			)
 
 			// Save data
@@ -122,7 +120,7 @@ class Task {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Njc5OTQzMSwtMTQzMzg5NzQ4OCwxMz
+eyJoaXN0b3J5IjpbLTgzOTg5NjQzMywtMTQzMzg5NzQ4OCwxMz
 Y0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNCw4MDg4Mjk1
 ODZdfQ==
 -->
