@@ -52,6 +52,7 @@ if (isset($_POST['create'])) {
 	} else {
 		header("Location:{$_SERVER['PHP_SELF']}");
 	}
+}
 ```
 
 Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
@@ -59,7 +60,6 @@ Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstell
 *view/errors.inc.php*
 
 ```php
-
 if (!empty($errors)) {
 	$error_messages = '';
 	foreach($errors as $error) {
@@ -68,6 +68,14 @@ if (!empty($errors)) {
 	echo  $error_messages;
 }
 ``` 
+*view/update.php*
+
+```php
+...
+<?php include 'errors.inc.php'; ?>
+...
+```
+
 
 ## CRUD
 
@@ -225,7 +233,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjkyNTMwNDYsMjA0MDQ3Mjc4NiwtMT
+eyJoaXN0b3J5IjpbLTEzMTIxNDAzMzAsMjA0MDQ3Mjc4NiwtMT
 k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
 ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
 I0LDgwODgyOTU4Nl19
