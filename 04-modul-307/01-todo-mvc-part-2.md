@@ -73,21 +73,27 @@ elseif (isset($_POST['update'])) {
 class Task {
 	
 	function __construct ($id) {
-	
+
 		if (!empty($id)) {
-			
+
 			$data = self::load();
-			
+
 			if ($data && key_exists($id, $data) {
-				
 				$this->id = $id;
-				
+				$this->title = $item['title'];
+				...
 			}
 		
 		}	
 	}
+
+	function update (...) {
+		$this->validate(...);
+		
+		
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTU3MjQ3LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTIzNjMyNzE0OCw4MDg4Mjk1ODZdfQ==
 -->
