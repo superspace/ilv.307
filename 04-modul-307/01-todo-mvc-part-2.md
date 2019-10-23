@@ -60,7 +60,7 @@ Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstell
 
 ```php
 
-if (isset($errors)) {
+if (!empty($errors)) {
 	$error_messages = '';
 	foreach($errors as $error) {
 		$error_messages  .=  "<div class=\"alert alert-danger\">$error</div>";
@@ -225,8 +225,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NDU4ODgwLDIwNDA0NzI3ODYsLTE5Nz
-M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
-NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
-w4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjkyNTMwNDYsMjA0MDQ3Mjc4NiwtMT
+k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
+ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
+I0LDgwODgyOTU4Nl19
 -->
