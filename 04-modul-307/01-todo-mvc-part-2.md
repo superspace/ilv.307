@@ -36,7 +36,7 @@ public function getErrors () : array {
 }
 ```
 
-
+Die Ausgabe erfolgt in der View. Um die Anzeige der Fehlermeldung wiederverwenden zu können, 
 
 ## CRUD
 
@@ -194,7 +194,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4NDMzODg4LC0xOTczOTEzNzUzLC0yMD
+eyJoaXN0b3J5IjpbNTcxODMwMTE3LC0xOTczOTEzNzUzLC0yMD
 Q1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4OTc0ODgsMTM2NDUz
 NDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2MjQsODA4ODI5NTg2XX
 0=
