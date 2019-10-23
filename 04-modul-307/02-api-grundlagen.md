@@ -16,12 +16,14 @@ REST ist kein eigenes Protokoll. Es werden zahlreiche bestehende Protokolle verw
  
 
 ### REST per HTTP
-Die folgenden 4 HTTP Methoden stehen in REST zur Verfügung:
+Die folgenden 4 HTTP Methoden stehen in REST per HTTP grundsätzlich zur Verfügung:
 -   **GET**  - fordert Daten vom Server an
 -   **POST**  - übermittelt Daten an den Server
 -   **PUT/PATCH**  - ändern bestehende Daten auf dem Server
 -   **DELETE**  - löscht bestehende Daten auf dem Server
+
+Dabei ist jedoch zu beachten, dass üblicherweise nur  GET und POST verwendet wird. F 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjE1MDE1NSwtMTg5NjYwNDcyNiwtMz
-A1MTU3NTA5XX0=
+eyJoaXN0b3J5IjpbOTA0MTIyODkxLC0xODk2NjA0NzI2LC0zMD
+UxNTc1MDldfQ==
 -->
