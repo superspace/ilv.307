@@ -83,7 +83,6 @@ class Task {
 				$this->title = $item['title'];
 				...
 			}
-		
 		}	
 	}
 
@@ -128,7 +127,7 @@ class Task {
 <input type="hidden" name="id" value="<?=  $task->id; ?>">
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc1MzA3MzIsLTgzOTg5NjQzMywtMT
-QzMzg5NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2
-NzYyNCw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbMzc0MTI4NDA2LC04Mzk4OTY0MzMsLTE0Mz
+M4OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2
+MjQsODA4ODI5NTg2XX0=
 -->
