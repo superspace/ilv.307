@@ -54,16 +54,29 @@ view/
 *controller.php*
 
 ```php
-elseif (isset($_POST['update'])) {
+if (isset($_POST['update'])) {
 
 	// Get id
 	$id = isset($data['id']) ? $data['id'] : 0;
 	
-	// Create Task with id
+	// Initialize Task with id
 	$task = new Task($id);
 	
 	// Update task
 	$task->update(...)
+}
+
+if (isset($_POST['delete'])) {
+	
+	// Get id
+	$id = isset($data['id']) ? $data['id'] : 0;
+	
+	// Initialize Task with id
+	$task = new Task($id);
+	
+	// Delete task
+	$task->delete();
+
 }
 ```
 
@@ -127,7 +140,7 @@ class Task {
 <input type="hidden" name="id" value="<?=  $task->id; ?>">
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzI3MzcxNSwtODM5ODk2NDMzLC0xND
-MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
-NjI0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTEwOTczMjg0MDIsLTgzOTg5NjQzMywtMT
+QzMzg5NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2
+NzYyNCw4MDg4Mjk1ODZdfQ==
 -->
