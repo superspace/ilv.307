@@ -31,8 +31,14 @@ Meist werden die Parameter, welche an die API übermittelt werden sollen, per UR
 ```
 http://api.superheld.xyz/getHero?universe=marvel&popuplarity=5
 ```  
-Als Antwort l
+Als Antwort liefert die API die entsprechenden Datensätze im JSON Format:
+```json
+[
+{"name":""}
+]
+```  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg3NDE3MCwtMTg5NjYwNDcyNiwtMz
+eyJoaXN0b3J5IjpbMTE1MTU1NDU1NywtMTg5NjYwNDcyNiwtMz
 A1MTU3NTA5XX0=
 -->
