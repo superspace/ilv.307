@@ -26,12 +26,12 @@ Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Än
 
  *Wir beschränken uns in diesem Kurs auf die Implementierung von read-only API's per GET Methode.*
 
-### Beispiel für einen GET Request
+### Beispiel für einen GET Request (HTTP und JSON)
 Meist werden die Parameter, welche an die API übermittelt werden sollen, per URL Parameter übergeben:
 ```
-http://api.superheld.xyz/getSuperhelden?universe=marvel
+http://api.superheld.xyz/getSuperhelden?universe=marvel&
 ```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MjAwMjUxLC0xODk2NjA0NzI2LC0zMD
-UxNTc1MDldfQ==
+eyJoaXN0b3J5IjpbLTIwNzM0MzE0ODksLTE4OTY2MDQ3MjYsLT
+MwNTE1NzUwOV19
 -->
