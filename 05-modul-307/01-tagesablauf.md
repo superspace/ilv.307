@@ -3,11 +3,11 @@
 ### Tagesprogramm
 
 - Einführung KNW, Möglichkeit zum Lösen von Unklarheiten
-- Start KNW (Dauer total 5.5h
-- Die Pausen obligatorisch
-- MC-Test nach der Mittagspause
-- Im Laufe des Nachmittags Kurs-Evaluation ausfüllen  Ausgangslage
+- Start KNW (Dauer total 5.5h Mittagspause
+-   AusgangslageMC-Prüfung Verständnisfragen
+- Fortsetzung KNW
+*- Nachmittags-Pause*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg3NzgzNywtMTA2MTIwMjYzMiwxMz
-M2ODYwMzUwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTE5NDk2NTA1NCwtMTIzODc3ODM3LDEzMz
+Y4NjAzNTAsNzMwOTk4MTE2XX0=
 -->
