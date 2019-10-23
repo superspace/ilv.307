@@ -34,11 +34,20 @@ http://api.superheld.xyz/getHero?universe=marvel&popuplarity=5
 Als Antwort liefert die API die entsprechenden Datensätze im JSON Format:
 ```json
 [
-{"name":""}
+	{
+		"name":"Iron Man",
+		"universe":"Marvel",
+		"popuplarity":5
+	},
+	{
+		"name":"Thor",
+		"universe":"Marvel",
+		"popuplarity":5
+	}
 ]
 ```  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTU1NDU1NywtMTg5NjYwNDcyNiwtMz
-A1MTU3NTA5XX0=
+eyJoaXN0b3J5IjpbNTYxMTE4NTcxLC0xODk2NjA0NzI2LC0zMD
+UxNTc1MDldfQ==
 -->
