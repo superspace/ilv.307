@@ -97,24 +97,28 @@ class Task {
 			$this->title = $title;
 			...
 			
+			// Load data
+			...
+
 			if (empty($this->id) {
 			
-				$this->id = hash('md5', ...);
+				$this->id = self::getId($data)
 				$this->created = time();
 			
 			}
 			
-			// Load data
-			
 			// Update data
+			$data[$this->id] = [
+			]
 
 			// Save data
+			...
 		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDg5OTY2OCwtMTQzMzg5NzQ4OCwxMz
-Y0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNCw4MDg4Mjk1
-ODZdfQ==
+eyJoaXN0b3J5IjpbNTYxNzQ2NDEsLTE0MzM4OTc0ODgsMTM2ND
+UzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2MjQsODA4ODI5NTg2
+XX0=
 -->
