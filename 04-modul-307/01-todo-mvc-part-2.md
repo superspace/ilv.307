@@ -40,7 +40,19 @@ public function getErrors () : array {
 }
 ```
 
-Im `controller.php` werden die Fehler 
+Im `controller.php` werden die Fehler ausgelels
+
+```php
+if (isset($_POST['create'])) {
+	
+	...
+	
+	if ($errors = $task->getErrors()) {
+		$view = 'create';
+	} else {
+		header("Location:{$_SERVER['PHP_SELF']}");
+	}
+```
 
 Die Ausgabe erfolgt in der View. Um die Anzeige der Fehlermeldung wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
 
@@ -217,8 +229,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTE2MTA1LDIwNDA0NzI3ODYsLTE5Nz
-M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
-NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
-w4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbLTkxMzk1NjQzMCwyMDQwNDcyNzg2LC0xOT
+czOTEzNzUzLC0yMDQ1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4
+OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2Mj
+QsODA4ODI5NTg2XX0=
 -->
