@@ -150,9 +150,15 @@ class Task {
 
 <!-- Set id in hidden field -->
 <input type="hidden" name="id" value="<?=  $task->id; ?>">
+
+<!-- send action update -->
+<button  type="submit"  name="update">Update</button>
+
+<!-- send action delete -->
+<button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzczMTE5NywtODM5ODk2NDMzLC0xND
-MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
-NjI0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTEwOTQ5ODgzNDEsLTgzOTg5NjQzMywtMT
+QzMzg5NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2
+NzYyNCw4MDg4Mjk1ODZdfQ==
 -->
