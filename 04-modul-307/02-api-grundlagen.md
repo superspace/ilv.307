@@ -49,8 +49,11 @@ Als Antwort liefert die API die entsprechenden Datensätze im JSON Format:
 
 ### Implementation in PHP
 Alle benötigten Werkzeuge zur Implementation einer HTTP-GET/JOSN API sind bereits bekannt:
-- Die PHP-Funktion `file_get_contents` erlaubt auch das Lesen einer fernliegenden "Datei" 
+- Die PHP-Funktion `file_get_contents` erlaubt auch das Lesen einer fernliegenden "Datei" per HTTP:
+```php
+$json = file_get_contents();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIwODk2MDgsLTE4OTY2MDQ3MjYsLT
-MwNTE1NzUwOV19
+eyJoaXN0b3J5IjpbLTY4OTE4NjY4OCwtMTkyMjA4OTYwOCwtMT
+g5NjYwNDcyNiwtMzA1MTU3NTA5XX0=
 -->
