@@ -30,7 +30,7 @@ $values = json_decode($meinJSONString, true);
 $value = $values['1'];
 ```
 
-Eine inkrementelle ID kann mit PHP relativ einfach erzeugt werden: Wir übergeben der Funktion `max()` alle bestehenen IDs und addieren 1. 
+Eine inkrementelle ID kann mit PHP relativ einfach en it  Wir übergeben der Funktion `max()` alle bestehenen IDs und addieren 1. der Funktion `max()` re :
 
 ```php
 $id = hash('md5', time() .  rand(1000,9999));
@@ -113,6 +113,6 @@ class Task {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk1NjYzNzYsLTIyODc2NzYyNCw4MD
-g4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbMTY1MDg5MzU1MiwtMTczOTU2NjM3NiwtMj
+I4NzY3NjI0LDgwODgyOTU4Nl19
 -->
