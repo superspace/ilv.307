@@ -17,7 +17,6 @@ function __construct (...) {
 		
 		// Update values
 		...
-		
 	}
 }
 
@@ -233,8 +232,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIxNDAzMzAsMjA0MDQ3Mjc4NiwtMT
-k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
-ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
-I0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbNTkwMTQxNjQsMjA0MDQ3Mjc4NiwtMTk3Mz
+kxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMzODk3
+NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3NjI0LD
+gwODgyOTU4Nl19
 -->
