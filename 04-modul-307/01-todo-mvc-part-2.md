@@ -1,3 +1,7 @@
+ [Modul 307 / Tag 4](/ilv.307/04-modul-307)
+
+# ToDo-Verwaltung: Teil 2
+
 ## Validierung
 
 Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
@@ -35,6 +39,8 @@ public function getErrors () : array {
 	return $this->errors;
 }
 ```
+
+Im `controller.php` werden die Fehler 
 
 Die Ausgabe erfolgt in der View. Um die Anzeige der Fehlermeldung wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
 
@@ -211,8 +217,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDQ3Mjc4NiwtMTk3MzkxMzc1MywtMj
-A0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1
-MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl
-19
+eyJoaXN0b3J5IjpbLTM5OTE2MTA1LDIwNDA0NzI3ODYsLTE5Nz
+M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
+NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
+w4MDg4Mjk1ODZdfQ==
 -->
