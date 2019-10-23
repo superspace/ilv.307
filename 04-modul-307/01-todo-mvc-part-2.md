@@ -28,7 +28,10 @@ public function update (...) : void {
 		...
 		
 	}
+}
 
+public function getErrors () : array {
+	return $this->errors;
 }
 ```
 
@@ -190,7 +193,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgzMzk2NTQsLTIwNDU2MDI0MTcsLT
-gzOTg5NjQzMywtMTQzMzg5NzQ4OCwxMzY0NTM0NTYxLDE2NTA4
-OTM1NTIsLTIyODc2NzYyNCw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbMTk1MTYxODAzOSwtMjA0NTYwMjQxNywtOD
+M5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5
+MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl19
 -->
