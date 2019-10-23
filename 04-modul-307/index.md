@@ -3,10 +3,10 @@
  
 # Tag 4: API Schnittstellen
 
-## MVC Teil 2
+## ToDo Teil 2
 
-- Validierung
-- CRUD
+- [Validierung und Fehlermeldung](/ilv.307/04-modul-307/01-todo-validierung)
+- [Bearbeiten und Löschen](/ilv.307/04-modul-307/01.1-todo-crud)
 
 ## API Schnittstellen
 
@@ -14,6 +14,6 @@
 - [API Übung](/ilv.307/04-modul-307/02-uebung)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2OTIwMDY0LDE3MTEzMTUyODYsNjExNz
-g0ODcsMzY1NjU2NDczXX0=
+eyJoaXN0b3J5IjpbLTgzMDg1NTQ3MSwxNzExMzE1Mjg2LDYxMT
+c4NDg3LDM2NTY1NjQ3M119
 -->
