@@ -53,11 +53,11 @@ Alle benötigten Werkzeuge zur Implementation einer HTTP-GET/JOSN API sind berei
 ```php
 $json = file_get_contents('http://api.superheld.xyz/getHero?universe=marvel&popuplarity=5');
 ```
-- Mittels `json_decode` kann die Antwort in einen Array umgewandelt werden:
+- Mittels `json_decode` kann das zurückgeliferte `JSON` in einen Array umgewandelt werden:
 ```php
 $data= json_decode($json, true);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjUyNzUxOSwtOTAzMDU0NTg3LC0xOT
-IyMDg5NjA4LC0xODk2NjA0NzI2LC0zMDUxNTc1MDldfQ==
+eyJoaXN0b3J5IjpbMTY5OTgwODIwLC05MDMwNTQ1ODcsLTE5Mj
+IwODk2MDgsLTE4OTY2MDQ3MjYsLTMwNTE1NzUwOV19
 -->
