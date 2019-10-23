@@ -36,7 +36,7 @@ Die ID kann per Hash-Funktion mit einem zufälligen Wert und beispielswiese dem 
 $id = hash('md5', time() .  rand(1000,9999));
 ```
 
-### Datei-Struktur
+### Ergänzung Datei-Struktur
 
 ```
 view/
@@ -55,8 +55,12 @@ view/
 ```php
 elseif (isset($_POST['update'])) {
 
+	$id = isset($data['id']) ? $data['id'] : 0;
+	
+	$task = new Task($id);
+	$task
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTEyMDgzNSw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbNjc0MDc4ODUsODA4ODI5NTg2XX0=
 -->
