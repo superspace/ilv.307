@@ -1,4 +1,4 @@
- [Modul 307 / Tag 5](/ilv.307/051-modul-307)
+
 # Prüfungstag
 ### Tagesprogramm
 
@@ -6,13 +6,26 @@
 - Start KNW (Dauer total 5.5h)
 *- Vorm Mittags-Ppause*
 - Fortsetzung KNW
-*- Mndrag-auseMC-Prüfung Verständnisfragen
+*- Mittags-Pause*
+- MC-Prüfung Verständnisfragen
 - Fortsetzung KNW
 *- Nachmittags-Pause*
 - Abschluss KNW
 
+### Regeln
 
+- Der KNW wird als Einzelarbeit realisiert.
+- Der Coach gibt ausschliesschlich Auskunft zu Verständisfragen
+- Kein Copy/Paste von fremdem Code
+- Mündlicher Austausch ist nur in der Pause erlaubt
+- Schriftlicher resp. elektronischer Austausch ist nicht erlaubt.
+- Es sind keine prüfungsirrelevanten Programme oder Browsertabs geöffnet. (E-Mail, Chats, private Seiten etc.)
+- Die Pausen sind obligatorisch und werden ausserhalb des Schulzimmers verbracht.
+- Eigene Devices sind erlaubt:
+	- Diese müssen ganztägig im Schulzimmer verbleiben bleiben
+	- Funktion der eigenen Devices ist Eigenverantwortung
+- Ein Verstoss gegen die Regeln kann zum Prüfungsabbruch und zur Note 1 führen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTk2NTAxMiwxNzAyNTMzOTQzLC0xMj
+eyJoaXN0b3J5IjpbLTU5MDg0MzMxNSwxNzAyNTMzOTQzLC0xMj
 M4Nzc4MzcsMTMzNjg2MDM1MCw3MzA5OTgxMTZdfQ==
 -->
