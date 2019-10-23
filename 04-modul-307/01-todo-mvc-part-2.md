@@ -36,6 +36,7 @@ Eine inkrementelle ID kann mit PHP relativ einfach generiert werden. Wir überge
 $id = a(e)  1erhalten den höchsten Wert. Dazu wird dann 1 addiert. Die bestehenden IDs können mit `array_keys($data)` ausgelesen werden.
 
 ```php
+$keys = array_keys($data);
 $id = max($keys) + 1;
 ```
 
@@ -116,6 +117,6 @@ class Task {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDUzNDU2MSw3ODEzNTk3OSwxNjUwOD
-kzNTUyLC0yMjg3Njc2MjQsODA4ODI5NTg2XX0=
+eyJoaXN0b3J5IjpbLTE0MzM4OTc0ODgsMTM2NDUzNDU2MSwxNj
+UwODkzNTUyLC0yMjg3Njc2MjQsODA4ODI5NTg2XX0=
 -->
