@@ -1,7 +1,7 @@
 
 # API Übung: Chuck Norris
 ### Datenquelle
-Unter folgender URL wird eine REST API angeboten, welche den Bezug von "Chuck Norris"-Jokes ermöglicht. 
+Unter folgender URL wird eine REST API angeboten, welche den Bezug von "Chuck Norris"-Jokes ermöglicht:
 [http://www.icndb.com/api/](http://www.icndb.com/api/)
 
 
@@ -21,7 +21,7 @@ Studieren Sie die API-Dokumentation und erstellen Sie eine Web-Applikation zur E
 Folgende Vorgaben müssen erfüllt sein:
 - Es müssen sinnvolle HTML5 Feldtypen gewählt werden.
 - Alle Felder müssen in HTML5 und serverseitig validiert werden.
-- Den Formularfeldern müssen entsprechende `lable`-Tags zugewiesen werden.
+- Den Formularfeldern müssen entsprechende `label`-Tags zugewiesen werden.
 - Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
 
 ### Zusatzaufgabe
@@ -29,7 +29,7 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcwMDI0NzksNDk3ODE4ODEwLC04NT
-c4MjQ5MzksMTQ5NDQyODAwNSwxODIzOTg4NzkyLC0xMDU5NjE5
-MTA0LC0xNDIwNjEyOTY4XX0=
+eyJoaXN0b3J5IjpbLTU3NTM1Nzg2MSwtMTk1NzAwMjQ3OSw0OT
+c4MTg4MTAsLTg1NzgyNDkzOSwxNDk0NDI4MDA1LDE4MjM5ODg3
+OTIsLTEwNTk2MTkxMDQsLTE0MjA2MTI5NjhdfQ==
 -->
