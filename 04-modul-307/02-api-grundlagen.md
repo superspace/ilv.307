@@ -6,7 +6,7 @@
 - Ein Teil einer Applikation, welcher anderen Applikationen einen Zugang zur Applikation und/oder deren Daten ermöglicht.
 
 ### REST (REpresentational State Transfer)
-Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP oder WSDL) hat sich REST zu einer der populärsten Technologien für den webbasierten Datenaustausch entwickelt.
+Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP oder WSDL) hat sich REST zu einer der populärsten Methoden für den webbasierten Datenaustausch entwickelt.
  
 REST ist kein eigenes Protokoll. Es werden zahlreiche bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder `XML` als Datenformat. Dabei wird auf die Einhaltung von 6 Prinzipien geachtet, auf die wir an dieser Stelle nicht weiter eingehen. Weitere Details:
 [https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien](https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien)
@@ -58,6 +58,6 @@ $json = file_get_contents('http://api.superheld.xyz/getHero?universe=marvel&popu
 $data= json_decode($json, true);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzA1NDU4NywtMTkyMjA4OTYwOCwtMT
-g5NjYwNDcyNiwtMzA1MTU3NTA5XX0=
+eyJoaXN0b3J5IjpbODY2NTE3MDM0LC05MDMwNTQ1ODcsLTE5Mj
+IwODk2MDgsLTE4OTY2MDQ3MjYsLTMwNTE1NzUwOV19
 -->
