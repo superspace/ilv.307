@@ -11,10 +11,13 @@ Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP oder WSD
 REST ist kein eigenes Protokoll. Es werden zahlreiche bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder `XML` als Datenformat. Dabei wird auf die Einhaltung von 6 Prinzipien geachtet, auf die wir an dieser Stelle nicht weiter eingehen. Weitere Details:
 [https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien](https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien)
 
-Wir beschränuns in diesem Kurs 
+ Wir beschränken uns in diesem Kurs auf HTTP und JSON basierte REST API's.
 
+ 
+
+### REST als JSON per HTTP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzA0NjEyNSwtMTg5NjYwNDcyNiwtMz
-A1MTU3NTA5XX0=
+eyJoaXN0b3J5IjpbLTE2OTI0OTkyNDUsLTE4OTY2MDQ3MjYsLT
+MwNTE1NzUwOV19
 -->
