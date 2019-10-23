@@ -187,18 +187,6 @@ if (isset($_POST['update'])) {
 			...
 		}
 	}
-	
-	function delete () : void {
-		
-		// Load data
-		...
-		
-			// Delete data
-		unset($data[$this->id]);Update data
-
-			// Save data
-		...
-	}
 ```
 *update.php*
 
@@ -250,8 +238,8 @@ if (isset($_POST['delete'])) {
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MDQ5MjIxLDIwNDA0NzI3ODYsLTE5Nz
-M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
-NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
-w4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE5OTcxMzgyMzcsMjA0MDQ3Mjc4NiwtMT
+k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
+ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
+I0LDgwODgyOTU4Nl19
 -->
