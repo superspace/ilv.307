@@ -5,6 +5,18 @@ Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`
 ```php
 private $errors = [];
 
+function __construct (...) {
+
+	$this->errors = $this->validate(...);
+
+	if (empty($this->errors)) {
+		
+		// Update values
+		...
+		
+	}
+}
+
 private function validate (...) : array {
 	
 	$errors = [];
@@ -18,19 +30,8 @@ private function validate (...) : array {
 	return $errors;
 }
 
-public function update (...) : void {
-
-	$this->errors = $this->validate(...);
-
-	if (empty($this->errors)) {
-		
-		// Update values
-		...
-		
-	}
-}
-
 public function getErrors () : array {
+
 	return $this->errors;
 }
 ```
@@ -193,7 +194,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM5MTM3NTMsMTk1MTYxODAzOSwtMj
+eyJoaXN0b3J5IjpbMTM4MTMyOTI2NCwtMTk3MzkxMzc1MywtMj
 A0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1
 MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl
 19
