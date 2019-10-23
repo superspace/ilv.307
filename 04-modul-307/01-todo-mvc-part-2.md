@@ -62,7 +62,7 @@ Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstell
 if (!empty($errors)) {
 	$error_messages = '';
 	foreach($errors as $error) {
-		$error_messages  .=  "<div class=\"alert alert-danger\">$error</div>";
+		$error_messages  .=  "<p>$error</p>";
 	}
 	echo  $error_messages;
 }
@@ -89,13 +89,17 @@ Um den Zugriff auf einzelne Einträge sicherzustellen, sollte jeder Eintrag eine
 ```json
 {
 	"1": {
-		"name": "Urs Beyeler",
-		"email" : "dev@superspace.ch"
+		"title": "ID hinzufügen",
+		"description": "Für jeden Eintrag eine Id generieren.",
+		"priority" : "5",
+		"created" : 1571838767
 	},
 	"2": {
-		"name": "Hans Dampf",
-		"email": "hans@dampf.ch"
-	}
+		"title": "Daten bearbeiten",
+		"description": "Bestehende Daten bearbeiten können.",
+		"priority" : "3",
+		"created" : 1571838790
+	},
 }
 ```
 Zugriff auf einen spezifischen Eintrag:
@@ -108,7 +112,7 @@ $value = $values['1'];
 Eine inkrementelle ID kann mit PHP relativ einfach generiert werden. Wir übergeben der Funktion `max($ids)` alle bestehenen IDs und addieren 1. dazu. Die bestehenden IDs können mit `array_keys($data)` ausgelesen werden.
 
 ```php
-$idkeys = array_keys($data);
+$ids = array_keys($data);
 $id = max($ids) + 1;
 ```
 
@@ -119,7 +123,7 @@ view/
 	update.php          // Daten aktualisieren
 ```
 
-*index.php*
+*public/index.php*
 ```php
 	case  'update' :
 		include  '../view/update.php';
@@ -142,7 +146,7 @@ if (isset($_POST['update'])) {
 }
 ```
 
-*task.class.php*
+*model/task.class.php*
 
 ```php
 	function __construct ($id) {
@@ -188,7 +192,7 @@ if (isset($_POST['update'])) {
 		}
 	}
 ```
-*update.php*
+*view/update.php*
 
 ```php
 <!-- Set actual value of title -->
@@ -199,9 +203,6 @@ if (isset($_POST['update'])) {
 
 <!-- send action update -->
 <button  type="submit"  name="update">Update</button>
-
-<!-- send action delete -->
-<button  type="submit"  name="delete">Löschen</button>
 ```
 
 ### Daten löschen
@@ -237,9 +238,16 @@ if (isset($_POST['delete'])) {
 		...
 	}
 ```
+
+*view/update.php*
+
+```php
+<!-- send action delete -->
+<button  type="submit"  name="delete">Löschen</button>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTcxMzgyMzcsMjA0MDQ3Mjc4NiwtMT
-k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
-ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
-I0LDgwODgyOTU4Nl19
+eyJoaXN0b3J5IjpbLTU0MDI5MTYyMCwyMDQwNDcyNzg2LC0xOT
+czOTEzNzUzLC0yMDQ1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4
+OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2Mj
+QsODA4ODI5NTg2XX0=
 -->
