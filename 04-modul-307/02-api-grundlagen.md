@@ -22,7 +22,7 @@ Die folgenden 4 HTTP Methoden stehen in REST per HTTP grundsätzlich zur Verfüg
 -   **PUT**  - ändern bestehende Daten auf dem Server
 -   **DELETE**  - löscht bestehende Daten auf dem Server
 
-Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Ändern von Daten erfolgt häufig über die POST Methode, während das Löschen von Datensätzen z.B. auch über einen URL-Parameter in einem GET Request gelöst werden kann. Dies entspricht nicht der offiziellen REST Definition, hat sich aber in der Praxis bewährt.
+Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Ändern von Daten erfolgt häufig über die POST Methode, während das Löschen von Datensätzen z.B. auch über einen URL-Parameter in einem GET Request gelöst werden kann. Dies entspricht zwar nicht der offiziellen REST Definition, hat sich aber in der Praxis bewährt.
 
  *Wir beschränken uns in diesem Kurs auf die Implementierung von read-only API's per GET Methode.*
 
@@ -58,6 +58,6 @@ $json = file_get_contents('http://api.superheld.xyz/getHero?universe=marvel&popu
 $data= json_decode($json, true);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTUyMDIxLC05MDMwNTQ1ODcsLTE5Mj
-IwODk2MDgsLTE4OTY2MDQ3MjYsLTMwNTE1NzUwOV19
+eyJoaXN0b3J5IjpbMTE4NjUyNzUxOSwtOTAzMDU0NTg3LC0xOT
+IyMDg5NjA4LC0xODk2NjA0NzI2LC0zMDUxNTc1MDldfQ==
 -->
