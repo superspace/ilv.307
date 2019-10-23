@@ -78,7 +78,7 @@ if (!empty($errors)) {
 
 ## Aktualisieren und Löschen
 
-Gemäss dem CRUD-Prinzip (`Create-Read-Update-Delete`) sollen die Daten auch bearbeitet und gelöscht werden können. 
+Dem CRUD-Prinzip (`Create-Read-Update-Delete`) folgende sollen die Daten auch bearbeitet und gelöscht werden können. 
 
 ### Datenhaltung
 
@@ -232,8 +232,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTUzMTU4MCwyMDQwNDcyNzg2LC0xOT
-czOTEzNzUzLC0yMDQ1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4
-OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2Mj
-QsODA4ODI5NTg2XX0=
+eyJoaXN0b3J5IjpbLTE5NzQ5MTI4MjEsMjA0MDQ3Mjc4NiwtMT
+k3MzkxMzc1MywtMjA0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMz
+ODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3Nj
+I0LDgwODgyOTU4Nl19
 -->
