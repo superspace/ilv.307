@@ -4,13 +4,12 @@
 
 - Einführung KNW, Möglichkeit zum Lösen von Unklarheiten
 - Start KNW (Dauer total 5.5h)
-- Vormittags-Pause
+- Vorm Mittags-Ppause
 - Fortsetzung KNW
-- Mittagspause
-- MC-Prüfung Verständnisfragen
+- Mndrag-auseMC-Prüfung Verständnisfragen
 - Fortsetzung KNW
 *- Nachmittags-Pause*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDEyOTYyOCwtMTIzODc3ODM3LDEzMz
-Y4NjAzNTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTcwMjUzMzk0MywxMjYwMTI5NjI4LC0xMj
+M4Nzc4MzcsMTMzNjg2MDM1MCw3MzA5OTgxMTZdfQ==
 -->
