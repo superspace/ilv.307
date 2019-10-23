@@ -2,7 +2,7 @@
 
 # ToDo-Verwaltung: Teil 2
 
-## Validierung
+## Validierung und Fehlermeldung
 
 Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
@@ -76,9 +76,9 @@ if (!empty($errors)) {
 ```
 
 
-## CRUD
+## Aktualisieren und Löschen
 
-> Create-Read-Update-Delete
+GemäDie Daten sollen bearbeitet und gelöscht werden können. 
 
 ### Datenhaltung
 
@@ -232,7 +232,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTA1NzM0MCwyMDQwNDcyNzg2LC0xOT
+eyJoaXN0b3J5IjpbMjEyMzE3ODM0MCwyMDQwNDcyNzg2LC0xOT
 czOTEzNzUzLC0yMDQ1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4
 OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2Mj
 QsODA4ODI5NTg2XX0=
