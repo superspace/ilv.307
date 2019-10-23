@@ -3,7 +3,6 @@
 Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
 ```php
-<?
 private $errors = [];
 
 function __construct (...) {
@@ -39,10 +38,21 @@ public function getErrors () : array {
 
 Die Ausgabe erfolgt in der View. Um die Anzeige der Fehlermeldung wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
 
-*errors.inc.php*
+*view/errors.inc.php*
 
 ```php
+$error_messages = '';
 
+if (isset($errors)) {
+
+foreach($errors as $error) {
+	$error_messages  .=  "<div class=\"alert alert-danger\">$error</div>";
+	}
+}
+
+  
+
+echo  $error_messages;
 ``` 
 
 ## CRUD
@@ -201,7 +211,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjgzNDU1OCwtMTk3MzkxMzc1MywtMj
+eyJoaXN0b3J5IjpbMjA0MDQ3Mjc4NiwtMTk3MzkxMzc1MywtMj
 A0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1
 MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl
 19
