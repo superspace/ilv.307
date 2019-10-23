@@ -1,6 +1,6 @@
 ## Validierung
 
-Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`
+Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
 ```php
 private $errors = [];
@@ -194,8 +194,8 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTMyOTI2NCwtMTk3MzkxMzc1MywtMj
-A0NTYwMjQxNywtODM5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1
-MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl
-19
+eyJoaXN0b3J5IjpbNDQ4NDMzODg4LC0xOTczOTEzNzUzLC0yMD
+Q1NjAyNDE3LC04Mzk4OTY0MzMsLTE0MzM4OTc0ODgsMTM2NDUz
+NDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2MjQsODA4ODI5NTg2XX
+0=
 -->
