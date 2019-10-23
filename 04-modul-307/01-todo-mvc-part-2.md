@@ -98,13 +98,20 @@ class Task {
 			
 			if (empty($this->id) {
 			
-				$this->id = hash('md5
+				$this->id = hash('md5', ...);
+				$this->created = time();
 			
 			}
+			
+			// Load data
+			
+			// Update data
+
+			// Save data
 		}
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTcxNjAyNDgsODA4ODI5NTg2XX0=
+eyJoaXN0b3J5IjpbLTIyODc2NzYyNCw4MDg4Mjk1ODZdfQ==
 -->
