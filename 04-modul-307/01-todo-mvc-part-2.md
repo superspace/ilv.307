@@ -1,10 +1,26 @@
 ## Validierung
 
-Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`.
+Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`
 
 ```php
-private function validate
+private function validate (...) : array {
+	
+	$errors = [];
+
+	if (empty($title)) {
+		$errors[] = "Geben Sie bitte einen Titel ein.";
+	}
+
+	...
+
+	return $errors;
+}
+
+public function update (...) : void {
+}
 ```
+
+
 
 ## CRUD
 
@@ -123,8 +139,7 @@ class Task {
 			
 			}
 			
-		// 
-		$data[$this->id] = array(
+		// 		$data[$this->id] = array(
 				'title' => $this->title,
 				...
 			)
@@ -163,7 +178,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU2MDI0MTcsMTkwNTU1NjMzMSwtOD
+eyJoaXN0b3J5IjpbMTc4MTg1MTMyOSwtMjA0NTYwMjQxNywtOD
 M5ODk2NDMzLC0xNDMzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5
 MzU1MiwtMjI4NzY3NjI0LDgwODgyOTU4Nl19
 -->
