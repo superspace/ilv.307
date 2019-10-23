@@ -8,7 +8,7 @@
 ### REST (REpresentational State Transfer)
 Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP oder WSDL) hat sich REST zu einer der populärsten Technologien für den webbasierten Datenaustausch entwickelt.
  
-- REST ist kein eigenes Protokoll. Es werden bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder` XML als Datenformat. 
+- REST ist kein eigenes Protokoll. Es werden bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder `XML` als Datenformat. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4OTk3NDE2LC0zMDUxNTc1MDldfQ==
+eyJoaXN0b3J5IjpbLTE4OTY2MDQ3MjYsLTMwNTE1NzUwOV19
 -->
