@@ -140,26 +140,11 @@ if (isset($_POST['update'])) {
 	// e task
 	$task->update(...)
 }
-
-if (isset($_POST['delete'])) {
-	
-	// Get id
-	$id = isset($data['id']) ? $data['id'] : 0;
-	
-	// Initialize Task with id
-	$task = new Task($id);
-	
-	// Delete task
-	$task->delete();
-
-}
 ```
 
 *task.class.php*
 
 ```php
-class Task {
-	
 	function __construct ($id) {
 
 		if (!empty($id)) {
@@ -214,7 +199,6 @@ class Task {
 			// Save data
 		...
 	}
-}
 ```
 *update.php*
 
@@ -249,8 +233,24 @@ if (isset($_POST['delete'])) {
 	$task->delete();
 }
 ```
+
+*model/task.class.php*
+
+```php
+	function delete () : void {
+		
+		// Load data
+		...
+		
+		// Delete data
+		unset($data[$this->id]);
+		
+		// Save data
+		...
+	}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5Njg3NTY2LDIwNDA0NzI3ODYsLTE5Nz
+eyJoaXN0b3J5IjpbOTM1MDQ5MjIxLDIwNDA0NzI3ODYsLTE5Nz
 M5MTM3NTMsLTIwNDU2MDI0MTcsLTgzOTg5NjQzMywtMTQzMzg5
 NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2NzYyNC
 w4MDg4Mjk1ODZdfQ==
