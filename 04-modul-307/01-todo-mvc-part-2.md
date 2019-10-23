@@ -1,5 +1,10 @@
 ## Validierung
 
+Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`.
+
+```php
+private function validate
+```
 
 ## CRUD
 
@@ -158,7 +163,7 @@ class Task {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ5ODgzNDEsLTgzOTg5NjQzMywtMT
-QzMzg5NzQ4OCwxMzY0NTM0NTYxLDE2NTA4OTM1NTIsLTIyODc2
-NzYyNCw4MDg4Mjk1ODZdfQ==
+eyJoaXN0b3J5IjpbMTkwNTU1NjMzMSwtODM5ODk2NDMzLC0xND
+MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
+NjI0LDgwODgyOTU4Nl19
 -->
