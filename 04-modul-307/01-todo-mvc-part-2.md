@@ -121,12 +121,12 @@ class Task {
 *update.php*
 
 ```php
-<input  type="text" value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->title; ?>"
-
-<input  type="hidden"  value="<?=  $task->id; ?>"  name="id">
+<input type="text" name="title" value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->title; ?>" required>
+// 
+<input type="hidden" name="id" value="<?=  $task->id; ?>">
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzcwMjYzLC04Mzk4OTY0MzMsLTE0Mz
-M4OTc0ODgsMTM2NDUzNDU2MSwxNjUwODkzNTUyLC0yMjg3Njc2
-MjQsODA4ODI5NTg2XX0=
+eyJoaXN0b3J5IjpbLTgwNTExMjY3NiwtODM5ODk2NDMzLC0xND
+MzODk3NDg4LDEzNjQ1MzQ1NjEsMTY1MDg5MzU1MiwtMjI4NzY3
+NjI0LDgwODgyOTU4Nl19
 -->
