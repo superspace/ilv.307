@@ -1,4 +1,4 @@
- [Modul 307 / Tag 5](/ilv.307/05-modul-307)
+ [Modul 307 / Tag 5](/ilv.307/051-modul-307)
 # Prüfungstag
 ### Tagesprogramm
 
@@ -6,8 +6,8 @@
 - Start KNW (Dauer total 5.5h
 - Die Pausen obligatorisch
 - MC-Test nach der Mittagspause
-- Im Laufe des Nachmittags Kurs-Evaluation ausfüllen
+- Im Laufe des Nachmittags Kurs-Evaluation ausfüllen  Ausgangslage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEyMDI2MzIsMTMzNjg2MDM1MCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyMzg3NzgzNywtMTA2MTIwMjYzMiwxMz
+M2ODYwMzUwLDczMDk5ODExNl19
 -->
