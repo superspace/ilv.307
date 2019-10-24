@@ -57,8 +57,14 @@ $json = file_get_contents('http://api.superheld.xyz/hero?universe=marvel&popupla
 ```php
 $data= json_decode($json, true);
 ```
+
+#### URL-Parameter
+
+Die URL-Parameter starten mit `?` und werden per `&` verknüpft:
+
+`http://www.url.com/endpoint?param1=value1&param`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTExMDkzMCwxNjk5ODA4MjAsLTkwMz
-A1NDU4NywtMTkyMjA4OTYwOCwtMTg5NjYwNDcyNiwtMzA1MTU3
-NTA5XX0=
+eyJoaXN0b3J5IjpbMjA0ODg3NjQwNywtNjgxMTEwOTMwLDE2OT
+k4MDgyMCwtOTAzMDU0NTg3LC0xOTIyMDg5NjA4LC0xODk2NjA0
+NzI2LC0zMDUxNTc1MDldfQ==
 -->
