@@ -51,14 +51,14 @@ Als Antwort liefert die API die entsprechenden Datensätze im JSON Format:
 Alle benötigten Werkzeuge zur Implementation einer HTTP-GET/JOSN API sind bereits bekannt:
 - Die PHP-Funktion `file_get_contents` erlaubt auch das Lesen einer fernliegenden "Datei" per HTTP:
 ```php
-$json = file_get_contents('http://api.superheld.xyz/getHero?universe=marvel&popuplarity=5');
+$json = file_get_contents('http://api.superheld.xyz/hero?universe=marvel&popuplarity=5');
 ```
 - Mittels `json_decode` kann das zurückgeliferte `JSON` in einen Array umgewandelt werden:
 ```php
 $data= json_decode($json, true);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTc1OTAwNiwxNjk5ODA4MjAsLTkwMz
+eyJoaXN0b3J5IjpbLTY4MTExMDkzMCwxNjk5ODA4MjAsLTkwMz
 A1NDU4NywtMTkyMjA4OTYwOCwtMTg5NjYwNDcyNiwtMzA1MTU3
 NTA5XX0=
 -->
