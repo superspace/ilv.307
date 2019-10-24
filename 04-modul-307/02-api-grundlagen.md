@@ -64,13 +64,13 @@ Die URL-Parameter starten mit `?` und werden per `&` verknüpft:
 
 `http://www.url.com/endpoint?param1=value1&param2=value2`
 
-Da URLs keine Sonderzeichen und Umlaute enhalten dürfen, müssen die Werte mit `urlencode()` formatiert werden:
+Da URLs keine Sonderzeichen und Umlaute enhalten dürfen, müssen die Werte mit `urlencode()` kodiert werden:
 
 ```php
-$url = http://www.url.com/endpoint?param1=value1&param2=value2
+$url = 'http://www.url.com/endpoint?param1=' . urlencode($value1) . '&param2=' . urlencode(value2);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzE5NDY2NCwtNjgxMTEwOTMwLDE2OT
-k4MDgyMCwtOTAzMDU0NTg3LC0xOTIyMDg5NjA4LC0xODk2NjA0
-NzI2LC0zMDUxNTc1MDldfQ==
+eyJoaXN0b3J5IjpbNDk3MDU4MzIsLTY4MTExMDkzMCwxNjk5OD
+A4MjAsLTkwMzA1NDU4NywtMTkyMjA4OTYwOCwtMTg5NjYwNDcy
+NiwtMzA1MTU3NTA5XX0=
 -->
