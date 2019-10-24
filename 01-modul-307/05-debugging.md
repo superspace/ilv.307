@@ -14,7 +14,7 @@
 
 [https://xdebug.org/wizard](https://xdebug.org/wizard)
 
-### Confgi
+### php.ini
 
 ```
 [xdebug]
@@ -33,6 +33,6 @@ xdebug.show_local_vars = 1
 zend_extension = ...
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1Nzc0MTYxLDEzNTEzNjM1NjYsNDMzNz
-UxNzM0XX0=
+eyJoaXN0b3J5IjpbLTExNDkxNjA5MzksMTM1MTM2MzU2Niw0Mz
+M3NTE3MzRdfQ==
 -->
