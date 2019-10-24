@@ -22,14 +22,14 @@ Folgende Vorgaben müssen erfüllt sein:
 - Es müssen sinnvolle HTML5 Feldtypen gewählt werden.
 - Alle Felder müssen in HTML5 und serverseitig validiert werden.
 - Den Formularfeldern müssen entsprechende `label`-Tags zugewiesen werden.
-- Die verfügbaren Kategorien müssen in Echtzeit aus der API abgefragt werden.
 
 ### Zusatzaufgabe
 - Einzelne Jokes können mit "gefällt mir" markiert werden:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTM1Nzg2MSwtMTk1NzAwMjQ3OSw0OT
-c4MTg4MTAsLTg1NzgyNDkzOSwxNDk0NDI4MDA1LDE4MjM5ODg3
-OTIsLTEwNTk2MTkxMDQsLTE0MjA2MTI5NjhdfQ==
+eyJoaXN0b3J5IjpbLTc0ODUxNTU1NCwtNTc1MzU3ODYxLC0xOT
+U3MDAyNDc5LDQ5NzgxODgxMCwtODU3ODI0OTM5LDE0OTQ0Mjgw
+MDUsMTgyMzk4ODc5MiwtMTA1OTYxOTEwNCwtMTQyMDYxMjk2OF
+19
 -->
