@@ -10,10 +10,10 @@
 
 ## API Schnittstellen
 
-- [API Grundlagen](/ilv.307/04-modul-307/02-api-grundlagen)
-- [API Übung](/ilv.307/04-modul-307/02-uebung)
+- API Grundlagen
+- API Übung
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk5OTcxMiwxNzExMzE1Mjg2LDYxMT
-c4NDg3LDM2NTY1NjQ3M119
+eyJoaXN0b3J5IjpbMjEyNzI5OTAwMiwtMTY1OTk5NzEyLDE3MT
+EzMTUyODYsNjExNzg0ODcsMzY1NjU2NDczXX0=
 -->
