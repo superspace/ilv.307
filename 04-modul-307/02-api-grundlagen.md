@@ -53,14 +53,14 @@ Alle benötigten Werkzeuge zur Implementation einer HTTP-GET/JOSN API sind berei
 ```php
 $json = file_get_contents('http://api.superheld.xyz/hero?universe=marvel&popuplarity=5');
 ```
-- Mittels `json_decode` kann das zurückgeliferte `JSON` in einen Array umgewandelt werden:
+- Mittels `json_decode` kann das zurückgelieferte `JSON` in einen Array umgewandelt werden:
 ```php
 $data= json_decode($json, true);
 ```
 
 #### URL-Parameter
 
-Die URL-Parameter starten mit `?` und werden per `&` verknüpft:
+Die URL-Parameter einer Query starten mit `?` und werden per `&` verknüpft:
 
 `http://www.url.com/endpoint?param1=value1&param2=value2`
 
@@ -70,7 +70,7 @@ Da URLs keine Sonderzeichen und Umlaute enhalten dürfen, müssen die Werte mit 
 $url = 'http://www.url.com/endpoint?param1=' . urlencode($value1) . '&param2=' . urlencode(value2);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3MDU4MzIsLTY4MTExMDkzMCwxNjk5OD
-A4MjAsLTkwMzA1NDU4NywtMTkyMjA4OTYwOCwtMTg5NjYwNDcy
-NiwtMzA1MTU3NTA5XX0=
+eyJoaXN0b3J5IjpbLTExMTAwMDU1MTIsLTY4MTExMDkzMCwxNj
+k5ODA4MjAsLTkwMzA1NDU4NywtMTkyMjA4OTYwOCwtMTg5NjYw
+NDcyNiwtMzA1MTU3NTA5XX0=
 -->
