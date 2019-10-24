@@ -29,7 +29,7 @@ Dabei ist jedoch zu beachten, dass oft nur  GET und POST verwendet wird. Das Än
 ### Beispiel für einen GET Request (HTTP und JSON)
 Meist werden die Parameter, welche an die API übermittelt werden sollen, per URL Parameter übergeben:
 ```
-http://api.superheld.xyz/getHero?universe=marvel&popuplarity=5
+http://api.superheld.xyz/hero?universe=marvel&popuplarity=5
 ```  
 Als Antwort liefert die API die entsprechenden Datensätze im JSON Format:
 ```json
@@ -58,6 +58,7 @@ $json = file_get_contents('http://api.superheld.xyz/getHero?universe=marvel&popu
 $data= json_decode($json, true);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTgwODIwLC05MDMwNTQ1ODcsLTE5Mj
-IwODk2MDgsLTE4OTY2MDQ3MjYsLTMwNTE1NzUwOV19
+eyJoaXN0b3J5IjpbLTUwNTc1OTAwNiwxNjk5ODA4MjAsLTkwMz
+A1NDU4NywtMTkyMjA4OTYwOCwtMTg5NjYwNDcyNiwtMzA1MTU3
+NTA5XX0=
 -->
