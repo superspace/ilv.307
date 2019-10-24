@@ -9,6 +9,30 @@
 - Weitere Nützliche Links:
 	- xDebug & MAMP: [https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/](https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/)
 	- xDebug & XAMPP: [http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html](http://www.sintesisdigital.com.mx/dashboard/docs/activate-use-xdebug.html)
+
+### Wizard
+
+[https://xdebug.org/wizard](https://xdebug.org/wizard)
+
+### Confgi
+
+```
+[xdebug]
+xdebug.remote_enable=1
+xdebug.remote_host=localhost
+xdebug.remote_autostart=1
+xdebug.remote_port=9000
+xdebug.remote_handler="dbgp"
+xdebug.remote_mode=req
+xdebug.profiler_enable = 1
+xdebug.profiler_output_dir = "c:/temp"
+xdebug.collect_params = 4
+xdebug.collect_return = on
+xdebug.collect_vars = on	
+xdebug.show_local_vars = 1
+zend_extension = ...
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTM2MzU2Niw0MzM3NTE3MzRdfQ==
+eyJoaXN0b3J5IjpbODQ1Nzc0MTYxLDEzNTEzNjM1NjYsNDMzNz
+UxNzM0XX0=
 -->
