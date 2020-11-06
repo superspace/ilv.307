@@ -1,3 +1,4 @@
+ [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 
 # API Übung: Chuck Norris
 ### Datenquelle
@@ -28,5 +29,5 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODUxNTU1NF19
+eyJoaXN0b3J5IjpbODU1MjkwOTEzXX0=
 -->
