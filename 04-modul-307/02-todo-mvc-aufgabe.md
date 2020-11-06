@@ -52,7 +52,7 @@ Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die e
 
 ### Vorgehen
 
-1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell
+1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MzkwNDgyXX0=
+eyJoaXN0b3J5IjpbLTk2ODUyMTYzMl19
 -->
