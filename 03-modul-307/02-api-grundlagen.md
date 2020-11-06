@@ -1,4 +1,4 @@
- [Modul 307 / Tag 4](/ilv.307/04-modul-307)
+ [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 
 # API Grundlagen
 ### Was ist eine API?
@@ -70,5 +70,5 @@ Da URLs keine Sonderzeichen und Umlaute enhalten dürfen, müssen die Werte mit 
 $url = 'http://www.url.com/endpoint?param1=' . urlencode($value1) . '&param2=' . urlencode(value2);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTAwMDU1MTJdfQ==
+eyJoaXN0b3J5IjpbMjAwMTE4ODUwNF19
 -->
