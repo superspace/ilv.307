@@ -44,6 +44,10 @@ Die Auflistung der erfassten Einträge in HTML.
 `controller.php`
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
+
+Vorgehen
+
+1. Markieren Sie im bestenden Coe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI1OTU1MV19
+eyJoaXN0b3J5IjpbNTM2NDAzOTkwXX0=
 -->
