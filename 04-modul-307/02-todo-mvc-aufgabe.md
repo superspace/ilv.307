@@ -6,17 +6,17 @@ Das prozedurale Script der ToDo-Verwaltung soll nun in ein MVC Design-Pattern ü
 
 Als Grundlage dient uns folgende Dateistruktur:
 
-```yaml
-data: 
+```bash
+data/ 
 	tasks.json          # Datenhaltung in JSON-File
-model: 
+model/ 
 	task.class.php      # Klassenmodell mit Attributen und Methoden
-public:
-	index.php           / Ansicht im Web-Root 
+public/
+	index.php           # Ansicht im Web-Root 
 view/
-	create.php          // HTML-Formular für neuen Eintrag
-	list.php            // Auflistung der Einträge
-controller.php              // Steuerung
+	create.php          # HTML-Formular für neuen Eintrag
+	list.php            # Auflistung der Einträge
+controller.php              # Steuerung
 ```
 
 `data/tasks.json`
@@ -45,9 +45,9 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 
-Vorgehen
+### Vorgehen
 
 1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDQ1OTA1OF19
+eyJoaXN0b3J5IjpbLTE4NzEwODQyOTZdfQ==
 -->
