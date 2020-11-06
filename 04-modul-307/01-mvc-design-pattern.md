@@ -1,4 +1,4 @@
- [Modul 307 / Tag 3](/ilv.307/03-modul-307)
+ [Modul 307 / Tag 4](/ilv.307/04-modul-307)
  
 # MVC Design-Pattern
 
@@ -39,5 +39,5 @@ Die Trennung des Datenmodells von der Datenhaltung erlaubt uns z.B. später eine
 ## Erweiterbarkeit
 Da die Struktur der Anwendung klar definiert ist, lassen sich zusätzliche Funktionen relativ einfach hinzufügen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEyNTYxMjBdfQ==
+eyJoaXN0b3J5IjpbLTE1MzM4ODY5NiwtMTM1MTI1NjEyMF19
 -->
