@@ -4,7 +4,7 @@
 - Von `multidimensionale Arrays` spricht man, wenn Arrays als Elemente in eines Arrays gespeichert sind.  Die Arrays sind somit ineinander verschachtelt.
 - Damit lassen sich einfach hierarchische Strukturen abbilden.
  
- ### Beispiel
+ ## Beispiel
  
  Ein Flugzeug besteht aus verschiedenen Attributen:
  ```php
@@ -77,6 +77,6 @@ typ: Archer
 ----------
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzIxNTEwMSwtMTI4MjE4MDg5MSwxOD
-c3ODAzNV19
+eyJoaXN0b3J5IjpbLTE4NDE5MDQwMTgsMTg4MzIxNTEwMSwtMT
+I4MjE4MDg5MSwxODc3ODAzNV19
 -->
