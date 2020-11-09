@@ -15,13 +15,14 @@
 - [Übung 2: Kontrollstrukturen Einführung (Gruppenarbeit)](/ilv.307/01-modul-307/102-kontrollstrukturen-einfuhrung)
 - [Übung 3: Kontrollstrukturen anwenden](/ilv.307/01-modul-307/103-kontrollstrukturen-anwenden)
 
-
+<!--
 ### Lösungen
 
 - [Übung 1: Erste Schritte mit PHP](/ilv.307/01-modul-307/101-loesung)
 - [Übung 3: Kontrollstrukturen anwenden](/ilv.307/01-modul-307/103-loesung)
+- -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM0MzU5NTksLTEzODU1NDMwNDksLT
+eyJoaXN0b3J5IjpbLTE5NzE5MzE3NjMsLTEzODU1NDMwNDksLT
 I1MDQxMzk4MSwtMTk5NzgwNDM5MywxOTUzNjY3MzkxLC0xMTg3
 MTg5Nzk5LC0xNjQ0Nzg5MTQyLC0xMTQ1ODA5MDM1XX0=
 -->
