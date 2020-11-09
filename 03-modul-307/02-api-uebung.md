@@ -1,8 +1,8 @@
  [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 
-# API Übung: Chuck Norris
+# API Übung: Fahrplan Anfrage
 ### Datenquelle
-Unter folgender URL wird eine REST API angeboten, welche den Bezug von "Chuck Norris"-Jokes ermöglicht:
+Unter folgender URL wird eine REST API angeboten, welche den Bezug von Fahrplan Daten in der Schweiz :
 [http://www.icndb.com/api/](http://www.icndb.com/api/)
 
 
@@ -29,5 +29,5 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MjkwOTEzXX0=
+eyJoaXN0b3J5IjpbLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
 -->
