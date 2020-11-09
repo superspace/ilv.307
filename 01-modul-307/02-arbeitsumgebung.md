@@ -12,7 +12,7 @@
 	- `MAMP`: [https://www.mamp.info/de/downloads/](https://www.mamp.info/de/downloads/)
 - Quellcode Editor:
 	- `Visual Studio Code`: [https://code.visualstudio.com/](https://code.visualstudio.com/) (empfohlen)
-		- Mit Extension `PHP IntelliSense`
+		- Mit Extension `PHP intelephense`
 	- oder ein anderer nach Wunsch  (kein Support vom Coach)
 - Browser nach belieben
 
@@ -20,5 +20,5 @@
 - Selbstständiges Herunterladen und Installieren der Umgebung
 - Zielvorgabe: **Im Quellcode Editor ein `Hello World` in PHP programmieren und über `XAMPP`/`MAMP` im Browser anzeigen.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MTQ1MjQyXX0=
+eyJoaXN0b3J5IjpbLTc1MzA0MzA4NSw2OTUxNDUyNDJdfQ==
 -->
