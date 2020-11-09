@@ -82,43 +82,12 @@ $max = ToDo::getMaxPriority();
 ->
 : Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
 
-## Code-Dokumentation
 
-### DocBlock
 
-Ein DocBlock ist ein standardisiert aufgebauter Kommentar um  Methoden, Parameter und Attribute  zu dokumentieren.
-
-Durch die Standardisierung ist der DocBlock sehr einfach zu lesen und zu verstehen und es ist möglich, die technische Dokumentation des Codes zu automatisieren.
-
-[docs.phpdoc.org](https://docs.phpdoc.org/references/phpdoc/basic-syntax.html#what-is-a-docblock)
-
-```php
- /**
- * Einzelige Zusammenfassung
- *
- * Auführlichere Beschreibung, gerne auch über mehrere 
- * Zeilen.
- *
- * @author  Urs Beyeler <dev@superspace.ch>
- *
- * @since 1.0
- *
- * @param int    $wert  Das ist die Parameter-Beschreibung.
- * @param string $wert2 Dies ist ein weiterer Wert.
- * 
- * @return string  Das ist der Rückgabewert der Funktion.
- */
-```
-
-Der DocBlock besteht im Wesentlichen aus 3 Teilen:
-
--  Zusammenfassung
-- Beschreibung
-- Meta-Daten test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3OTA1MTQ2LDQyMDg5ODkyMCwtNTE3OD
-A2NTcwLC03NDA0OTU5Myw0MjExOTg5NTUsLTQ2NDY4NjcxNSwx
-NzY0NjEwODgsLTcyNzA4OTk4NSw2NDI2NzQ4NDIsMTkzMDIyMz
-U5NywtMTYzMDQ3MDExNyw5NTg2NDc4MzUsLTE4ODA0MzA5MCw5
-MzMyNDA5NDFdfQ==
+eyJoaXN0b3J5IjpbLTQ3MTM5NTY5Nyw1ODc5MDUxNDYsNDIwOD
+k4OTIwLC01MTc4MDY1NzAsLTc0MDQ5NTkzLDQyMTE5ODk1NSwt
+NDY0Njg2NzE1LDE3NjQ2MTA4OCwtNzI3MDg5OTg1LDY0MjY3ND
+g0MiwxOTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1ODY0NzgzNSwt
+MTg4MDQzMDkwLDkzMzI0MDk0MV19
 -->
