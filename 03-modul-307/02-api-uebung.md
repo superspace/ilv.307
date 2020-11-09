@@ -13,10 +13,10 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Zielort
 	- Datum
 	- Uhrzeit
-- Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. Eine Verbindung kann aus einer oder mehreren Teilstecken bestehen. Für jede Tei
-	- Joke
-	- Kategorie(n)
-	- Joke-ID
+- Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. Eine Verbindung kann aus einer oder mehreren Teilstecken bestehen. Für jede Teilstrecke werden folgende Daten angezeigt:
+	- Abfahrtsort mit Abfahrtszeit und Gleis
+	- Ankunftsort mit Ankunftszeit und Gleis
+	- Zugnummer
 
 ###  Vorgaben
 Folgende Vorgaben müssen erfüllt sein:
@@ -29,6 +29,6 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDM1NTQyMCwxMjE0NTUzOTM5LC0yMT
+eyJoaXN0b3J5IjpbMTUzNjE2ODY4MCwxMjE0NTUzOTM5LC0yMT
 YwNzEyNTIsODU1MjkwOTEzXX0=
 -->
