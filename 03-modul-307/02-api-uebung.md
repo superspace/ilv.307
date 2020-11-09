@@ -7,7 +7,7 @@ Die Firma Swisscom Directories AG bietet eine frei verfügbare API auf JSON-Basi
 
 
 ### Aufgabe
-Studieren Sie die API-Dokumentation und erstellen Sie eine Web-Applikation zur Echtzeit-Abfrage der oben genannten API:
+Studieren Sie die API-Dokumentation für die Methode `Routensuchen und erstellen Sie eine Web-Applikation zur Echtzeit-Abfrage der oben genannten API:
 - Über ein HTML Formular lassen sich folgende Parameter eingeben:
 	- Anzahl Jokes (Pflichtfeld, Ganzzahl, begrenzt auf 1 - 10)
 	- Alternativer Vorname (optionales Feld)
@@ -29,6 +29,6 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NT
-I5MDkxM119
+eyJoaXN0b3J5IjpbLTEwNzM5NDM0NTgsMTIxNDU1MzkzOSwtMj
+E2MDcxMjUyLDg1NTI5MDkxM119
 -->
