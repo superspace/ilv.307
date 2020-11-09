@@ -79,15 +79,15 @@ $todo->setPriority($priority);
 // Statische Method aufrufen
 $max = ToDo::getMaxPriority();
 ``` 
-->
-: Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
+
+Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTM5NTY5Nyw1ODc5MDUxNDYsNDIwOD
-k4OTIwLC01MTc4MDY1NzAsLTc0MDQ5NTkzLDQyMTE5ODk1NSwt
-NDY0Njg2NzE1LDE3NjQ2MTA4OCwtNzI3MDg5OTg1LDY0MjY3ND
-g0MiwxOTMwMjIzNTk3LC0xNjMwNDcwMTE3LDk1ODY0NzgzNSwt
-MTg4MDQzMDkwLDkzMzI0MDk0MV19
+eyJoaXN0b3J5IjpbLTY2OTUzNjY0OCwtNDcxMzk1Njk3LDU4Nz
+kwNTE0Niw0MjA4OTg5MjAsLTUxNzgwNjU3MCwtNzQwNDk1OTMs
+NDIxMTk4OTU1LC00NjQ2ODY3MTUsMTc2NDYxMDg4LC03MjcwOD
+k5ODUsNjQyNjc0ODQyLDE5MzAyMjM1OTcsLTE2MzA0NzAxMTcs
+OTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMjQwOTQxXX0=
 -->
