@@ -2,8 +2,8 @@
 
 # API Übung: Fahrplan Anfrage
 ### Datenquelle
-Unter folgender URL wird eine REST API angeboten, welche den Bezug von Fahrplan Daten in der Schweiz :
-[http://www.icndb.com/api/](http://www.icndb.com/api/)
+Die Firma Swisscom Directories AG bietet eine frei verfügbare API auf JSON-Basis zum Bezug von Fahrplandaten in der Schweiz:
+[https://fahrplan.search.ch/api/help](https://fahrplan.search.ch/api/help)
 
 
 ### Aufgabe
@@ -29,5 +29,6 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
+eyJoaXN0b3J5IjpbMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NT
+I5MDkxM119
 -->
