@@ -5,6 +5,7 @@
 - Damit lassen sich einfach hierarchische Strukturen abbilden.
  
  ### Beispiel
+ 
  Ein Flugzeug besteht aus verschiedenen Attributen:
  ```php
  $flugzeug = Array('registrierung' => 'HB-ABC','hersteller' => 'Airbus','Typ' => 'A380');
@@ -76,5 +77,6 @@ typ: Archer
 ----------
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIxODA4OTEsMTg3NzgwMzVdfQ==
+eyJoaXN0b3J5IjpbMTg4MzIxNTEwMSwtMTI4MjE4MDg5MSwxOD
+c3ODAzNV19
 -->
