@@ -29,12 +29,13 @@ Folgende Vorgaben müssen erfüllt sein:
 - Den Formularfeldern müssen entsprechende `label`-Tags zugewiesen werden.
 
 ### Zusatzaufgaben
-- Bauen Sie zusätzlich folgende Felder (und deren entsprechende Verarbeitung) ein:
-	- Einschränkung von Verkehrsmitteln (nur mit Zu)
+- Bauen Sie folgende zusätzlichen Funktionen ein:
+	- Der Benutzer kann eine Einschränkung von Verkehrsmitteln (nur mit Zug, Tram, Bus, etc.) vorgeben.
+	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
+	- Der Benutzer kann die Anzahl gewünschter Verbindungen eingeben.
 - Bauen sie für alle Formularfelder serverseitige Validierung ein.
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzUyMDI2OSwxOTE3MjMwMzMxLDE1Mz
-YxNjg2ODAsMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NTI5MDkx
-M119
+eyJoaXN0b3J5IjpbNzI5MTk3NjUwLDE5MTcyMzAzMzEsMTUzNj
+E2ODY4MCwxMjE0NTUzOTM5LC0yMTYwNzEyNTIsODU1MjkwOTEz
+XX0=
 -->
