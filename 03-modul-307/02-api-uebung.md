@@ -29,10 +29,12 @@ Folgende Vorgaben müssen erfüllt sein:
 - Den Formularfeldern müssen entsprechende `label`-Tags zugewiesen werden.
 
 ### Zusatzaufgaben
+- Bauen Sie zusätzlich folgende Felder (und deren entsprechende Verarbeitung) ein:
+	- Einschränkung von Verkehrsmitteln (nur mit )
 - Bauen sie für alle Formularfelder serverseitige Validierung ein.
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDUxOTI5NSwxOTE3MjMwMzMxLDE1Mz
-YxNjg2ODAsMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NTI5MDkx
-M119
+eyJoaXN0b3J5IjpbNjIwNjkwMDA4LDE5MTcyMzAzMzEsMTUzNj
+E2ODY4MCwxMjE0NTUzOTM5LC0yMTYwNzEyNTIsODU1MjkwOTEz
+XX0=
 -->
