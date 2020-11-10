@@ -28,6 +28,7 @@ Die Ausgabe könnte zum Beispiel so aussehen:
 Folgende Vorgaben müssen erfüllt sein:
 - Es müssen sinnvolle HTML5 Feldtypen gewählt werden.
 - Den Formularfeldern müssen entsprechende `label`-Tags zugewiesen werden.
+- Wenn die Abfrage zu keinen Ergebnissen führt, wird eine entsprechende Meldung angezeigt.
 
 ### Zusatzaufgaben
 - Bauen Sie folgende zusätzlichen Funktionen ein:
@@ -36,7 +37,7 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die maximale Anzahl  Verbindungen selbst definieren.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5OTI0MzAsMTU2Mzk1NjA1MCw3Mj
-kxOTc2NTAsMTkxNzIzMDMzMSwxNTM2MTY4NjgwLDEyMTQ1NTM5
-MzksLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
+eyJoaXN0b3J5IjpbLTM1MjA5NzA5OCwxNTYzOTU2MDUwLDcyOT
+E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
+OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
 -->
