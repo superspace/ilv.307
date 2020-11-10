@@ -14,7 +14,7 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Datum
 	- Uhrzeit
 - Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. 
-- Eine Verbindung besteht aus mindestens zwei oder bei Umsteigen mehr Stationen.
+- Eine Verbindung besteht aus mindestens zwei, oder bei Umsteigen mehreren Stationen.
 - Für jede Station werden folgende Daten (falls vorhanden) angegeben: 
 	- Stationsname
 	- Ankunftszeit
@@ -31,12 +31,12 @@ Folgende Vorgaben müssen erfüllt sein:
 
 ### Zusatzaufgaben
 - Bauen Sie folgende zusätzlichen Funktionen ein:
-	- Zeigen Sie in der Ausgabe zu erwartende Verspätungen an.
+	- Zeigen Sie in der Ausgabe alfällig zu erwartende Verspätungen an.
 	- Der Benutzer kann eine Einschränkung von Verkehrsmitteln (z.B. nur mit Zug, Tram, Bus, etc.) vorgeben.
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die maximale Anzahl  Verbindungen selbst definieren.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Njc5ODY1MSwxNTYzOTU2MDUwLDcyOT
+eyJoaXN0b3J5IjpbLTE1MjcyMTc2MiwxNTYzOTU2MDUwLDcyOT
 E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
 OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
 -->
