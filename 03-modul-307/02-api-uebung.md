@@ -26,15 +26,13 @@ Die Ausgabe könnte zum Beispiel so aussehen:
 ###  Vorgaben
 Folgende Vorgaben müssen erfüllt sein:
 - Es müssen sinnvolle HTML5 Feldtypen gewählt werden.
-- Alle Felder müssen in HTML5 und serverseitig validiert werden.
 - Den Formularfeldern müssen entsprechende `label`-Tags zugewiesen werden.
 
-### Zusatzaufgabe
-- Einzelne Jokes können mit "gefällt mir" markiert werden:
-	- Diese werden in der Folge in einer JSON-Datei gespeichert.
-	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
+### Zusatzaufgaben
+- Bauen sie für alle Formularfelder serverseitige Validierung ein.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDcxNTQ2LDE5MTcyMzAzMzEsMTUzNj
-E2ODY4MCwxMjE0NTUzOTM5LC0yMTYwNzEyNTIsODU1MjkwOTEz
-XX0=
+eyJoaXN0b3J5IjpbLTgxNDUxOTI5NSwxOTE3MjMwMzMxLDE1Mz
+YxNjg2ODAsMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NTI5MDkx
+M119
 -->
