@@ -31,12 +31,12 @@ Folgende Vorgaben müssen erfüllt sein:
 
 ### Zusatzaufgaben
 - Bauen Sie folgende zusätzlichen Funktionen ein:
-	- Zeigen Sie in der Ausgabe alfällig zu erwartende Verspätungen an.
+	- Zeigen Sie in der Ausgabe allfällig zu erwartende Verspätungen an.
 	- Der Benutzer kann eine Einschränkung von Verkehrsmitteln (z.B. nur mit Zug, Tram, Bus, etc.) vorgeben.
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die maximale Anzahl  Verbindungen selbst definieren.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjcyMTc2MiwxNTYzOTU2MDUwLDcyOT
-E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
-OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
+eyJoaXN0b3J5IjpbLTIxMDA5OTI0MzAsMTU2Mzk1NjA1MCw3Mj
+kxOTc2NTAsMTkxNzIzMDMzMSwxNTM2MTY4NjgwLDEyMTQ1NTM5
+MzksLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
 -->
