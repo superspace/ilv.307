@@ -20,7 +20,8 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Ankunftszeit
 	- Abfahrtszeit mit Gleis und Zugnummer
 
-
+Die Ausgabe könnte zum Beispiel so aussehen:
+![enter image description here](https://picasaweb.google.com/115082439297599357168/6893416633931035553#6893416638512693538 "Fahrplan Ausgabe")
 
 ###  Vorgaben
 Folgende Vorgaben müssen erfüllt sein:
@@ -33,6 +34,7 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzIzMDMzMSwxNTM2MTY4NjgwLDEyMT
-Q1NTM5MzksLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
+eyJoaXN0b3J5IjpbMjA3MzI5NzUzOSwxOTE3MjMwMzMxLDE1Mz
+YxNjg2ODAsMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NTI5MDkx
+M119
 -->
