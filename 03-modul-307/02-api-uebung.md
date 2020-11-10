@@ -1,6 +1,6 @@
  [Modul 307 / Tag 3](/ilv.307/03-modul-307)
 
-# API Übung: Fahrplan Anfrage
+# API Übung: Fahrplan Abfrage
 ### Datenquelle
 Die Firma Swisscom Directories AG bietet eine frei verfügbare API auf JSON-Basis zum Bezug von Fahrplandaten in der Schweiz:
 [https://fahrplan.search.ch/api/help](https://fahrplan.search.ch/api/help)
@@ -34,9 +34,9 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Zeigen Sie in der Ausgabe zu erwartende Verspätungen an.
 	- Der Benutzer kann eine Einschränkung von Verkehrsmitteln (z.B. nur mit Zug, Tram, Bus, etc.) vorgeben.
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
-	- Der Benutzer kann die Anzahl gewünschter Verbindungen eingeben.
+	- Der Benutzer kann die maximale Anzahl  Verbindungen selbst definieren.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE5MDcyMCwxNTYzOTU2MDUwLDcyOT
+eyJoaXN0b3J5IjpbLTc5Njc5ODY1MSwxNTYzOTU2MDUwLDcyOT
 E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
 OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
 -->
