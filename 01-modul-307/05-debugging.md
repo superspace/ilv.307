@@ -3,8 +3,9 @@
 # Debugging mit xDebug
 ## Visual Studio Code & xDebug installieren
  
-- Ein gutes Tutorial mit Videoanleitung finden Sie hier:
-[https://ekiwi.de/index.php/198/php-debugging-in-xampp-und-uestudio-einrichten/](https://ekiwi.de/index.php/198/php-debugging-in-xampp-und-uestudio-einrichten/)
+- Ein gutes Videotutorial finden Sie hier:
+[https://www.youtube.com/watch?v=LNIvugvmCyQ](https://www.youtube.com/watch?v=LNIvugvmCyQ)
+<!--[https://ekiwi.de/index.php/198/php-debugging-in-xampp-und-uestudio-einrichten/](https://ekiwi.de/index.php/198/php-debugging-in-xampp-und-uestudio-einrichten/)-->
 *Die Anleitung ist für Windows & XAMPP, sollte grundlegend aber auch mit MAMP funktionieren. Der Ablauf ist derselbe.*  
 - Weitere Nützliche Links:
 	- xDebug & MAMP: [https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/](https://joshbuchea.com/enable-xdebug-in-mamp-for-mac/)
@@ -33,6 +34,6 @@ xdebug.show_local_vars = 1
 zend_extension = ...
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkxNjA5MzksMTM1MTM2MzU2Niw0Mz
-M3NTE3MzRdfQ==
+eyJoaXN0b3J5IjpbMTE2NDM3NzEwNiwtMTE0OTE2MDkzOSwxMz
+UxMzYzNTY2LDQzMzc1MTczNF19
 -->
