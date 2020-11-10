@@ -13,7 +13,7 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Zielort
 	- Datum
 	- Uhrzeit
-- Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. 
+- Nach dem Absenden des Formulars werden maximal 3 Verbindungen angezeigt. 
 - Eine Verbindung besteht aus mindestens zwei oder bei Umsteigen mehr Stationen.
 - Für jede Station werden folgende Daten (falls vorhanden) angegeben: 
 	- Stationsname
@@ -36,7 +36,7 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die maximale Anzahl  Verbindungen selbst definieren.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Njc5ODY1MSwxNTYzOTU2MDUwLDcyOT
-E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
-OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
+eyJoaXN0b3J5IjpbLTEwMjc5MDU2NTcsMTU2Mzk1NjA1MCw3Mj
+kxOTc2NTAsMTkxNzIzMDMzMSwxNTM2MTY4NjgwLDEyMTQ1NTM5
+MzksLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
 -->
