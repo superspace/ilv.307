@@ -30,12 +30,12 @@ Folgende Vorgaben müssen erfüllt sein:
 
 ### Zusatzaufgaben
 - Bauen Sie folgende zusätzlichen Funktionen ein:
-	- Der Benutzer kann eine Einschränkung von Verkehrsmitteln (nur mit Zug, Tram, Bus, etc.) vorgeben.
+	- Zeigen Sie in der Ausgabe zu erwartende Verspätungen an.
+	- Der Benutzer kann eine Einschränkung von Verkehrsmitteln (z.B. nur mit Zug, Tram, Bus, etc.) vorgeben.
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die Anzahl gewünschter Verbindungen eingeben.
-- Bauen sie für alle Formularfelder serverseitige Validierung ein.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MTk3NjUwLDE5MTcyMzAzMzEsMTUzNj
-E2ODY4MCwxMjE0NTUzOTM5LC0yMTYwNzEyNTIsODU1MjkwOTEz
-XX0=
+eyJoaXN0b3J5IjpbMTU2Mzk1NjA1MCw3MjkxOTc2NTAsMTkxNz
+IzMDMzMSwxNTM2MTY4NjgwLDEyMTQ1NTM5MzksLTIxNjA3MTI1
+Miw4NTUyOTA5MTNdfQ==
 -->
