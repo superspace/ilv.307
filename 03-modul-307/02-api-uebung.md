@@ -13,7 +13,9 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Zielort
 	- Datum
 	- Uhrzeit
-- Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. Eine Verbindung kann aus einer oder mehreren Teilstecken bestehen. Für jede Teilstrecke werden folgende Daten angezeigt:
+- Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. 
+- Eine Verbindung besteht aus mindestens zwei oder bei Umsteigen mehr Stationen.
+- Für Jede Station werden folgende Daten angegeben: 
 	- Abfahrtsort mit Abfahrtszeit
 	- Ankunftsort mit Ankunftszeit
 	- Zugnummer
@@ -29,6 +31,6 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODI1NTE4NiwxNTM2MTY4NjgwLDEyMT
+eyJoaXN0b3J5IjpbLTQ1MTUzNjk3MSwxNTM2MTY4NjgwLDEyMT
 Q1NTM5MzksLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
 -->
