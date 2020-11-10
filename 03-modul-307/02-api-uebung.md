@@ -21,6 +21,7 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Abfahrtszeit mit Gleis und Zugnummer
 
 Die Ausgabe könnte zum Beispiel so aussehen:
+
 ![enter image description here](https://lh3.googleusercontent.com/v4FRhh_GoNH2yiWb39iPk1c6emOFmdNcTZaTx76z4vzyzIsjxKaIDdotb7DIctCV9aQhWaWLMtuT "Fahrplan Ausgabe")
 
 ###  Vorgaben
@@ -35,7 +36,7 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die Anzahl gewünschter Verbindungen eingeben.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mzk1NjA1MCw3MjkxOTc2NTAsMTkxNz
-IzMDMzMSwxNTM2MTY4NjgwLDEyMTQ1NTM5MzksLTIxNjA3MTI1
-Miw4NTUyOTA5MTNdfQ==
+eyJoaXN0b3J5IjpbLTE5MzE5MDcyMCwxNTYzOTU2MDUwLDcyOT
+E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
+OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
 -->
