@@ -15,9 +15,9 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 	- Uhrzeit
 - Nach dem Absenden des Formulars werden maximal 5 Verbindungen angezeigt. 
 - Eine Verbindung besteht aus mindestens zwei oder bei Umsteigen mehr Stationen.
-- Für Jede Station werden folgende Daten angegeben: 
-	- Abfahrtsort mit Abfahrtszeit
-	- Ankunftsort mit Ankunftszeit
+- Für jede Station werden folgende Daten (falls vorhanden) angegeben: 
+	- Ankunftszeit
+	- Abfahrtszeit mit Gleis und Zugnummer
 	- Zugnummer
 
 ###  Vorgaben
@@ -31,6 +31,6 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Diese werden in der Folge in einer JSON-Datei gespeichert.
 	- In einer separaten Ansicht können die mit "gefällt mir" markierten Jokes angesehen werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTUzNjk3MSwxNTM2MTY4NjgwLDEyMT
-Q1NTM5MzksLTIxNjA3MTI1Miw4NTUyOTA5MTNdfQ==
+eyJoaXN0b3J5IjpbNTc0MDEwMDE3LDE1MzYxNjg2ODAsMTIxND
+U1MzkzOSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
 -->
