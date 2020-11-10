@@ -30,11 +30,11 @@ Folgende Vorgaben müssen erfüllt sein:
 
 ### Zusatzaufgaben
 - Bauen Sie zusätzlich folgende Felder (und deren entsprechende Verarbeitung) ein:
-	- Einschränkung von Verkehrsmitteln (nur mit )
+	- Einschränkung von Verkehrsmitteln (nur mit Zu)
 - Bauen sie für alle Formularfelder serverseitige Validierung ein.
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNjkwMDA4LDE5MTcyMzAzMzEsMTUzNj
-E2ODY4MCwxMjE0NTUzOTM5LC0yMTYwNzEyNTIsODU1MjkwOTEz
-XX0=
+eyJoaXN0b3J5IjpbLTY5NzUyMDI2OSwxOTE3MjMwMzMxLDE1Mz
+YxNjg2ODAsMTIxNDU1MzkzOSwtMjE2MDcxMjUyLDg1NTI5MDkx
+M119
 -->
