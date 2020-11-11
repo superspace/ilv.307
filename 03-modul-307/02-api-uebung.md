@@ -22,7 +22,7 @@ Studieren Sie die API-Dokumentation für die Methode `Routensuchen` und erstelle
 
 Die Ausgabe könnte zum Beispiel so aussehen:
 
-![enter image description here](https://lh3.googleusercontent.com/v4FRhh_GoNH2yiWb39iPk1c6emOFmdNcTZaTx76z4vzyzIsjxKaIDdotb7DIctCV9aQhWaWLMtuT "Fahrplan Ausgabe")
+![Fahrplan Beispiel](https://toive.ch/m307/fahrplan.png)
 
 ###  Vorgaben
 Folgende Vorgaben müssen erfüllt sein:
@@ -37,7 +37,7 @@ Folgende Vorgaben müssen erfüllt sein:
 	- Der Benutzer kann definieren, ob er zur angegebenen Zeit losfahren oder ankommen möchte.
 	- Der Benutzer kann die maximale Anzahl  Verbindungen selbst definieren.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjA5NzA5OCwxNTYzOTU2MDUwLDcyOT
+eyJoaXN0b3J5IjpbMTM0MDM1NzE4MCwxNTYzOTU2MDUwLDcyOT
 E5NzY1MCwxOTE3MjMwMzMxLDE1MzYxNjg2ODAsMTIxNDU1Mzkz
 OSwtMjE2MDcxMjUyLDg1NTI5MDkxM119
 -->
