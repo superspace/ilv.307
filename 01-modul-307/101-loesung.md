@@ -77,6 +77,7 @@ print("10 - 3 = " . (10-3) . "<br>"); //Subtraktion
 print("8 * 4 = " . (8*4) . "<br>"); //Multiplikation
 print("10 / 2 = " . (10/2) . "<br>"); //Division
 print("14 % 3 = " . (14%3) . "<br>"); //Modulo
+print("5 ** 2 = " . (5**2) . "<br>"); 
 ```
 
 #### Datum I
@@ -173,5 +174,5 @@ foreach($wochentage AS $tag)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDc2OTQ0XX0=
+eyJoaXN0b3J5IjpbMTA2NDA4NzYwNSwxNTEwNzY5NDRdfQ==
 -->
