@@ -6,7 +6,7 @@
 - Ein Teil einer Applikation, welcher anderen Applikationen einen Zugang zur Applikation und/oder deren Daten ermöglicht.
 
 ### REST (REpresentational State Transfer)
-Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP oder WSDL) hat sich REST zu einer der populärsten Methoden für den webbasierten Datenaustausch entwickelt.
+Neben anderen populären Technologien webbasierter API's (wie z.B. SOAP, WSDL oder aktueller auch GraphQL) hat sich REST zu einer weitverbreiteten Methoden für den webbasierten Datenaustausch entwickelt. 
  
 REST ist kein eigenes Protokoll sondern eine Architektur. Es werden zahlreiche bestehende Protokolle verwendet. So zum Beispiel `HTTP` für die Übertragung sowie `JSON` oder `XML` als Datenformat. Dabei wird auf die Einhaltung von 6 Prinzipien geachtet, auf die wir an dieser Stelle nicht weiter eingehen. Weitere Details:
 [https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien](https://de.wikipedia.org/wiki/Representational_State_Transfer#Prinzipien)
