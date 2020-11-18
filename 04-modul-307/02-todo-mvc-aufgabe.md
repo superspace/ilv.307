@@ -8,20 +8,18 @@ Als Grundlage dient uns folgende Dateistruktur:
 
 ```bash
 data/ 
-	tasks.json          # Datenhaltung in JSON-File
+	data.json           # Datenhaltung in JSON-File
 
 model/ 
 	task.class.php      # Klassenmodell mit Attributen und Methoden,
 			    # beinhaltet Logik und Prozesse
-
-public/
-	index.php           # Ausgabe im Web-Root
-
+store/
+	jsonstore.class.php # Schnitts
 view/
 	create.php          # HTML-Formular für neuen Eintrag
 	list.php            # Auflistung der Einträge
 	
-controller.php              # Steuerung der Anfragen und Aufruf des Models
+index.php              # Steuerung der Anfragen und Aufruf des Models
 ```
 
 `data/tasks.json`
@@ -54,5 +52,5 @@ Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die e
 
 1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTM5OTc0NF19
+eyJoaXN0b3J5IjpbMTA3NTE2MDU4LDE3MjUzOTk3NDRdfQ==
 -->
