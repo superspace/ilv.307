@@ -110,7 +110,7 @@ if (isset($_POST['update'])) {
 ```
 *store/jsonstore.class.php*
 ```php
-public  function  getItem (int  $id) : array {
+public function getItem (int  $id) : array {
 
 	$item = [];
 	$this->load();
@@ -121,9 +121,7 @@ public  function  getItem (int  $id) : array {
 	return  $item;
 }
 
-  
-
-public  function  update ($item) {
+public function update ($item) {
 
 	$this->load();
 
@@ -133,9 +131,8 @@ public  function  update ($item) {
 		unset($item['id']);
 
 		$this->data[$id] = $item;
-	$this->save();
-
-}
+		$this->save();
+	}
 }
 ```
 *view/list.php*
@@ -167,14 +164,15 @@ public  function  update ($item) {
 if (isset($_POST['delete'])) {
 	
 	// Get id
-	$id = isset($data['id']) ? $data['id'] : 0;
+	$id = isset($_POST['id']) ? $_POST['id'] : '';
 	
 	// Initialize Task with id
 	$task = new Task($id);
 	
 	// Delete task
 	$task->delete();
-}
+
+header("Location:{$_SERVER['PHP_SELF']}");}
 ```
 
 *model/task.class.php*
@@ -200,5 +198,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTkxMzA4MSwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbLTI3ODY1MDA5OCwtNjc4NzY0OTA1XX0=
 -->
