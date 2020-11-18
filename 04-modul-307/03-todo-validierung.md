@@ -56,7 +56,7 @@ if (isset($_POST['create'])) {
 ```
 Und schlussendlich mit dem PHP-Template-Tag ausgegeben:
 
-```html
+```php
 <?=  $error_message  ?>
 ```
 
@@ -64,6 +64,6 @@ Und schlussendlich mit dem PHP-Template-Tag ausgegeben:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTAyMzM0NywyMTAxMjc4NTEsLTEwNj
+eyJoaXN0b3J5IjpbLTIxMjg0NzI2NiwyMTAxMjc4NTEsLTEwNj
 EzNDkwMzhdfQ==
 -->
