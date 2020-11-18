@@ -36,7 +36,7 @@ public function save () : array {
 }
 ```
 
-In `index.php` werden die Fehler ausgegeben:
+In `index.php` werden die Fehler in der Variable `$error_message` gesammelt:
 
 ```php
 $error_message = '';
@@ -54,29 +54,16 @@ if (isset($_POST['create'])) {
 	}
 }
 ```
+Und schlussendlich mit dem PHP-Template-Tag ausgegeben:
 
-Um die Anzeige der Fehlermeldung in der View wiederverwenden zu können, erstellen wir eine separate PHP-Datei, und binden diese mit  `include` ein.
-
-*view/errors.inc.php*
-
-```php
-if (isset($errors)) {
-	foreach($errors as $error) {
-		echo  "<p>$error</p>";
-	}
-}
-``` 
-*view/update.php*
-
-```php
-...
-<?php include 'errors.inc.php'; ?>
-...
+```html
+<?=  $error_message  ?>
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTI3ODUxLC0xMDYxMzQ5MDM4XX0=
+eyJoaXN0b3J5IjpbLTEzOTAyMzM0NywyMTAxMjc4NTEsLTEwNj
+EzNDkwMzhdfQ==
 -->
