@@ -28,11 +28,11 @@ public function save () : array {
 
 	$errors = $this->validate();
 
-	if ($errors) {
-		return $errors;
-	} else {
+	if (!$errors) {
 		// Store data
 	}
+
+	return $errors;
 }
 ```
 
@@ -44,13 +44,13 @@ $error_message = '';
 if (isset($_POST['create'])) {
 	
 	...
+
 	$errors = $task->save();	
 
 	if ($errors) {
 		foreach ($errors as $error) {
 			$error_message  .=  '<div class="alert alert-danger">'  .  $error  .  '</div>';
 		}
-
 	}
 }
 ```
@@ -78,5 +78,5 @@ if (isset($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NzcwNzUxLC0xMDYxMzQ5MDM4XX0=
+eyJoaXN0b3J5IjpbMjEwMTI3ODUxLC0xMDYxMzQ5MDM4XX0=
 -->
