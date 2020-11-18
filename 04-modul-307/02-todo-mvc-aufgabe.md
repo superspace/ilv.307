@@ -34,19 +34,16 @@ Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attribu
 
 `view/taskview.php`
 
-HTML-Formular zur Erfassung neuer Einträge mit Ausgabe möglicher Fehler aus der Validierung.
+Die Klasse TaskView enthält Methoden, die wir für die Darstellung der Tasks benötigen.
 
-`view/list.php`
+`index.php`
 
-Die Auflistung der erfassten Einträge in HTML.
+index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. 
 
-`controller.php`
-
-Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 
 ### Vorgehen
 
 1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0MDEzMDIzLDE3MjUzOTk3NDRdfQ==
+eyJoaXN0b3J5IjpbMTM2NjY2MTc5OCwxNzI1Mzk5NzQ0XX0=
 -->
