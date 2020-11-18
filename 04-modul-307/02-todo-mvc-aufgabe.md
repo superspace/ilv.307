@@ -48,7 +48,8 @@ index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser au
 
 1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell. 
 2. Erstellen Sie die Verzeichnis- und Dateistruktur wie oben aufgeführt.
-3. 
+3. Definieren Sie die Klassen und includen Sie die nötigen Dateien.
+4. Erstellen Sie die benötigen Methoden und übernehmen Sie den zuvor markierten Code an der entsprechenden Position.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjAzMzk5MiwxNzI1Mzk5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTEzNTIyMjg2ODYsMTcyNTM5OTc0NF19
 -->
