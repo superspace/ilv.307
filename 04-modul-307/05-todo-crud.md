@@ -124,7 +124,10 @@ public function getItem (int  $id) : array {
 }
 ```
 ```php
-public function getIds () {
+public  function  getIds () : array {
+
+	$this->load();
+	return  array_keys($this->data);
 }
 ```
 ```php
@@ -145,10 +148,15 @@ public function update ($item) {
 *view/taskview.php*
 
 ```php
-public function getTasks () : ar
-	case  'update' :
-		include  'view/update.php';
-		break;
+public function getTasks () : array {
+	...
+
+	foreach ($this->store->getIds() as $id) {
+		$task = new Task($id);
+		$tasks[] = $task;
+	}
+	...
+}
 ```
 
 *view/list.php*
@@ -218,6 +226,6 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgzOTk5MDQsMTY5NzA2Mzg1NCwtMj
-A0ODczMDI2MiwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbODMyNjg4NDMsMTY5NzA2Mzg1NCwtMjA0OD
+czMDI2MiwtNjc4NzY0OTA1XX0=
 -->
