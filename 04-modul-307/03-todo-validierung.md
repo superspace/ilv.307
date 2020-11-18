@@ -6,7 +6,7 @@ Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
 ```php
 
-private  function  validate () {
+private  function  validate () : array {
 
 	$errors = [];
 
@@ -21,7 +21,7 @@ private  function  validate () {
 	return  $errors;
 }
 ```
-Vor der Speicherung wird die Methode `validate()` aufgerufen. Falls Fehler vorhanden sind, 
+Vor der Speicherung wird die Methode `validate()` aufgerufen. Falls Fehler vorhanden sind, werden diese in einem Array zurückgegeben. Sonst wird mit der Speicherung fortgefahren.
 
 ```php
 public function save () : array {
@@ -36,7 +36,7 @@ public function save () : array {
 }
 ```
 
-In `index.php` werden die Fehler ausgelesen und die entsprechende View gesetzt:
+In `index.php` werden die Fehler ausgegeben:
 
 ```php
 if (isset($_POST['create'])) {
@@ -74,6 +74,5 @@ if (isset($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk4NjU2MzYsLTEwNjEzNDkwMzhdfQ
-==
+eyJoaXN0b3J5IjpbOTk1MDU1NzEwLC0xMDYxMzQ5MDM4XX0=
 -->
