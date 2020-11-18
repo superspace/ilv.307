@@ -9,14 +9,14 @@
 
 ## ToDo Teil 2
 
-- [EinstieToDo-Liste MVC](/ilv.307/04-modul-307/02-todo-mvc-einstieg)
+- [Einstieg in MVC: Model und View](/ilv.307/04-modul-307/02-todo-mvc-einstieg)
 - [Validierung und Fehlermeldung](/ilv.307/04-modul-307/03-todo-validierung)
-- [Bearbeiten und Löschen](/ilv.307/04-modul-307/03.1-todo-crud)
-- [Bearbeiten und Löschen](/ilv.307/04-modul-307/03.1-todo-crud)
+- [MVC: Controller](/ilv.307/04-modul-307/04-todo-mvc-controller)
+- [Bearbeiten und Löschen](/ilv.307/04-modul-307/05-todo-crud)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAzMzI2MDgsMzkyMTM5NjcxLC0xNj
-U5OTk3MTIsMjEyNzI5OTAwMiwtMTY1OTk5NzEyLDE3MTEzMTUy
-ODYsNjExNzg0ODcsMzY1NjU2NDczXX0=
+eyJoaXN0b3J5IjpbMTUzOTE0MjU2MCwzOTIxMzk2NzEsLTE2NT
+k5OTcxMiwyMTI3Mjk5MDAyLC0xNjU5OTk3MTIsMTcxMTMxNTI4
+Niw2MTE3ODQ4NywzNjU2NTY0NzNdfQ==
 -->
