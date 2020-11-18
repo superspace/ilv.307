@@ -39,14 +39,18 @@ public function save () : array {
 In `index.php` werden die Fehler ausgegeben:
 
 ```php
+$error_message = '';
+
 if (isset($_POST['create'])) {
 	
 	...
-	
-	if ($errors = $task->getErrors()) {
-		$view = 'create';
-	} else {
-		header("Location:{$_SERVER['PHP_SELF']}");
+	$errors = $task->save();	
+
+	if ($errors) {
+		foreach ($errors as $error) {
+			$error_message  .=  '<div class="alert alert-danger">'  .  $error  .  '</div>';
+		}
+
 	}
 }
 ```
@@ -74,5 +78,5 @@ if (isset($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MDU1NzEwLC0xMDYxMzQ5MDM4XX0=
+eyJoaXN0b3J5IjpbNzg0NzcwNzUxLC0xMDYxMzQ5MDM4XX0=
 -->
