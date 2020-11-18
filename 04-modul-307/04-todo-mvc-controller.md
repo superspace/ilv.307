@@ -17,9 +17,10 @@ view/
 	taskview.class.php  # Task-Liste laden und sortieren
 	create.php          # HTML-Formular für neuen Eintrag
 	list.php            # Auflistung der Einträge
-	
-controller.php              # Steuerung der Anfragen und Aufruf 
-des Models
+
+controller/ 	
+	controller.php      # Steuerung der Anfragen und Aufruf des Models
+
 index.php                   # Ausgabe
 ```
 
@@ -50,5 +51,5 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA1OTIwNDNdfQ==
+eyJoaXN0b3J5IjpbMTY5NTgzNDk4OF19
 -->
