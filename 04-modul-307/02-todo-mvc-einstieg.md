@@ -1,6 +1,6 @@
  [Modul 307 / Tag 4](/ilv.307/04-modul-307)
  
-# Aufgabe: ToDo-Verwaltung mit MVC-Pattern
+# MVC: Model, Storage und View
 
 Das prozedurale Script der ToDo-Verwaltung soll nun in ein MVC Design-Pattern überführt werden.
 
@@ -51,5 +51,5 @@ index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser au
 3. Definieren Sie die Klassen und includen Sie die nötigen Dateien.
 4. Erstellen Sie die benötigen Methoden und übernehmen Sie den zuvor markierten Code an der entsprechenden Position.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIyMjg2ODZdfQ==
+eyJoaXN0b3J5IjpbOTkyNzE1MDYyLC0xMzUyMjI4Njg2XX0=
 -->
