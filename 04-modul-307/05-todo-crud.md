@@ -176,9 +176,22 @@ if (isset($_POST['delete'])) {
 
 ```php
 	public  function  delete () {
+
 		if ($this->id > 0) {
 			$this->store->delete($this->id);
 		}
+	}
+```
+*store/jsonstore.class.php*
+```php
+	public  function  delete ($id) {
+
+		$this->load();
+
+		if ($id && in_array($id, array_keys($this->data))) {
+			unset($this->data[$id]);
+		}
+		$this->save();
 	}
 ```
 
@@ -189,5 +202,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjM1NzIzLC02Nzg3NjQ5MDVdfQ==
+eyJoaXN0b3J5IjpbLTIwNDg3MzAyNjIsLTY3ODc2NDkwNV19
 -->
