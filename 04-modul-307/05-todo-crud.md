@@ -163,7 +163,7 @@ public function getTasks () : array {
 
 ```php
 	...
-	echo "<a href=\"?view=update&id={$task->getId()}\">Update</a>";
+	echo '<a href="?view=update&id=' . $task->getId() . '>Update</a>';
 	...
 ```
 
@@ -226,6 +226,6 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3MTA3MzEsMTY5NzA2Mzg1NCwtMj
-A0ODczMDI2MiwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbNzU0ODk3NjIzLDE2OTcwNjM4NTQsLTIwND
+g3MzAyNjIsLTY3ODc2NDkwNV19
 -->
