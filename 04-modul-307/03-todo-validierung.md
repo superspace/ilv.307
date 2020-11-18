@@ -21,10 +21,10 @@ private  function  validate () {
 	return  $errors;
 }
 ```
-
+Vor der Speicherung wird die Methode `validate()` aufgerufen. Falls Fehler vorhanden sind, 
 
 ```php
-public function save () {
+public function save () : array {
 
 	$errors = $this->validate();
 
@@ -74,5 +74,6 @@ if (isset($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjQ2MTc2LC0xMDYxMzQ5MDM4XX0=
+eyJoaXN0b3J5IjpbLTE5OTk4NjU2MzYsLTEwNjEzNDkwMzhdfQ
+==
 -->
