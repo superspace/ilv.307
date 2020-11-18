@@ -31,6 +31,9 @@ Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attribu
 
 ![MVC](/ilv.307/assets/images/uml-class-task.png)
 
+`store/jsonstore.php`
+
+Die Klasse JSONStore enthält Methoden, die für Speicherung und Abruf der Daten im JSON-File benötigt werden. 
 
 `view/taskview.php`
 
@@ -45,5 +48,5 @@ index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser au
 
 1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjY2MTc5OCwxNzI1Mzk5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTQ5NTcyNjUwOCwxNzI1Mzk5NzQ0XX0=
 -->
