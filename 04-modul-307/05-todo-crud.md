@@ -124,6 +124,9 @@ public function getItem (int  $id) : array {
 }
 ```
 ```php
+public function getIds () {
+}
+```
 ```php
 public function update ($item) {
 
@@ -139,6 +142,15 @@ public function update ($item) {
 	}
 }
 ```
+*view/taskview.php*
+
+```php
+public function getTasks () : ar
+	case  'update' :
+		include  'view/update.php';
+		break;
+```
+
 *view/list.php*
 
 ```php
@@ -206,6 +218,6 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYwMjUwNjYsMTY5NzA2Mzg1NCwtMj
+eyJoaXN0b3J5IjpbLTE5NjgzOTk5MDQsMTY5NzA2Mzg1NCwtMj
 A0ODczMDI2MiwtNjc4NzY0OTA1XX0=
 -->
