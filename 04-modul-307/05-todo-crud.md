@@ -93,28 +93,17 @@ if (isset($_POST['update'])) {
 	function save (...) {
 
 		...
-		
-		if (empty($this->errors)) {
-		
-			$this->title = $title;
+		$task = [
+			'id' => $this->id,
 			...
-			
-			// Load data
-			...
+		];
 
-			if (empty($this->id) {
-			
-				$this->id = self::getId($data)
-				$this->created = time();
-			
-			}
-			
-			$data[$this->id] = array(
-				'title' => $this->title,
-				...
-			)
+		if ($this->id > 0) {
 
-			// Save data
+			$task['created'] = $this->created;
+			$this->store->update($task);
+
+		} else {
 			...
 		}
 	}
@@ -124,7 +113,7 @@ if (isset($_POST['update'])) {
 ```php
 foreach (Task::list() as $task) {
 	...
-	echo "<a href=\"?view=update&id={$task->id}\">Update</a>";
+	echo "<a href=\"?view=update&id={$task->getId()}\">Update</a>";
 	...
 }
 ```
@@ -183,5 +172,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzA1Mzc0MywtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbLTcyMDcwNzA2NSwtNjc4NzY0OTA1XX0=
 -->
