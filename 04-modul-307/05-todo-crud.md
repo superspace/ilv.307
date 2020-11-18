@@ -79,12 +79,10 @@ if (isset($_POST['update'])) {
 
 		if ($id > 0) {
 
-			$data = $this->store->getItem($id);
+			$item = $this->store->getItem($id);
 
-			if ($data && key_exists($id, $data) {
-				
-				$item = $data[$id];
-
+			if ($item) {
+	
 				$this->id = $id;
 				$this->title = $item['title'];
 				...
@@ -92,9 +90,9 @@ if (isset($_POST['update'])) {
 		}	
 	}
 
-	function update (...) {
+	function save (...) {
 
-		$this->errors = $this->validate(...);
+		...
 		
 		if (empty($this->errors)) {
 		
@@ -185,5 +183,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0NTkwNjgwLC02Nzg3NjQ5MDVdfQ==
+eyJoaXN0b3J5IjpbMTQxNzA1Mzc0MywtNjc4NzY0OTA1XX0=
 -->
