@@ -8,7 +8,7 @@ Als Grundlage dient uns folgende Dateistruktur:
 
 ```bash
 data/ 
-	tasks.json           # Datenhaltung in JSON-File
+	tasks.json          # Datenhaltung in JSON-File
 
 model/ 
 	task.class.php      # Klassenmodell mit Attributen und Methoden,
@@ -31,11 +31,8 @@ Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attribu
 
 ![MVC](/ilv.307/assets/images/uml-class-task.png)
 
-`public/index.php`
 
-index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `view` lässt sich die Ansicht steuern.
-
-`view/create.php`
+`view/taskview.php`
 
 HTML-Formular zur Erfassung neuer Einträge mit Ausgabe möglicher Fehler aus der Validierung.
 
@@ -51,5 +48,5 @@ Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die e
 
 1. Markieren Sie im bestehenden Code die Abschitte nach deren Aufgabe im MVC-Modell. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg3NzMzNzQsMTcyNTM5OTc0NF19
+eyJoaXN0b3J5IjpbOTc0MDEzMDIzLDE3MjUzOTk3NDRdfQ==
 -->
