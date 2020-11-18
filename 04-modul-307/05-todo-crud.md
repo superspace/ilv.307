@@ -73,11 +73,13 @@ if (isset($_POST['update'])) {
 *model/task.class.php*
 
 ```php
-	function __construct ($id) {
+	function __construct (int $id=0) {
+		
+		...
 
-		if (!empty($id)) {
+		if ($id > 0) {
 
-			$data = self::load();
+			$data = $this->store->getItem($id);
 
 			if ($data && key_exists($id, $data) {
 				
@@ -183,5 +185,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDU0MDY3NiwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbNzY0NTkwNjgwLC02Nzg3NjQ5MDVdfQ==
 -->
