@@ -4,7 +4,7 @@
 
 ## Controller
 
-```bash
+```diff
 data/ 
 	tasks.json          # Datenhaltung in JSON-File
 
@@ -15,29 +15,14 @@ store/
 	jsonstore.class.php # Schnittstelle zur Datenhaltung
 view/
 	taskview.class.php  # Task-Liste laden und sortieren
-	create.php          # HTML-Formular für neuen Eintrag
-	list.php            # Auflistung der Einträge
++	create.php          # HTML-Formular für neuen Eintrag
++	list.php            # Auflistung der Einträge
 
-controller/ 	
-	controller.php      # Steuerung der Anfragen und Aufruf des Models
++controller/ 	
++	controller.php      # Steuerung der Anfragen und Aufruf des Models
 
 index.php                   # Ausgabe
 ```
-
-
-`data/tasks.json`
-
-Das JSON-File zur Speicherung der Daten.
-
-`model/task.class.php`
-
-Das File `task.class.php` enthält die Klasse `Task` mit den benötigten Attributen und Methoden zur Eingabe-Verarbeitung Validierung und Speicherung. 
-
-![MVC](/ilv.307/assets/images/uml-class-task.png)
-
-`public/index.php`
-
-index.php befindet sich im Web-Root und ist die einzige Seite, die im Browser aufgerufen wird. Anhand eines Parameters `view` lässt sich die Ansicht steuern.
 
 `view/create.php`
 
@@ -47,9 +32,9 @@ HTML-Formular zur Erfassung neuer Einträge mit Ausgabe möglicher Fehler aus de
 
 Die Auflistung der erfassten Einträge in HTML.
 
-`controller.php`
+`controller/controller.php`
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTgzNDk4OF19
+eyJoaXN0b3J5IjpbNzE0MjgwOTgyXX0=
 -->
