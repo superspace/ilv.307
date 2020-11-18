@@ -4,24 +4,13 @@
 
 ## Controller
 
-```diff
-data/ 
-	tasks.json          # Datenhaltung in JSON-File
-
-model/ 
-	task.class.php      # Klassenmodell mit Attributen und Methoden,
-			    # beinhaltet Logik und Prozesse
-store/
-	jsonstore.class.php # Schnittstelle zur Datenhaltung
+```bash
 view/
-	taskview.class.php  # Task-Liste laden und sortieren
-+	create.php          # HTML-Formular für neuen Eintrag
-+	list.php            # Auflistung der Einträge
+	create.php          # HTML-Formular für neuen Eintrag
+	list.php            # Auflistung der Einträge
 
-+controller/ 	
-+	controller.php      # Steuerung der Anfragen und Aufruf des Models
-
-index.php                   # Ausgabe
+controller/ 	
+	controller.php      # Steuerung der Anfragen und Aufruf des Models
 ```
 
 `view/create.php`
@@ -36,5 +25,5 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0MjgwOTgyXX0=
+eyJoaXN0b3J5IjpbLTUxMjY3NzQ5MV19
 -->
