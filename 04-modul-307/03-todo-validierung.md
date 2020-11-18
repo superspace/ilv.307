@@ -1,6 +1,6 @@
  [Modul 307 / Tag 4](/ilv.307/04-modul-307)
 
-# ToDo: Validierung und Fehlermeldung
+# Validierung und Fehlermeldung
 
 Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
@@ -64,6 +64,6 @@ Und schlussendlich mit dem PHP-Template-Tag ausgegeben:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzczOTAyOSwtMjEyODQ3MjY2LDIxMD
+eyJoaXN0b3J5IjpbLTQ2NTc2NDUwMywtMjEyODQ3MjY2LDIxMD
 EyNzg1MSwtMTA2MTM0OTAzOF19
 -->
