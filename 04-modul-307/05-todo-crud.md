@@ -163,31 +163,22 @@ public function update ($item) {
 ```php
 if (isset($_POST['delete'])) {
 	
-	// Get id
 	$id = isset($_POST['id']) ? $_POST['id'] : '';
 	
-	// Initialize Task with id
 	$task = new Task($id);
-	
-	// Delete task
 	$task->delete();
 
-header("Location:{$_SERVER['PHP_SELF']}");}
+	header("Location:{$_SERVER['PHP_SELF']}");
+}
 ```
 
 *model/task.class.php*
 
 ```php
-	function delete () : void {
-		
-		// Load data
-		...
-		
-		// Delete data
-		unset($data[$this->id]);
-		
-		// Save data
-		...
+	public  function  delete () {
+		if ($this->id > 0) {
+			$this->store->delete($this->id);
+		}
 	}
 ```
 
@@ -198,5 +189,5 @@ header("Location:{$_SERVER['PHP_SELF']}");}
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODY1MDA5OCwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbMjE0NjM1NzIzLC02Nzg3NjQ5MDVdfQ==
 -->
