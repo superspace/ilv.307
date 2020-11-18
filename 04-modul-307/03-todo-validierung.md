@@ -20,10 +20,19 @@ private  function  validate () {
 	
 	return  $errors;
 }
+```
 
+
+```php
 public function save () {
 
+	$errors = $this->validate();
 
+	if ($errors) {
+		return $errors;
+	} else {
+		// Store data
+	}
 }
 ```
 
@@ -65,6 +74,5 @@ if (isset($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg0OTQwNzgsLTEwNjEzNDkwMzhdfQ
-==
+eyJoaXN0b3J5IjpbMjg5NjQ2MTc2LC0xMDYxMzQ5MDM4XX0=
 -->
