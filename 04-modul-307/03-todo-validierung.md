@@ -15,7 +15,7 @@ private  function  validate () : array {
 	}
 
 	if ($this->priority < 0 && $this->priority > self::MAX_PRIORITY) {
-	$errors[] = 'Geben Sie bitt eine Priorität von 1 bis 5 ein.';
+	$errors[] = 'Geben Sie bitte eine Priorität von 1 bis 5 ein.';
 	}
 	
 	return  $errors;
@@ -64,6 +64,6 @@ Und schlussendlich mit dem PHP-Template-Tag ausgegeben:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg0NzI2NiwyMTAxMjc4NTEsLTEwNj
-EzNDkwMzhdfQ==
+eyJoaXN0b3J5IjpbMTEwMzczOTAyOSwtMjEyODQ3MjY2LDIxMD
+EyNzg1MSwtMTA2MTM0OTAzOF19
 -->
