@@ -11,16 +11,18 @@ data/
 model/ 
 	task.class.php      # Klassenmodell mit Attributen und Methoden,
 			    # beinhaltet Logik und Prozesse
-
-public/
-	index.php           # Ausgabe im Web-Root
-
+store/
+	jsonstore.class.php # Schnittstelle zur Datenhaltung
 view/
+	taskview.class.php  # Task-Liste laden und sortieren
 	create.php          # HTML-Formular für neuen Eintrag
 	list.php            # Auflistung der Einträge
 	
-controller.php              # Steuerung der Anfragen und Aufruf des Models
+controller.php              # Steuerung der Anfragen und Aufruf 
+des Models
+index.php                   # Ausgabe
 ```
+
 
 `data/tasks.json`
 
@@ -48,5 +50,5 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTM2OTA0Nl19
+eyJoaXN0b3J5IjpbLTEwNjA1OTIwNDNdfQ==
 -->
