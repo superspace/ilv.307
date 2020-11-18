@@ -109,8 +109,34 @@ if (isset($_POST['update'])) {
 	}
 ```
 *store/jsonstore.class.php*
-```
+```php
+public  function  getItem (int  $id) : array {
 
+	$item = [];
+	$this->load();
+
+	if (key_exists($id, $this->data)) {
+		$item = $this->data[$id];
+	}
+	return  $item;
+}
+
+  
+
+public  function  update ($item) {
+
+	$this->load();
+
+	if (isset($item['id']) && $item['id'] > 0) {
+
+		$id = $item['id'];
+		unset($item['id']);
+
+		$this->data[$id] = $item;
+	$this->save();
+
+}
+}
 ```
 *view/list.php*
 
@@ -174,5 +200,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk5MzgxMCwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbLTgyOTkxMzA4MSwtNjc4NzY0OTA1XX0=
 -->
