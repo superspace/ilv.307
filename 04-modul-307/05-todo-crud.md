@@ -30,7 +30,7 @@ Zugriff auf einen spezifischen Eintrag:
 
 ```php
 $values = json_decode($meinJSONString, true);
-$value = $values['1'];
+$value = $values['2'];
 ```
 
 Eine inkrementelle ID kann mit PHP relativ einfach generiert werden. Wir übergeben der Funktion `max($ids)` alle bestehenen IDs und addieren 1. dazu. Die bestehenden IDs können mit `array_keys($data)` ausgelesen werden.
@@ -42,15 +42,15 @@ $id = (!empty($ids)) ? max($ids) + 1 : 1;
 
 ### Daten bearbeiten
 
-```
+```bash
 view/
-	update.php          // Daten aktualisieren
+	update.php          # Daten aktualisieren
 ```
 
-*public/index.php*
+*index.php*
 ```php
 	case  'update' :
-		include  '../view/update.php';
+		include  'view/update.php';
 		break;
 ```
 
@@ -183,5 +183,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODc2NDkwNV19
+eyJoaXN0b3J5IjpbMTE0MDU0MDY3NiwtNjc4NzY0OTA1XX0=
 -->
