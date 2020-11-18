@@ -108,24 +108,26 @@ if (isset($_POST['update'])) {
 		}
 	}
 ```
+*store/jsonstore.class.php*
+```
+
+```
 *view/list.php*
 
 ```php
-foreach (Task::list() as $task) {
 	...
 	echo "<a href=\"?view=update&id={$task->getId()}\">Update</a>";
 	...
-}
 ```
 
 *view/update.php*
 
 ```php
 <!-- Set actual value of title -->
-<input type="text" name="title" value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->title; ?>" required>
+<input type="text" name="title" value="<?=  isset($_POST['title']) ? $_POST['title'] : $task->getTitle(); ?>" required>
 
 <!-- Set id in hidden field -->
-<input type="hidden" name="id" value="<?=  $task->id; ?>">
+<input type="hidden" name="id" value="<?=  $task->getId(); ?>">
 
 <!-- send action update -->
 <button  type="submit"  name="update">Update</button>
@@ -172,5 +174,5 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDcwNzA2NSwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk5MzgxMCwtNjc4NzY0OTA1XX0=
 -->
