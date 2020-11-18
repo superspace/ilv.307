@@ -1,6 +1,6 @@
  [Modul 307 / Tag 4](/ilv.307/04-modul-307)
 
-# ToDo: Aktualisieren und Löschen
+# CRUD: Bearbeiten und Löschen
 
 Dem CRUD-Prinzip (`Create-Read-Update-Delete`) folgend sollen die Daten auch bearbeitet und gelöscht werden können. 
 
@@ -175,7 +175,7 @@ if (isset($_POST['delete'])) {
 *model/task.class.php*
 
 ```php
-	public  function  delete () {
+	public function delete () {
 
 		if ($this->id > 0) {
 			$this->store->delete($this->id);
@@ -184,7 +184,7 @@ if (isset($_POST['delete'])) {
 ```
 *store/jsonstore.class.php*
 ```php
-	public  function  delete ($id) {
+	public function delete ($id) {
 
 		$this->load();
 
@@ -202,5 +202,6 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg3MzAyNjIsLTY3ODc2NDkwNV19
+eyJoaXN0b3J5IjpbMTY5NzA2Mzg1NCwtMjA0ODczMDI2MiwtNj
+c4NzY0OTA1XX0=
 -->
