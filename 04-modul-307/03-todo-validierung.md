@@ -5,39 +5,29 @@
 Die Validierung erfolgt im Model, in unserem Fall in der Klasse `Task`:
 
 ```php
-	private $errors = [];
 
-	function __construct (...) {
+private  function  validate () {
 
-		$this->errors = $this->validate(...);
+	$errors = [];
 
-		if (empty($this->errors)) {
-		
-			// Update values
-			...
-		}
+	if (empty($this->title)) {
+		$errors[] = 'Geben Sie bitte einen Titel ein.';
 	}
 
-	private function validate (...) : array {
+	if ($this->priority < 0 && $this->priority > self::MAX_PRIORITY) {
+	$errors[] = 'Geben Sie bitt eine Priorität von 1 bis 5 ein.';
+	}
 	
-		$errors = [];
+	return  $errors;
+}
 
-		if (empty($title)) {
-			$errors[] = "Geben Sie bitte einen Titel ein.";
-		}
+public function save () {
 
-		...
 
-		return $errors;
-	}
-
-	public function getErrors () : array {
-
-		return $this->errors;
-	}
+}
 ```
 
-Im `controller.php` werden die Fehler ausgelesen und die entsprechende View gesetzt:
+In `index.php` werden die Fehler ausgelesen und die entsprechende View gesetzt:
 
 ```php
 if (isset($_POST['create'])) {
@@ -75,5 +65,6 @@ if (isset($errors)) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEzNDkwMzhdfQ==
+eyJoaXN0b3J5IjpbLTE2Njg0OTQwNzgsLTEwNjEzNDkwMzhdfQ
+==
 -->
