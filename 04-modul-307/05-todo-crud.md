@@ -145,7 +145,7 @@ public function update ($item) {
 	}
 }
 ```
-*view/taskview.php*
+*view/taskview.class.php*
 
 ```php
 public function getTasks () : array {
@@ -226,6 +226,6 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNjg4NDMsMTY5NzA2Mzg1NCwtMjA0OD
-czMDI2MiwtNjc4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbLTIwMzk3MTA3MzEsMTY5NzA2Mzg1NCwtMj
+A0ODczMDI2MiwtNjc4NzY0OTA1XX0=
 -->
