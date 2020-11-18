@@ -89,6 +89,8 @@ if (isset($_POST['update'])) {
 			}
 		}	
 	}
+```
+```php
 
 	function save (...) {
 
@@ -120,7 +122,9 @@ public function getItem (int  $id) : array {
 	}
 	return  $item;
 }
-
+```
+```php
+```php
 public function update ($item) {
 
 	$this->load();
@@ -202,6 +206,6 @@ if (isset($_POST['delete'])) {
 <button  type="submit"  name="delete">Löschen</button>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzA2Mzg1NCwtMjA0ODczMDI2MiwtNj
-c4NzY0OTA1XX0=
+eyJoaXN0b3J5IjpbLTE3MDYwMjUwNjYsMTY5NzA2Mzg1NCwtMj
+A0ODczMDI2MiwtNjc4NzY0OTA1XX0=
 -->
