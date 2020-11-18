@@ -1,3 +1,8 @@
+ [Modul 307 / Tag 4](/ilv.307/04-modul-307)
+ 
+# MVC Design-Pattern
+
+## Controller
 
 ```bash
 data/ 
@@ -43,5 +48,5 @@ Die Auflistung der erfassten Einträge in HTML.
 
 Die Steuerung empfängt die Daten aus der Benutzereingabe (`$_POST`), ruft die entsprechende Methode der Klasse auf und gibt gegebenenfalls Fehlermeldungen an die Darstellung zurück.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzMyNzc2M119
+eyJoaXN0b3J5IjpbLTY0NTM2OTA0Nl19
 -->
