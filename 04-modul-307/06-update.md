@@ -11,18 +11,23 @@ Dieas Felder `username` und `email` sind obligatorisch.
 - max. 50 Zeichen
 - darf keine Sonderzeichen enthalten
 
+`email`:
 
+- Valide E-Mail-Adresse
 
 ```json
 {
 	"username": "",
 	"emailname": "",
-	"fullname": ""
+	"fullname": ""schooldays": [
+		"mo",
+	
+	]
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Njc3MTM5MCwtMTA1MjYyMzA1NV19
+eyJoaXN0b3J5IjpbMTg5NjAyMjczOCwxOTg2NzcxMzkwXX0=
 -->
