@@ -1,6 +1,11 @@
 ## Daten aktualisieren
 
+Aufgabe:
 
+Aktualisieren Sie die Daten aus der folgenden JSON-Datei in einem HTML-Formular.
+
+Das Feld `username` ist obligatorisch und muss folgende Kriterien erfüllen:
+- 
 
 ```json
 {
@@ -13,5 +18,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDQ0NjcwNF19
+eyJoaXN0b3J5IjpbMTM3MjUxNDY4OF19
 -->
