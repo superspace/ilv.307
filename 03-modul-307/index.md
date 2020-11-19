@@ -12,10 +12,8 @@
 ## Klassen und Objekte
 
 - [Klassen und Objekte](/ilv.307/03-modul-307/01-klassen-objekte)
-- [Übung Klassen und Objekte](/ilv.307/03-modul-307/01.1-klassen-objekte-uebung)
-- [Code-Dokumentation](/ilv.307/03-modul-307/01.b-docblock)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mjc1NTUxOSwtMTE5NTg0OTgzMiwyMD
-AyNjMyNDY1LC0xNTAzNjUzNTcsLTgyODQ0NDE4NiwtNzY5MzE2
-ODU5LDE3NTM3NDkzNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTMzMzEwMjgsLTk0Mjc1NTUxOSwyMDAyNj
+MyNDY1LC0xNTAzNjUzNTcsLTgyODQ0NDE4NiwtNzY5MzE2ODU5
+LDE3NTM3NDkzNSw3MzA5OTgxMTZdfQ==
 -->
