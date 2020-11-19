@@ -23,16 +23,13 @@ Die Felder `username` und `email` sind obligatorisch.
 {
 	"username": "",
 	"email": "",
-	"la": ""schooldays": [
-		"mo","we"
-	
-	]
+	"schooldays": ["mo","mi"]
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDE4ODE4NCwtNDYyNDM1MTcyLDE5OD
-Y3NzEzOTBdfQ==
+eyJoaXN0b3J5IjpbMTI0NjEyMjI5NSwtNDcwMTg4MTg0LC00Nj
+I0MzUxNzIsMTk4Njc3MTM5MF19
 -->
