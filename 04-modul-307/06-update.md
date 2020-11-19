@@ -17,7 +17,7 @@ Die Felder `username` und `email` sind obligatorisch.
 
 `schooldays`
 
-- x Werte aus einer fixen Auswahl
+- x Werte aus einer Auswahl von Wochentagen
 
 ```json
 {
@@ -30,6 +30,6 @@ Die Felder `username` und `email` sind obligatorisch.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjEyMjI5NSwtNDcwMTg4MTg0LC00Nj
+eyJoaXN0b3J5IjpbLTUwODAyMjY1MywtNDcwMTg4MTg0LC00Nj
 I0MzUxNzIsMTk4Njc3MTM5MF19
 -->
