@@ -23,12 +23,16 @@ Dieas Felder `username` und `email` sind obligatorisch.
 {
 	"username": "",
 	"email": "",
-	"schooldays": ["mo","we"]
+	"la": ""schooldays": [
+		"mo","we"
+	
+	]
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE2MzQ5MSwxOTg2NzcxMzkwXX0=
+eyJoaXN0b3J5IjpbLTQ2MjQzNTE3MiwtMTk3MTYzNDkxLDE5OD
+Y3NzEzOTBdfQ==
 -->
