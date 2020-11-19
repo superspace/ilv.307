@@ -4,18 +4,18 @@
 
 Aktualisieren Sie die Daten aus der folgenden JSON-Datei über ein HTML-Formular.
 
-Dieas Felder `username` und `email` sind obligatorisch. 
+Die Felder `username` und `email` sind obligatorisch. 
 
-`username`:ist obligatorisch und muss folgende Kriterien erfüllen:
+`username`
 
 - max. 50 Zeichen
 - darf keine Sonderzeichen enthalten
 
-`email`:
+`email`
 
 - Valide E-Mail-Adresse
 
-`schooldays`:
+`schooldays`
 
 - x Werte aus einer fixen Auswahl
 
@@ -33,6 +33,6 @@ Dieas Felder `username` und `email` sind obligatorisch.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjQzNTE3MiwtMTk3MTYzNDkxLDE5OD
+eyJoaXN0b3J5IjpbLTQ3MDE4ODE4NCwtNDYyNDM1MTcyLDE5OD
 Y3NzEzOTBdfQ==
 -->
