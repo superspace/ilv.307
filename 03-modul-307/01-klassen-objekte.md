@@ -12,7 +12,7 @@ Eine Klasse entspricht einer *Schablone*, mit welcher Objekte erstellt werden k�
 ![UML Diagram](/ilv.307/assets/images/uml-class-task.png)
 
 ```php
-class ToDo {
+class Task {
 
 	// Attribute
 	public $title = '';
@@ -68,7 +68,7 @@ static
 
 ```php
 // Objekt erstellen
-$todo = new ToDo('Klassen erstellen', 'Verstehen, wie Klassen und Objekte funktionieren.', 4);
+$todo = new Task('Klassen erstellen', 'Verstehen, wie Klassen und Objekte funktionieren.', 4);
 
 // Getter aufrufen
 $priority = $todo->getPriority();
@@ -77,7 +77,7 @@ $priority = $todo->getPriority();
 $todo->setPriority($priority);
 
 // Statische Method aufrufen
-$max = ToDo::getMaxPriority();
+$max = Task::getMaxPriority();
 ``` 
 
 Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer `->`
@@ -85,9 +85,10 @@ Der Zugriff auf Attribute und Methoden eines Objektes erfolgt über den Pointer 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTUzNjY0OCwtNDcxMzk1Njk3LDU4Nz
-kwNTE0Niw0MjA4OTg5MjAsLTUxNzgwNjU3MCwtNzQwNDk1OTMs
-NDIxMTk4OTU1LC00NjQ2ODY3MTUsMTc2NDYxMDg4LC03MjcwOD
-k5ODUsNjQyNjc0ODQyLDE5MzAyMjM1OTcsLTE2MzA0NzAxMTcs
-OTU4NjQ3ODM1LC0xODgwNDMwOTAsOTMzMjQwOTQxXX0=
+eyJoaXN0b3J5IjpbOTU0MzE0NTIxLC02Njk1MzY2NDgsLTQ3MT
+M5NTY5Nyw1ODc5MDUxNDYsNDIwODk4OTIwLC01MTc4MDY1NzAs
+LTc0MDQ5NTkzLDQyMTE5ODk1NSwtNDY0Njg2NzE1LDE3NjQ2MT
+A4OCwtNzI3MDg5OTg1LDY0MjY3NDg0MiwxOTMwMjIzNTk3LC0x
+NjMwNDcwMTE3LDk1ODY0NzgzNSwtMTg4MDQzMDkwLDkzMzI0MD
+k0MV19
 -->
