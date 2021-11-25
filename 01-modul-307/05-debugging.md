@@ -9,17 +9,31 @@
 
 *Die Anleitung ist für Windows & XAMPP, sollte grundlegend aber auch mit MAMP funktionieren. Der Ablauf ist derselbe.*  
 
-### Wizard
+### Download
 
-[https://xdebug.org/wizard](https://xdebug.org/wizard)
+[https://xdebug.org/files/php_xdebug-3.0.0-8.0-vs16-x86_64.dll](https://xdebug.org/files/php_xdebug-3.0.0-8.0-vs16-x86_64.dll)
+
+- Das dll-file hierhin bewegen: C:\xampp\php\ext
+- Das dll-file umbenennen: php_xdebug.dll
+
+<!-- ### Wizard
+
+[https://xdebug.org/wizard](https://xdebug.org/wizard) -->
 
 ### php.ini
 
+Den Abschnitt `[xdebug]` bearbeiten oder erstellen:
+
 ```
 [xdebug]
-xdebug.remote_enable=1
-xdebug.remote_autostart=1
-zend_extension = ...
+xdebug.mode = debug
+xdebug.start_with_request = yes
+xdebug.idekey = VSCODE
+xdebug.client_port = 9003
+xdebug.client_host = "127.0.0.1"
+xdebug.discover_client_host  = 1
+xdebug.log="/tmp/xdebug.log"
+xdebug.cli_color = 1
 ```
 
 
