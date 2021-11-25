@@ -26,6 +26,7 @@ Den Abschnitt `[xdebug]` bearbeiten oder erstellen:
 
 ```
 [xdebug]
+zend_extension=xdebug
 xdebug.mode = debug
 xdebug.start_with_request = yes
 xdebug.idekey = VSCODE
