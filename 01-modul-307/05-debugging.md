@@ -13,8 +13,8 @@
 
 [https://xdebug.org/files/php_xdebug-3.0.0-8.0-vs16-x86_64.dll](https://xdebug.org/files/php_xdebug-3.0.0-8.0-vs16-x86_64.dll)
 
-- Das dll-file hierhin bewegen: C:\xampp\php\ext
-- Das dll-file umbenennen: php_xdebug.dll
+- Das dll-file hierhin bewegen: `C:\xampp\php\ext`
+- Das dll-file umbenennen: `php_xdebug.dll`
 
 <!-- ### Wizard
 
