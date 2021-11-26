@@ -8,6 +8,7 @@
 - [Übung Formulardaten](/ilv.307/02-modul-307/02.1-formulardaten-uebung)
 - [Sicherheit und Validierung](/ilv.307/02-modul-307/03-sicherheit-validierung)
 - [Übung Sicherheit und Validierung](/ilv.307/02-modul-307/03.1-sicherheit-validierung-uebung)
+- [Vorgehen Sicherheit und Validierung](/ilv.307/02-modul-307/03.2-vorgehen)
 - [Datenhaltung](/ilv.307/02-modul-307/04-datenhaltung)
 - [File Handling](/ilv.307/02-modul-307/04.1-file-handling)
 - [Übung Datenhaltung/File Handling](/ilv.307/02-modul-307/04.2-datenhaltung-uebung)
