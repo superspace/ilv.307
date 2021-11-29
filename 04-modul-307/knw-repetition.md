@@ -36,3 +36,6 @@ Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem S
 - Der Luftdruck kann ein oder ausgeschaltet werden.
 - Die Überschrift kann frei definiert werden.
 - Die Hintergrundfarben können frei definiert werden.
+
+Die Konfiguration soll in einer JSON-Datei abgelegt werden.
+Wenn das Konfigurationsformular geladen wird, soll es mit den aktuellen Werte vorausgefüllt sein.
