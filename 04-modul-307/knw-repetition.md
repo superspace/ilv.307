@@ -28,7 +28,7 @@ Für jede Ortschaft werden folgende Attribute angezeigt:
 
  
 #### Backend
-Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem Screen (Frontend) zu konfigurieren.  Folgende Einstellungen können getätigt werden:
+Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem Screen (Frontend) über ein Formular zu konfigurieren.  Folgende Einstellungen können getätigt werden:
 - Die vier angezeigten Ortschaften können frei konfiguriert werden.
 - Die Masseinheiten von Windgeschwindigkeit und Temperatur können zwischen metrisch und imperial umgestellt werden. 
 - Die Angabe der Windgeschwindigkeit kann wahlweise als Pfeil oder als Zahl (Grad) ausgegeben werden.
