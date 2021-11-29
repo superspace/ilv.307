@@ -26,7 +26,7 @@ Für jede Ortschaft werden folgende Attribute angezeigt:
 *HINWEIS: Die Icons sind unter folgender URL zu finden: http://openweathermap.org/img/wn/10d@2x.png (10d = icon-code)*
 
  
- #### Backend
+#### Backend
 Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem Screen (Frontend) zu konfigurieren.  Folgende Einstellungen können getätigt werden:
 - Die vier angezeigten Ortschaften können frei konfiguriert werden.
 - Die Masseinheiten von Windgeschwindigkeit und Temperatur können zwischen metrisch und imperial umgestellt werden. 
