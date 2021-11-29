@@ -3,6 +3,7 @@
 ### API
 Für diese Aufgabe verwenden Sie folgende API:
 https://openweathermap.org/current
+
 *HINWEIS: Zur kostenlosen Nutzung der API bedarf es einer Registration. Sie können sich mit Ihrer @gibmit.ch Adresse oder eine Adresse Ihrer Wahl registrieren.*
 
 ### Auftrag
