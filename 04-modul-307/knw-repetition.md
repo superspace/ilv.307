@@ -36,3 +36,9 @@ Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem S
 - Die Überschrift kann frei definiert werden.
 - Die Hintergrundfarben können frei definiert werden.
  
+
+
+> Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU0NzAyNzkwOF19
+-->
