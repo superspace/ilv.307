@@ -106,13 +106,13 @@ value
 <input type="radio" name="field1" value="value-C" />
 ```
 <label>
-    <input type="radio" name="field1" value="value-A" />Wert A
+    <input type="radio" name="field1" value="value-A" /> Wert A
 </label>
 <label>
-    <input type="radio" name="field1" value="value-B" />Wert B
+    <input type="radio" name="field1" value="value-B" /> Wert B
 </label>
 <label>
-    <input type="radio" name="field1" value="value-C" />Wert C
+    <input type="radio" name="field1" value="value-C" /> Wert C
 </label>
 
 ```html
@@ -183,17 +183,20 @@ HTML5 erlaubt die Feld-Validierung im Browser. Die Implementierung der verschied
 <input type="email" name="field1" value="" required />
 ```
 type
-: Bestimmt das zu akzeptierende Format 
+: Bestimmt das zu akzeptierende Format
 
 required
 : Zwingende Eingabe
 
-<form>
-    <label>E-Mail
-        <input type="email" name="field1" value="" required />
-    </label>
-    <button type="submit">Senden</button>
-</form>
+<div class="highlight">
+    <form method="post" action="">
+        <label>E-Mail
+            <input type="email" name="field1" value="" required />
+        </label>
+        <br>
+        <button type="submit" name="send">Senden</button>
+    </form>
+</div>
 
 ## Datenübermittlung im Browser
 
