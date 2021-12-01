@@ -5,15 +5,15 @@
 
 ### API
 Für diese Aufgabe verwenden Sie folgende API:
-https://openweathermap.org/current
+[openweathermap.org](https://openweathermap.org/current)
 
-*HINWEIS: Zur kostenlosen Nutzung der API bedarf es einer Registration. Sie können sich mit Ihrer @gibmit.ch Adresse oder eine Adresse Ihrer Wahl registrieren.*
+*HINWEIS: Zur kostenlosen Nutzung der API bedarf es einer Registration. Sie können sich mit Ihrer `@gibmit.ch` Adresse oder eine Adresse Ihrer Wahl registrieren.*
 
 ### Auftrag
 
 #### Frontend
 Auf Bildschirmen, die an öffentlichen Orten montiert sind, sollen die aktuellen Wetterdaten vier verschiedener Ortschaften angezeigt werden:
-![enter image description here](https://toive.ch/m307/screen.jpg)
+![Wetter Screen](https://toive.ch/m307/screen.jpg)
 
 Für jede Ortschaft werden folgende Attribute angezeigt:
 
@@ -25,9 +25,9 @@ Für jede Ortschaft werden folgende Attribute angezeigt:
 - Windrichtung als Pfeil dargestellt
 - Windgeschwindigkeit
 
-![enter image description here](https://toive.ch/m307/wetterdaten-single.PNG)
+![Wetter Screen](https://toive.ch/m307/wetterdaten-single.PNG)
 
-*HINWEIS: Die Icons sind unter folgender URL zu finden: http://openweathermap.org/img/wn/10d@2x.png (10d = icon-code)*
+*HINWEIS: Die Icons sind unter folgender URL zu finden: [http://openweathermap.org/img/wn/10d@2x.png](http://openweathermap.org/img/wn/10d@2x.png) (`10d = icon-code`)*
 
  
 #### Backend
