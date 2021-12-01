@@ -69,12 +69,21 @@ value
 <label>E-Mail
     <input type="email" name="field1" value="" />
 </label>
+
 ```html
 <!-- Datum -->
-<input type="datetime" name="field1" value="" />
+<input type="date" name="field1" value="" />
 ```
 <label>Datum
-    <input type="datetime" name="field1" value="" />
+    <input type="date" name="field1" value="" />
+</label>
+
+```html
+<!-- Zeit -->
+<input type="time" name="field1" value="" />
+```
+<label>Zeit
+    <input type="time" name="field1" value="" />
 </label>
 
 ```html
@@ -87,9 +96,10 @@ value
 <!-- Mehrzeiliger Text -->
 <textarea name="field1"></textarea>
 ```
-<label for="text-field-1">Textfeld</label>
-<textarea name="field1" id="text-field-1"></textarea>
-
+<p>
+    <label for="text-field-1">Textfeld</label><br>
+    <textarea name="field1" id="text-field-1"></textarea>
+</p>
 
 ```html
 <!-- Checkbox -->
