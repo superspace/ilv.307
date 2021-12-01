@@ -87,9 +87,9 @@ value
 <!-- Mehrzeiliger Text -->
 <textarea name="field1"></textarea>
 ```
-<label>Textfeld
-<textarea name="field1"></textarea>
-</label>
+<label for="text-field-1">Textfeld</label>
+<textarea name="field1" id="text-field-1"></textarea>
+
 
 ```html
 <!-- Checkbox -->
@@ -176,8 +176,6 @@ value
 
 Die ausgewählten Werte werden für die Übermittlung in einem Array zusammengefasst.
 
----
-
 ### Validierung mit HTML5
 
 HTML5 erlaubt die Feld-Validierung im Browser. Die Implementierung der verschiedenen Hersteller variiert jedoch stark, weshalb man sich nicht voll und ganz darauf verlassen darf.
@@ -190,11 +188,20 @@ type
 required
 : Zwingende Eingabe
 
+<form>
+    <label>E-Mail
+        <input type="email" name="field1" value="" required />
+    </label>
+    <button type="submit">Senden</button>
+</form>
+
 ## Datenübermittlung im Browser
 
-*POST:* Datenübermittlung an Server
+POST 
+: Datenübermittlung an Server
 
-*GET:* Datenanfrage an Server. 
+GET 
+: Datenanfrage an Server. 
 
 Die Daten können auch als URL-Parameter übergeben werden: 
 
