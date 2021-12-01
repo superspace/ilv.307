@@ -50,34 +50,136 @@ value
 ```html
 <!-- Text -->
 <input type="text" name="field1" value="" />
+```
+<label>Text
+    <input type="text" name="field1" value="" />
+</label>
 
+```html
 <!-- Zahl -->
 <input type="number" name="field1" value="" min="" max="" />
-
+```
+<label>Zahl
+    <input type="number" name="field1" value="" min="" max="" />
+</label>
+```html
 <!-- E-Mail -->
 <input type="email" name="field1" value="" />
-
+```
+<label>E-Mail
+    <input type="email" name="field1" value="" />
+</label>
+```html
 <!-- Datum -->
 <input type="datetime" name="field1" value="" />
+```
+<label>Datum
+    <input type="datetime" name="field1" value="" />
+</label>
 
+```html
 <!-- Unsichtbar -->
 <input type="hidden" name="field1" value="" />
+```
+<input type="hidden" name="field1" value="" />
 
+```html
 <!-- Mehrzeiliger Text -->
 <textarea name="field1"></textarea>
+```
+<label>Textfeld
+<textarea name="field1"></textarea>
+</label>
 
+```html
 <!-- Checkbox -->
-<input type="checkbox" name="field1" value="1" />
+<input type="checkbox" name="field1" value="A" />
+```
+<label>
+<input type="checkbox" name="field1" value="A" /> Titel A
+</label>
 
+```html
 <!-- Radio-Button -->
-<input type="radio" name="field1" value="1" />
+<input type="radio" name="field1" value="value-A" />
+<input type="radio" name="field1" value="value-B" />
+<input type="radio" name="field1" value="value-C" />
+```
+<label>
+    <input type="radio" name="field1" value="value-A" />Wert A
+</label>
+<label>
+    <input type="radio" name="field1" value="value-B" />Wert B
+</label>
+<label>
+    <input type="radio" name="field1" value="value-C" />Wert C
+</label>
 
-<!-- Dropdown -->
+```html
+<!-- Select -->
 <select name="field1">
-    <option value="value1">Wert 1</option>
+    <option value="value-A">Titel A</option>
+    <option value="value-B">Titel B</option>
+    <option value="value-C">Titel C</option>
 </select>
 ```
+<label for="field1">Auswahl</label>
+
+<select name="field1" id="field1">
+    <option value="value-A">Titel A</option>
+    <option value="value-B">Titel B</option>
+    <option value="value-C">Titel C</option>
+</select>
+
+---
+
+### Felder mit mehreren Werten
+
+```html
+<!-- Checkbox -->
+<input type="checkbox" name="field1[]" value="A" />
+<input type="checkbox" name="field1[]" value="B" />
+<input type="checkbox" name="field1[]" value="C" />
+<input type="checkbox" name="field1[]" value="D" />
+```
+<label>
+    <input type="checkbox" name="field1[]" value="A" /> Titel A
+</label>
+<label>
+    <input type="checkbox" name="field1[]" value="B" /> Titel B
+</label>
+<label>
+    <input type="checkbox" name="field1[]" value="C" /> Titel C
+</label>
+<label>
+    <input type="checkbox" name="field1[]" value="D" /> Titel D
+</label>
+
+---
+
+### Multiple Select
+
+```html
+<!-- Multiple Select -->
+<select name="field1[]" multiple>
+    <option value="value-A">Titel A</option>
+    <option value="value-B">Titel B</option>
+    <option value="value-C">Titel C</option>
+</select>
+```
+
+<select name="field1[]" multiple>
+    <option value="value-A">Titel A</option>
+    <option value="value-B">Titel B</option>
+    <option value="value-C">Titel C</option>
+</select>
+
+Die ausgewählten Werte werden für die Übermittlung in einem Array zusammengefasst.
+
+---
+
 ### Validierung mit HTML5
+
 HTML5 erlaubt die Feld-Validierung im Browser. Die Implementierung der verschiedenen Hersteller variiert jedoch stark, weshalb man sich nicht voll und ganz darauf verlassen darf.
 ```html
 <input type="email" name="field1" value="" required />
