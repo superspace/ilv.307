@@ -13,11 +13,10 @@
 
 ### MVC Praxis
 
-- [MVC: Model, Storage und ViewAufgabe ToDo-Liste MVC](/ilv.307/04-modul-307/02.1-todo-mvc-einstieg)
+- [MVC: Model, Storage und View](/ilv.307/04-modul-307/02.1-todo-mvc-einstieg)
 - [Validierung und Fehlermeldung](/ilv.307/04-modul-307/02.2-todo-validierung)
 - [MVC: Controller](/ilv.307/04-modul-307/02.3-todo-mvc-controller)
-- [CRUD: Bearbeiten und Löschen](/ilv.307/02.4-modul-307/05-todo-crud)
-- [Daten aktualisieren](/ilv.307/04-modul-307/02.5-update)
+- [CRUD: Bearbeiten und Löschen](/ilv.307/04-modul-307/02.4-todo-crud)
 
 ## Übung KNW
 
