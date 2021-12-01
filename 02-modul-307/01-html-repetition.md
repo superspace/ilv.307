@@ -190,11 +190,15 @@ required
 
 <div class="highlight">
     <form method="post" action="">
-        <label>E-Mail
-            <input type="email" name="field1" value="" required />
-        </label>
-        <br>
-        <button type="submit" name="send">Senden</button>
+        <fieldset>
+            <legend>Formular</legend>
+            <label>E-Mail
+                <input type="email" name="field1" value="" required />
+            </label>
+            <br>
+            <br>
+            <button type="submit" name="send">Senden</button>
+        </fieldset>
     </form>
 </div>
 
