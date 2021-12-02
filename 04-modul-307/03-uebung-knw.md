@@ -40,3 +40,5 @@ Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem S
 
 Die Konfiguration soll in einer JSON-Datei abgelegt werden.
 Wenn das Konfigurationsformular geladen wird, soll es mit den aktuellen Werte vorausgefüllt sein.
+
+[Vorlage](/ilv.307/04-modul-307/weather.zip)
