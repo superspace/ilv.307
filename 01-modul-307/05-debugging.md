@@ -33,14 +33,7 @@ xdebug.client_port = 9003
 xdebug.client_host = "127.0.0.1"
 xdebug.discover_client_host  = 1
 xdebug.log="/tmp/xdebug.log"
-xdebugritder n
-
-```
-[xdebug]
-xdebug.moeeb
-xdebug.start_.c s = es
-xebug.eexdebugin]portxdebugino
-xebug.disorciesxdebug.tmp/egloxdebug.l
+xdebug.cli_color = 1
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTEyNTYxNjc3NTcsLTE1NDcxMzUwMDgsNz
