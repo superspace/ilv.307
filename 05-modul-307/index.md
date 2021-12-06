@@ -26,6 +26,9 @@
 	- Diese müssen ganztägig im Schulzimmer verbleiben
 	- Funktion der eigenen Devices ist Eigenverantwortung
 - Ein Verstoss gegen die Regeln kann zum Prüfungsabbruch und zur Note 1 führen.
+
+## Template
+[Download](https://superspace.ch/assets/templates-stationboard.zip)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbODA3NjQzODczLC01OTA4NDMzMTVdfQ==
 -->

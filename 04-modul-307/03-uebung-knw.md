@@ -34,11 +34,11 @@ Für jede Ortschaft werden folgende Attribute angezeigt:
 Auf einer separaten Seite (Backend) soll es möglich sein, die Ausgabe auf dem Screen (Frontend) über ein Formular zu konfigurieren.  Folgende Einstellungen können getätigt werden:
 - Die vier angezeigten Ortschaften können frei konfiguriert werden.
 - Die Masseinheiten von Windgeschwindigkeit und Temperatur können zwischen metrisch und imperial umgestellt werden. 
-- Die Angabe der Windgeschwindigkeit kann wahlweise als Pfeil oder als Zahl (Grad) ausgegeben werden.
 - Die Luftfeuchtigkeit kann ein oder ausgeschaltet werden.
-- Der Luftdruck kann ein oder ausgeschaltet werden.
 - Die Überschrift kann frei definiert werden.
 - Die Hintergrundfarben können frei definiert werden.
 
 Die Konfiguration soll in einer JSON-Datei abgelegt werden.
 Wenn das Konfigurationsformular geladen wird, soll es mit den aktuellen Werte vorausgefüllt sein.
+
+[Vorlage](/ilv.307/04-modul-307/weather.zip)

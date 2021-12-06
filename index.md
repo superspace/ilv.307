@@ -10,7 +10,7 @@
 
 [**Tag 4**: Klassen in PHP / MVC Design Patterns](/ilv.307/04-modul-307)
 
-**Tag 5**: Prüfungstag
+[**Tag 5**: Prüfungstag](/ilv.307/05-modul-307)
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTc1NDQ1MTM2MCwxNTg4MzEzNDY1LC0yMD

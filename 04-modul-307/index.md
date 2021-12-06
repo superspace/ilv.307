@@ -5,6 +5,7 @@
 ## Klassen und Objekte
 
 - [Klassen und Objekte](/ilv.307/04-modul-307/01-klassen-objekte)
+- [Übung](/ilv.307/04-modul-307/01.1-klassen-objekte-uebung)
 - [Code Dokumentation](/ilv.307/04-modul-307/01.2-docblock)
 
 ## MVC
